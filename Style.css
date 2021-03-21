@@ -12,3 +12,30 @@ h2{
     font-size: 0.6em;
     font-weight: bold;
 }
+
+
+
+#hébergements{                     
+   display: flex;                   
+   justify-content: space-around;   /*espace autour*/
+   flex-wrap: wrap;                 /*va a la ligne*/
+
+}
+
+#populaires{
+    display: flex;
+    flex-direction: column;         /*alignement verticale*/
+    justify-content: space-around;
+}
+
+#activités{
+    display: flex;
+
+
+}
+
+
+
+/*champ de saisie pour la ville */
+/* ajouter le fond gris #F2F2F2 au trois conteneurs */
+/* bleu #0065FC  plus clair #DEEBFF */

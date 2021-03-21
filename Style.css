@@ -1,0 +1,14 @@
+@font-face {
+    font-family: Raleway, Arial, Georgia, sans-serif;
+    src: https://fonts.google.com/specimen/Raleway?preview.text_type=custom
+}
+
+h1{
+    font-size: 0.8em;
+    font-weight: bold;
+}
+
+h2{
+    font-size: 0.6em;
+    font-weight: bold;
+}

@@ -4,6 +4,20 @@
     src:"https://fonts.google.com/specimen/Raleway?preview.text_type=custom";
 }
 
+header
+{
+    display: flex;
+    align-items: flex-end
+}
+
+nav ul
+{
+    list-style-type: none;
+    display:flex;
+}
+
+                        /* bouton chpisi surligne*/
+
 h1
 {
     font-size: 0.9em;

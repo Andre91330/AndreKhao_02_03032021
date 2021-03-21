@@ -2,6 +2,18 @@
 {
     font-family:'Raleway', sans-serif;
     src:"https://fonts.google.com/specimen/Raleway?preview.text_type=custom";
+}                       /* police a revoir */
+
+#logo
+{
+    display: flex;
+
+}
+
+#logo img
+{
+    width: 60px;        /* a corriger */
+    height: 40px ;
 }
 
 header
@@ -14,6 +26,7 @@ nav ul
 {
     list-style-type: none;
     display:flex;
+    justify-content: space-between;
 }
 
                         /* bouton chpisi surligne*/
@@ -44,6 +57,8 @@ figcaption
    flex-wrap: wrap;                 /*va a la ligne*/
 }
 
+                                    /*dimension du bloc heb en gris clair */
+
 #populaires
 {
     display: flex;
@@ -51,11 +66,13 @@ figcaption
     align-content: space-around;
     justify-content: space-around;
 }
+                                    /*dimencion du bloc pop en gris clair */
 
 #activités
 {
     display: flex;
 }
+                                    /*dimension du bloc act en gris clair */
 
 
 

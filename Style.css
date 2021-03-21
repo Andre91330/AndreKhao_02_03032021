@@ -1,7 +1,7 @@
-@font-face 
+@font-face
 {
-    font-family: Raleway, Arial, Georgia, sans-serif;
-    src: https://fonts.google.com/specimen/Raleway?preview.text_type=custom
+    font-family:'Raleway', sans-serif;
+    src:"https://fonts.google.com/specimen/Raleway?preview.text_type=custom";
 }
 
 h1
@@ -18,7 +18,7 @@ h2
 
 figcaption
 {
-    font-size: 0.7;
+    font-size: 0.7em;
 }
 
 
@@ -26,21 +26,21 @@ figcaption
 {                     
    display: flex;                   
    justify-content: space-around;   /*espace autour*/
+   align-content: space-around;
    flex-wrap: wrap;                 /*va a la ligne*/
-
 }
 
-#populaires{
+#populaires
+{
     display: flex;
     flex-direction: column;         /*alignement verticale*/
+    align-content: space-around;
     justify-content: space-around;
 }
 
 #activités
 {
     display: flex;
-
-
 }
 
 

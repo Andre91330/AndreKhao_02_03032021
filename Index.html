@@ -6,31 +6,39 @@
                 <title>Reservia</title>
                 <link rel="preconnect" href="https://fonts.gstatic.com">
                 <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@600&display=swap" rel="stylesheet">
-                <link rel="stylesheet" href="Style.css" />             <!--a verifier-->
+                <link rel="stylesheet" href="Style.css" />               <!--a verifier-->
         </head>
 
-        <header>                                                            
-                <div id="logo">                                             <!--a positionner a gauche-->
+        <header>                                                         <!--logo et choix de navigation-->                                                         
+                <div id="logo">                                          <!--a positionner a gauche-->
                         <img src="images/logo/Reservia@3x.png" alt="logo réservia" />
                 </div>
                         <nav>
-                        <ul>                                              <!--liens sur la droit avec tiret-->
-                                <li><a href="#hébergements">Hébergements</a></li>    <!--lien a verifier #-->
-                                <li><a href="#activités">Activités</a></li>          <!--lien a verifier #-->
-                                <li><a href="s'inscrire">S'inscrire</a></li>         <!--lien vers formulaire-->
+                        <ul>                                              <!--liens sur la droit avec tiret au dessus-->
+                                <li><a href="#hébergements">Hébergements</a></li>       <!--lien a verifier #-->
+                                <li><a href="#activités">Activités</a></li>             <!--lien a verifier #-->
+                                <li><a href="s'inscrire">S'inscrire</a></li>            <!--lien vers formulaire-->
                         </ul>
                 </nav>
         </header>
 
-        <main>
-        //todo navigation  //       
-        <nav>
+        <body>      
+                <form method="post" action="traitement.php">
+                        <p><h1>Trouvez votre hébergement pour des vacancess de rêve</h1><br />
+                                En plein centre ville ou en pleine nature</p>
+                        <P><label for"recherche">Recherche</label>
+                                <imput type="text" name="ville" id="recherche" placeholder="Marseille, France" /></P>
+                </form>
+
+                
+                
+                <nav>
                                    <!--bouton de recherche ville, soit scroll soit remplissage manuel-->
         </nav>
   
                                    <!--4 boutons de filtres-->
 
-                <body id="superconteneur">
+                <main id="superconteneur">
                  <section class="heb">
                                 <div id="hébergements">                 <!--conteneur 1-->  
                                         <h1>Hébergements à Marseille</h1>   <!--elements 6-->
@@ -150,8 +158,8 @@
                                         </figure>                                                   <!--medium-->
                                 </div>      
                         </section>
-                </body>
-        </main>
+                </main>
+        </body>
 
         <footer>    
                 <nav class="a propos">

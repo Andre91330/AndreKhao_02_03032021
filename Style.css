@@ -2,34 +2,42 @@
 {
     font-family:'Raleway', sans-serif;
     src:"https://fonts.google.com/specimen/Raleway?preview.text_type=custom";
-}                       /* police a revoir */
+}                       /* police a installezr,revoir */
 
-#logo
+#logo                   /* a corriger*/
 {
-    display: flex;
-
+    text-align: left;
 }
 
-#logo img
+#focus
 {
-    width: 60px;        /* a corriger */
+    text-align: right;
+}
+                    /* text-decoration: overline; a mettre en place pour hebergement et activites */
+img                        /* a corriger */
+{
+    width: 60px;        
     height: 40px ;
 }
 
-header
+header                      /* a faire */
 {
     display: flex;
     align-items: flex-end
 }
 
+ul                    
+{
+    list-style-type: none;                 
+    display:flex;
+}
+
 nav ul
 {
-    list-style-type: none;
-    display:flex;
     justify-content: space-between;
 }
 
-                        /* bouton chpisi surligne*/
+/* bouton chpisi surligne*/
 
 h1
 {

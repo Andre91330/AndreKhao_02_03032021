@@ -24,20 +24,57 @@
 
         <body>      
                 <form method="post" action="traitement.php">      <!--en supposant que le fichier existe-->
+                        <i class="fas fa-map-marker-alt"></i>
                         <p><h1>Trouvez votre hébergement pour des vacancess de rêve</h1><br />
                                 En plein centre ville ou en pleine nature</p>
-                        <P><label for"ville">Recherche</label>
+                        <P><label for="ville">Recherche</label>
                                 <imput type="text" name="ville" id="ville" placeholder="Marseille, France" /></P>
                                 <imput type="submit" value="Rechercher" />
                 </form>
 
                 
                 
-                <nav>
-                                   <!--bouton de recherche ville, soit scroll soit remplissage manuel-->
-        </nav>
+                <nav class="filtre">
+                        <h2>Filtres</h2>
+                        <span class="economique">
+                                <a href="eco">
+                                        <i class="fas fa money-bill-wave-alt">
+                                                <button class="eco">Economique</button>
+                                        </i>
+                                 </a>
+
+                        </span>
+
+                        <span class="familial">
+                                <a href="fam">
+                                        <i class="fas fa-chid">
+                                                <button claas="fam">Familial</button>
+                                         </i>
+                                </a>
+                        </span>
+
+                         <span class="romantique">
+                                <a href="rom">
+                                        <i class="fas fa-heart">
+                                                <button class="rom">Romantique</button>
+                                        </i>
+                                </a>
+                        </span>
+
+                        <span class="animaux">
+                                <a href="ani">
+                                        <i class="fas fa-dog">
+                                                <button class="ani">Animaux autorisés</button>
+                                        </i>
+                                </a>
+                        </span>
+
+                        <div class="infoville">
+                                <p><i class="fas fa-info"></i>Plus de 500 logements sont disponible dans cette ville</p>
+                        </div>
+                </nav>
   
-                                   <!--4 boutons de filtres-->
+
 
                 <main id="superconteneur">
                  <section class="heb">

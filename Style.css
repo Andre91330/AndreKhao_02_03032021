@@ -14,9 +14,9 @@
    text-align: right;   
 }
 
-#focus:hover
+nav+ul:hover
 {
-    border-top: 3px solid blue;
+    border-top: 1px solid blue;
 }
             
 img                        /* a corriger */

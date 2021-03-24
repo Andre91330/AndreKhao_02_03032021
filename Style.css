@@ -14,7 +14,7 @@
    text-align: right;   
 }
 
-nav+ul:hover
+#h a:hover
 {
     border-top: 1px solid blue;
 }

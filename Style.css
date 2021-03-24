@@ -11,10 +11,14 @@
 
 #focus
 {
-    text-align: right;
-    text-decoration: overline;
+   text-align: right;   
 }
-                    /* text-decoration: overline; a mettre en place pour hebergement et activites */
+
+#focus:hover
+{
+    border-top: 3px solid blue;
+}
+            
 img                        /* a corriger */
 {
     width: 60px;        

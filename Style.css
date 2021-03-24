@@ -1,8 +1,8 @@
 @font-face
 {
-    font-family:'Raleway', sans-serif;
+    font-family:'Raleway', arial,"times new roman", sans-serif;
     src:"https://fonts.google.com/specimen/Raleway?preview.text_type=custom";
-}                       /* police a installezr,revoir */
+}                       /* police a installer,revoir */
 
 #logo                   /* a corriger*/
 {
@@ -11,7 +11,8 @@
 
 #focus
 {
-    margin-right: 10px;
+    text-align: right;
+    text-decoration: overline;
 }
                     /* text-decoration: overline; a mettre en place pour hebergement et activites */
 img                        /* a corriger */

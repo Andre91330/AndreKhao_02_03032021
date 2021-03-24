@@ -14,7 +14,7 @@
    text-align: right;   
 }
 
-#h a:hover
+#focus:hover
 {
     border-top: 1px solid blue;
 }

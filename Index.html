@@ -17,13 +17,12 @@
                         <ul>                                              <!--liens sur la droit avec tiret au dessus-->
                                 <li><a href="#hebergements">Hébergements</a></li>       <!--lien a verifier #     ok-->
                                 <li><a href="#activites">Activités</a></li>             <!--lien a verifier #     ok-->
-                                <li><a href="inscription">S'inscrire</a></li>           <!--lien vers formulaire  ok-->
+                                <li><a href="">S'inscrire</a></li>           <!--lien vers formulaire  ok-->
                         </ul>
                 </nav>
         </header>
                          <!--div id="bloc_page"...a voir plus tatd-->
-                <p><h1>Trouvez votre hébergement pour des vacances de rêve</h1><br />
-                En plein centre ville ou en pleine nature</p>        
+                <h1>Trouvez votre hébergement pour des vacances de rêve</h1><br /><p>En plein centre ville ou en pleine nature</p>        
                 <form method="post" action="traitement.php">              <!--en supposant que le fichier existe-->
                         <div id="marker">     
                                 <img src="images/icones/markerxs.png" alt="marker" />
@@ -35,90 +34,89 @@
                 <nav class="filtre">
                         <h2>Filtres</h2>
                         <span class="economique">                   <!--span  inline-->
-                                <a href="eco">                      <!-- a verifier-->
+                                <a href=""></a>                      <!-- a verifier-->
                                         <img src="images/icones/moneyxs.png" alt="billet" />
-                                        <button class="eco">Economique</button>
-                                </a>
+                                        <button>Economique</button>
 
                         </span>
 
                         <span class="familial">
-                                <a href="fam">                       <!-- a verifier-->
+                                <a href=""></a>                      <!-- a verifier-->
                                         <img src="images/icones/childxs.png" alt="enfant" />
-                                        <button class="fam">Familial</button>
-                                </a>
+                                        <button>Familial</button>
                         </span>
 
                         <span class="romantique">                     <!-- a verifier-->
-                                <a href="rom">
+                                <a href=""></a>
                                         <img src="images/icones/coeurxs.png" alt="coeur" />
-                                        <button class="rom">Romantique</button>
-                                </a>
+                                        <button>Romantique</button>
                         </span>
 
                         <span class="animaux">
-                                <a href="ani">
+                                <a href=""></a>
                                         <img src="images/icones/dogxs.png" alt="dog" />
-                                        <button class="ani">Animaux autorisés</button>
-                                </a>
+                                        <button>Animaux autorisés</button>
                         </span>
 
-                        <span class="infoville">
-                                <p><img src="images/icones/infoxs.png" alt="i" />Plus de 500 logements sont disponibles dans cette ville</p>
-                        </span>
+                        <div class="infoville">
+                                <img src="images/icones/infoxs.png" alt="i" />
+                                <p>Plus de 500 logements sont disponibles dans cette ville</p>
+                        </div>
                 </nav>
   
         <main id="superconteneur">
                 <section class="pop">                
-                        <div id="populaires">                          <!--Conteneur 2-->
-                                <h1>Les plus populaires</h1>          <!--3 elements-->
+                        <h2>Les plus populaires</h2>
+                        <div id="populaires">              <!--Conteneur 2-->          <!--3 elements-->
                                                          <!--photo mini-->
                                 <figure class="htl soleil">                              
                                         <a href="images/hebergements/3_medium/h_soleil_m.jpg"><img src="images/hebergements/3_medium/h_soleil_m.jpg" alt="Hôtel le soleil du matin" /></a>
-                                        <figcaption><h2>Hôtel Le soleil du matin</h2><br />
+                                        <figcaption><strong>Hôtel Le soleil du matin></strong><br />
                                         Nuit à partir de 128<strong>€</strong><br />
-                                        <img sr="nb étoile" alt="5 étoiles" />
+                                        <img src="nb_étoiles" alt="5 étoiles" />
                                         </figcaption>
                                 </figure>
 
                                 <figure class="au coeur de l'eau">
                                         <a href="images/hebergements/3_medium/ch_eau_m.jpg"><img src="images/hebergements/3_medium/ch_eau_m.jpg" alt="Au coeur de l'eau chambre d'hotes" /></a>
-                                        <figcaption><h2>Au coeur de l'eau Chambre d'hôtes</h2><br />
+                                        <figcaption><strong>Au coeur de l'eau Chambre d'hôtes</strong><br />
                                         Nuit à partir de 71<strong>€</strong><br />
+                                        <img src="nb_étoiles" alt="4 étoiles" />
                                         </figcaption>
                                 </figure>
 
                                 <figure class="htl bleu">
                                         <a href="images/hebergements/3_medium/h_bleu_m.jpg"><img src="images/hebergements/3_medium/h_bleu_m.jpg" alt="Hôtel tout bleu et blanc" /></a>
-                                        <figcaption><h2>Hôtel tout bleu et Blanc</h2><br />
+                                        <figcaption><strong>Hôtel tout bleu et Blanc<strong><br />
                                         Nuit à partir de 68<strong>€</strong><br />
-                                        <img src="etoile" alt="4 étoiles" ></strong></figcaption>
+                                        <img src="nb_étoiles" alt="4 étoiles" />
+                                        </figcaption>
                                  </figure>
                         </div>
                 </section>
 
                 <section class="heb">
-                        <div id="hebergements">                                 <!--conteneur 1-->  
-                                 <h1>Hébergements à Marseille</h1>       <!--elements 6-->
+                        <h2>Hébergements à Marseille</h2>
+                        <div id="hebergements">                                 <!--conteneur 1-->       <!--elements 6-->
                                 <figure class="a cannebiere"></figure>             <!--photo medium-->
-                                        <a href="images/hebergements/3_medium/a cannebiere_m.jpg"><img src="images/hebergements/3_medium/a cannebiere_m.jpg" alt="Auberge la Cannebière" /></a> 
-                                        <figcaption><h2>Auberge la cannebiere</h2><br />
+                                        <a href="images/hebergements/3_medium/a_cannebiere_m.jpg"><img src="images/hebergements/3_medium/a_cannebiere_m.jpg" alt="Auberge la Cannebière" /></a> 
+                                        <figcaption><strong>Auberge la cannebiere</strong><br />
                                         Nuit à partir de <strong>25€</strong><br />
-                                        <img src="nb_toiles" alt="4 étoiles" />
+                                        <img src="nb_étoiles" alt="4 étoiles" />
                                         </figcaption>
                                 </figure> 
 
                                 <figure clas="htl port">                                                
                                         <a href="images/hebergements/3_medium/h_port_m"><img src="images/hebergements/3_medium/h_port_m.jpg" alt="Hôtel du port" /></a>
-                                        <figcaption><h2>Hôtel du port</h2><br />
+                                        <figcaption><strong>Hôtel du port</strong><br />
                                         Nuit à partir de 52<strong>€</strong><br />
                                         <img src="nb_étoiles" alt="5 étoiles" />
                                         </figcaption>
                                 </figure>
 
                                 <figure class="htl mouettes">                                                
-                                        <a href="images/hebergements/3_medium/h_mouettes_m.jpg"><img src="images/hebergements/3_medium/h_mouettes_m.jpg".jpg" alt="Hôtel les mouettes" /></a>
-                                        <figcaption><h2>Hôtel les mouettes</h2><br />
+                                        <a href="images/hebergements/3_medium/h_mouettes_m.jpg"><img src="images/hebergements/3_medium/h_mouettes_m.jpg" alt="Hôtel les mouettes" /></a>
+                                        <figcaption><strong>Hôtel les mouettes</strong><br />
                                         Nuit à partir de 76<strong>€</strong><br />
                                         <img src="nb_étoiles" alt="4 étoiles" />
                                         </figcaption>
@@ -126,7 +124,7 @@
 
                                 <figure class="htl mer">                                                
                                         <a href="images/hebergements/3_medium/h_mer_m.jpg"><img src="images/hebergements/3_medium/h_mer_m.jpg" alt="Hôtel de la mer" /></a>
-                                        <figcaption><h2>Hôtel de la mer</h2><br />
+                                        <figcaption><strong>Hôtel de la mer</strong><br />
                                         Nuit à partir de 46<strong>€</strong><br />
                                         <img src="nb_étoiles" alt="3 étoiles" />
                                         </figcaption>
@@ -134,54 +132,54 @@
 
                                 <figure class="aub panier">
                                         <a href="images/hebergements/3_medium/a_panier_m.jpg"><img src="images/hebergements/3_medium/a_panier_m.jpg" alt="Auberge le Panier" /></a>
-                                        <figcaption><h2>Auberge Le Panier</h2><br />
+                                        <figcaption><strong>Auberge Le Panier</strong><br />
                                         Nuit à partir de <strong>25€</strong><br />
                                         <img src="nb_étoiles" alt="4 étoiles" />                                                </figcaption>
                                 </figure>
 
                                 <figure class="htl amina">
                                         <a href="images/hebergements/3_medium/h_amina_m.jpg"><img src="images/hebergements/3_medium/h_amina_m.jpg" alt="Hôtel chez Amina" /><a>
-                                        <figcaption><h2>Hôtel chez Amina</h2><br />
+                                        <figcaption><strong>Hôtel chez Amina</strong><br />
                                         Nuit à partir de 96<strong>€</strong><br />
                                         <img src="nb_étoiles" alt="5 étoiles" />
                                         </figcaption>
                                 </figure>
                    
-                                <h2><a href="suite du site">Afficher plus</a></h2>
+                                <a href=""><strong>Afficher plus</strong></a>
                         </div>
                 </section>
 
                 <section class="act">
-                        <div id="activites">                            <!--conteneur 3-->
-                        <h1>Activités à Marseille</h1>          <!--6 elements-->                                                         
+                        <h2>Activités à Marseille</h2>
+                        <div id="activites">                <!--conteneur 3-->         <!--6 elements-->                                                         
                                <figure class="vieux port">
                                         <img src="images/activites/3_medium/act_port_m.jpg" alt="Vieux port" />      <!--grand-->
-                                        <figcaption><h2>Vieux Port</h2></figcaption>
+                                        <figcaption><strong>Vieux Port</strong></figcaption>
                                 </figure>
 
                                 <figure class="pomegue">
                                         <img src="images/activites/3_medium/act_pomegues_m.jpg" alt="Fort de Pomègues" />  <!--medium-->
-                                        <figcaption><h2>Fort de Pomègues</h2></figcaption>
+                                        <figcaption><strong>Fort de Pomègues</strong></figcaption>
                                 </figure>
 
                                 <figure class="frioul">
                                         <img src="images/activites/3_medium/act_frioul_m.jpg" alt="Iles du Frioul" />       <!--medium-->
-                                        <Figcaption><h2>Iles du Frioul</h2></Figcaption>
+                                        <Figcaption><strong>Iles du Frioul</strong></Figcaption>
                                 </figure>
 
                                 <figure class="calanques">
                                         <img src="images/activites/3_medium/act_calanques_m.jpg" alt="Parc national des calanques" />
-                                        <Figcaption><h2>Parc National des calanques</2></Figcaption>
+                                        <Figcaption><strong>Parc National des calanques</strong></Figcaption>
                                 </figure>  
                                                                                   <!--grand-->
                                 <figure class="NDG">
                                         <img src="images/activites/3_medium/act_ndg_m.jpg" alt="Notre-Dame de la garde" />
-                                        <Figcaption><h2>Notre-Dame-de-la-Garde</h2></Figcaption>
+                                        <Figcaption><strong>Notre-Dame-de-la-Garde</strong></Figcaption>
                                 </figure>        
                                                                            <!--medium-->
                                 <figure class="longchamp">
                                         <img src="images/activites/3_medium/act_longchamp_m.jpg" alt="Parc Longchamp" />
-                                        <figcaption><h2>Parc Longchamp</h2></figcaption>
+                                        <figcaption><strong>Parc Longchamp</strong></figcaption>
                                 </figure>                                                   <!--medium-->
                         </div>
                 </section>
@@ -190,25 +188,28 @@
 
         <footer>    
                 <div class="a propos">                          <!--block-->
-                        <ul><h2>A propos</h2>
-                                <li><a href="fonctionnement du site">Fonctionnement du site</a></li>
-                                <li><a href="conditions générales de vente">Conditions générales de vente</a></li>
-                                <li><a href="données et confidentialité">Données et confidentialité</a></li>
+                        <h2>A propos</h2>
+                        <ul>
+                                <li><a href="">Fonctionnement du site</a></li>
+                                <li><a href="">Conditions générales de vente</a></li>
+                                <li><a href="">Données et confidentialité</a></li>
                         </ul>
                 </div>
 
                 <div class="hebergement">
-                        <ul><h2>Nos hébergements</h2>
-                                <li><a href="charte qualité">Charte qualité</a></li>
-                                <li><a href="soumettre votre hôtel">Soumettre votre hôtel</a></li>
+                        <h2>Nos hébergements</h2>
+                        <ul>
+                                <li><a href="">Charte qualité</a></li>
+                                <li><a href="">Soumettre votre hôtel</a></li>
                         </ul>
                 </div>
 
                 <div class="assistance">
-                        <ul><h2>Assistance</h2>
-                                <li><a href="centre d'aide">Centre d'aide</a></li>
-                                <li><a href="nous contacter">Nous contacter</a></li>
+                        <h2>Assitance</h2>
+                        <ul>
+                                <li><a href="">Centre d'aide</a></li>
+                                <li><a href="">Nous contacter</a></li>
                         </ul>
                 </div>
-        </footer>              
+        </footer>             
 </html>

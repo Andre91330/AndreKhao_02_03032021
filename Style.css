@@ -1,47 +1,50 @@
 @font-face
 {
-    font-family:'Raleway', arial,"times new roman", sans-serif;
+    font-family:'Raleway', Verdana, Arial, sans-serif;
+    src:local('fonts/Raleway-Regular.ttf')
 }                       /* police a installer,revoir */
 
 #logo                   /* a corriger*/
 {
     text-align: left;
+    display: flex;
 }
 
-#focus
+#logo img                                   /* ok */
 {
-   text-align: right;   
+        height: 40px;       
+        width: 70px;       
 }
 
-#focus:hover
+nav ul
 {
-    border-top: 1px solid blue;
-}
-            
-img                        /* a corriger */
-{
-    width: 60px;        
-    height: 40px ;
+   list-style-type: none;                   /* sans point ok */
+   display: flex;                  /* en ligne a mod */
 }
 
+nav li:hover                                /* surlignement ok */
+{
+    border-top: 1px solid #0065fc;
+    color: #0065fc;
+}
+
+a:active                          /* a inverser */
+{
+    color:grey;
+}
+
+nav a
+{
+    font-size: 1em;      /* a corr */
+    color: #0065fc;         /* a corr */
+}
+ 
 header                      /* a faire */
 {
     display: flex;
     align-items: flex-end
 }
 
-ul                    
-{
-    list-style-type: none;                 
-    display:flex;
-}
-
-nav ul
-{
-    justify-content: space-between;
-}
-
-/* bouton chpisi surligne*/
 
 h1
 {

@@ -4,6 +4,12 @@
     src:local('fonts/Raleway-Regular.ttf')
 }                       /* police a installer,revoir */
 
+body
+{
+    color: black;
+    font-size: 12px;
+}
+
 #logo                   /* a corriger*/
 {
     text-align: left;
@@ -12,62 +18,54 @@
 
 #logo img                                   /* ok */
 {
-        height: 40px;       
-        width: 70px;       
+    height: 40px;       
+    width: 70px;       
 }
 
-#filtre
+h1 h2 p
 {
-    background: white;           /* fond */
-    color: black;                /* police */
-    text-decoration: none;          /* pas de soulignement */
-    position: relative;             /* pour les elements before et after */
-    font-size: 5px;                /* taille police */
-    padding: 10px;                  /* espacement - hauteur du lien */
-    border: solid 1px with; 
+    font-size: 12px;
 }
 
 nav ul
 {
-   list-style-type: none;                   /* sans point ok */
+   list-style-type: none;    /* sans point ok */
+   padding: 20px;
+   padding-right: 10px;
+   text-align: right;
    display: flex;                  /* en ligne a mod */
 }
 
 nav li:hover                                /* surlignement ok */
 {
-    border-top: 1px solid #0065fc;
-    color: #0065fc;
+   color: #0065fc;
+   border-top: 1px solid #0065fc;
+   text-decoration: none;
+    
 }
 
-a:active                          /* a inverser */
-{
-    color:grey;
-}
-
-nav a
-{
-    font-size: 1em;      /* a corr */
-    color: #0065fc;         /* a corr */
-}
- 
 header                      /* a faire */
 {
     display: flex;
     align-items: flex-end
 }
 
-
-h1
+#filtre a
 {
-    font-size: 0.9em;
-    font-weight: bold;
+    background: white;           /* fond */
+    color: black;                /* police */
+    text-decoration: none;          /* pas de soulignement */
+    position: relative;             /* pour les elements before et after */
+    font-size: 12px;                /* taille police */
+    padding: 10px;  
+    padding-right: 5px;                /* espacement - hauteur du lien */
+    border: solid 1px red;          /* a changer */
+    border-radius: 6px;                /* arrondi */
+    
+
 }
 
-h2
-{
-    font-size: 0.7em;
-    font-weight: bold;
-}
+
 
 figcaption
 {

@@ -4,7 +4,6 @@
                 <meta charset="utf-8" />
                 <title>Reservia</title>
                 <link rel="stylesheet" href="css/style.css" /> 
-                <link rel="styleshhet" href="css/search.css" />
                               <!--a verifier-->
         </head>
 
@@ -19,46 +18,39 @@
                         <ul>                                              <!--liens sur la droit avec tiret au dessus-->
                                 <li><a href="#hebergements">Hébergements</a></li>       <!--lien a verifier #     ok-->
                                 <li><a href="#activites">Activités</a></li>             <!--lien a verifier #     ok-->
-                                <li><a href="">S'inscrire</a></li>           <!--lien vers formulaire  ok-->
+                                <li><a href="#">S'inscrire</a></li>           <!--lien vers formulaire  ok-->
                         </ul>
                 </nav>
         </header>
                          <!--div id="bloc_page"...a voir plus tatd-->
-                <h1>Trouvez votre hébergement pour des vacances de rêve</h1><br /><p>En plein centre ville ou en pleine nature</p>        
-                <form method="post" action="traitement.php">              <!--en supposant que le fichier existe-->
-                        <div id="marker">     
-                                <img src="images/icones/markerxs.png" alt="marker" />
-                                <input type="text" name="ville" id="ville" placeholder="Marseille, France" />
-                                <input type="submit" value="Rechercher" />
+                <h1>Trouvez votre hébergement pour des vacances de rêve</h1><br />
+                <p>En plein centre ville ou en pleine nature</p>        
+                <div id="recherche">
+                        <input type="text" name="ville" id="ville" placeholder="Marseille, France" />
+                        <input type="submit" value="Rechercher"/>
+                </div>
+                        
+
+                <nav>
+                        <p>Filtres</p>
+
+                        <div id="filtre">
+                                <p>                  
+                                <a href="#">Economique</a>
+                                </p>
+                                              
+                                <p>
+                                <a href="#">Familial</a>               
+                                </p>
+                        
+                                <p>                  
+                                <a href="#">Romantique</a>
+                                </p>
+                     
+                                <p>
+                                <a href="#">Animaux autorisés</a>               
+                                </p>
                         </div>
-                </form>
-
-                <nav class="filtre">
-                        <h2>Filtres</h2>
-                        <span class="economique">                   <!--span  inline-->
-                                <a href=""></a>                      <!-- a verifier-->
-                                        <img src="images/icones/moneyxs.png" alt="billet" />
-                                        <button>Economique</button>
-
-                        </span>
-
-                        <span class="familial">
-                                <a href=""></a>                      <!-- a verifier-->
-                                        <img src="images/icones/childxs.png" alt="enfant" />
-                                        <button>Familial</button>
-                        </span>
-
-                        <span class="romantique">                     <!-- a verifier-->
-                                <a href=""></a>
-                                        <img src="images/icones/coeurxs.png" alt="coeur" />
-                                        <button>Romantique</button>
-                        </span>
-
-                        <span class="animaux">
-                                <a href=""></a>
-                                        <img src="images/icones/dogxs.png" alt="dog" />
-                                        <button>Animaux autorisés</button>
-                        </span>
 
                         <div class="infoville">
                                 <img src="images/icones/infoxs.png" alt="i" />

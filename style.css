@@ -6,11 +6,19 @@
 
 body
 {
+    font-family: 'Raleway', Verdana, sans-serif;
     color: black;
-    font-size: 12px;
+    font-size: 0.8em;
 }
 
-#logo                   /* a corriger*/
+header                  /* a corriger */
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end
+}
+
+#logo                    /* a corriger*/
 {
     text-align: left;
     display: flex;
@@ -22,50 +30,80 @@ body
     width: 70px;       
 }
 
-h1 h2 p
+nav ul                                      /* navigation */ 
 {
-    font-size: 12px;
+   list-style-type: none;                   /* sans point ok */  
+   display: flex;                           /* en ligne a mod */
 }
 
-nav ul
+nav li
 {
-   list-style-type: none;    /* sans point ok */
-   padding: 20px;
-   padding-right: 10px;
-   text-align: right;
-   display: flex;                  /* en ligne a mod */
+    margin-right: 15px;
 }
 
-nav li:hover                                /* surlignement ok */
+nav a                       /* gris a mettre en place */
 {
-   color: #0065fc;
-   border-top: 1px solid #0065fc;
-   text-decoration: none;
-    
+    color: #0065fc;             
+    text-decoration: none;        /* sans soulignement */
+    padding: 3px;
+    padding-right: 10px;
 }
 
-header                      /* a faire */
+li strong
 {
-    display: flex;
-    align-items: flex-end
+    font-weight: bold ;
+}
+
+nav a:hover                               
+{
+   border-top: 2px solid #0065fc;       /* surlignement ok */  
+}
+
+h1
+{
+    font-size: 1em;
+}
+
+#recherche
+{
+    background: white;           /* fond */
+    color: black;                /* police */
+    position: relative;             /* pour les elements before et after */
+    font-size: 12px;                /* taille police */
+    padding-left: 0px;              /* bordure a droite */
+    border: solid 1px red;        /* bordure a changer */
+    border-radius:15px;  
+}
+
+#recherche img
+{
+    position: relative;
+    height: 30px;       
+    width: 30px; 
 }
 
 #filtre a
 {
+    margin-left: 10px;             /* separartion */
     background: white;           /* fond */
     color: black;                /* police */
     text-decoration: none;          /* pas de soulignement */
     position: relative;             /* pour les elements before et after */
     font-size: 12px;                /* taille police */
-    padding: 10px;  
-    padding-right: 5px;                /* espacement - hauteur du lien */
-    border: solid 1px red;          /* a changer */
-    border-radius: 6px;                /* arrondi */
-    
-
+    padding: 10px;                  /* bordure interne */
+    padding-left: 0px;              /* bordure a droite */
+    margin-left: 60px;              /* décaler */
+    border: solid 1px red;        /* bordure a changer */
+    border-radius: 25px;                    /* arrondi ok */    
 }
 
-
+#filtre img
+{
+    position: relative;
+    height: 40px;       
+    width: 40px; 
+    padding: 0px 10px 0px 0px;
+}
 
 figcaption
 {

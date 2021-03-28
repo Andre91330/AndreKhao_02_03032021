@@ -66,13 +66,17 @@ h1
 
 #recherche
 {
+    margin-right: 5px;             /* bordure a droite */
     background: white;           /* fond */
     color: black;                /* police */
     position: relative;             /* pour les elements before et after */
     font-size: 12px;                /* taille police */
-    padding-left: 0px;              /* bordure a droite */
+    padding: 0px 0px 0px 5px;          
     border: solid 1px red;        /* bordure a changer */
     border-radius:15px;  
+    width: 300px;
+    height: 30px;
+    display: inline-flex;
 }
 
 #recherche img
@@ -82,9 +86,13 @@ h1
     width: 30px; 
 }
 
+#filtre
+{
+    text-align: left;               /* a corriger */
+}
+
 #filtre a
 {
-    margin-left: 10px;             /* separartion */
     background: white;           /* fond */
     color: black;                /* police */
     text-decoration: none;          /* pas de soulignement */
@@ -94,7 +102,8 @@ h1
     padding-left: 0px;              /* bordure a droite */
     margin-left: 60px;              /* décaler */
     border: solid 1px red;        /* bordure a changer */
-    border-radius: 25px;                    /* arrondi ok */    
+    border-radius: 25px;                    /* arrondi ok */   
+    display: inline-flex;
 }
 
 #filtre img
@@ -104,6 +113,22 @@ h1
     width: 40px; 
     padding: 0px 10px 0px 0px;
 }
+
+#infoville img
+{
+    position: relative;
+    height: 40px;
+    width: 40px;
+}
+
+#infoville img + p
+{
+    display: inline-block;
+    text-align: left;
+}
+
+
+
 
 figcaption
 {

@@ -4,11 +4,17 @@
     src:local('fonts/Raleway-Regular.ttf')
 }                       /* police a installer,revoir */
 
+.interlignage
+{
+    line-height: 100%;
+}
+
 body
 {
     font-family: 'Raleway', Verdana, sans-serif;
     color: black;
     font-size: 0.8em;
+    line-height: 200%;
 }
 
 header                  /* a corriger */
@@ -49,7 +55,7 @@ nav a                       /* gris a mettre en place */
     padding-right: 10px;
 }
 
-li strong
+strong
 {
     font-weight: bold ;
 }
@@ -66,7 +72,7 @@ h1
 
 #recherche
 {
-    margin-right: 5px;             /* bordure a droite */
+    margin-right: 0px;             /* bordure a droite */
     background: white;           /* fond */
     color: black;                /* police */
     position: relative;             /* pour les elements before et after */
@@ -74,7 +80,7 @@ h1
     padding: 0px 0px 0px 5px;          
     border: solid 1px red;        /* bordure a changer */
     border-radius:15px;  
-    width: 300px;
+    width: 290px;
     height: 30px;
     display: inline-flex;
 }
@@ -88,43 +94,47 @@ h1
 
 #filtre
 {
+    display: inline-flex;
     text-align: left;               /* a corriger */
 }
 
 #filtre a
 {
+    margin-right: 0px;
     background: white;           /* fond */
     color: black;                /* police */
     text-decoration: none;          /* pas de soulignement */
     position: relative;             /* pour les elements before et after */
     font-size: 12px;                /* taille police */
-    padding: 10px;                  /* bordure interne */
-    padding-left: 0px;              /* bordure a droite */
-    margin-left: 60px;              /* décaler */
-    border: solid 1px red;        /* bordure a changer */
+    padding: 0px 10px 0px 0px;              /* bordure a droite */
+    border: solid 1px #deebff;        /* bordure a changer */
     border-radius: 25px;                    /* arrondi ok */   
     display: inline-flex;
+    width: auto;
+    height: 28px;
+    font-weight: bold;
 }
 
 #filtre img
 {
     position: relative;
-    height: 40px;       
-    width: 40px; 
-    padding: 0px 10px 0px 0px;
+    height: 30px;       
+    width: 30px; 
+}
+
+#infoville 
+{
+    display: inline-flex;
+    position: relative;
 }
 
 #infoville img
 {
+    border:solid 1px #deebff;
+    border-radius: 50px;
     position: relative;
-    height: 40px;
-    width: 40px;
-}
-
-#infoville img + p
-{
-    display: inline-block;
-    text-align: left;
+    height: 30px;
+    width: 30px;
 }
 
 
@@ -162,6 +172,19 @@ figcaption
                                     /*dimension du bloc act en gris clair */
 
 
+
+footer ul                                      
+{   
+list-style-type: none; 
+}  
+
+#assistance a
+{
+text-decoration: none; 
+}
+                                    
+
+                                    
 
 /*champ de saisie pour la ville */
 /* ajouter le fond gris #F2F2F2 au trois conteneurs */

@@ -66,7 +66,7 @@ nav a                    /* gris a mettre en place */
 
 strong
 {
-    font-weight: bold ;
+    font-weight: bold;
 }
 
 nav a:hover                               
@@ -149,8 +149,101 @@ h1
 
 /* conteneur hebergement */
 
+mark
+{
+    font-weight: bold;   
+}
+.soleil figcaption
+{
+    background: white;
+    color: black;
+    font-size: 0.7em;
+    line-height: 1.5em;
+    text-align: left;
+    width: 200px; 
+    height: 50px; 
+    border-radius: 0% 0% 10% 25%;
+    padding-left: 1em;
+   
+}
 
+.cannebiere figcaption
+{
+    background: white;
+    color: black;
+    font-size: 0.7em;
+    line-height: 1.5em;
+    text-align: left;
+    width: 200px; 
+    height: 50px; 
+    border-radius: 0% 0% 10% 25%;
+    padding-left: 1em;   
+}
 
+.port figcaption
+{
+    background: white;
+    color: black;
+    font-size: 0.7em;
+    line-height: 1.5em;
+    text-align: left;
+    width: 200px; 
+    height: 50px; 
+    border-radius: 0% 0% 10% 25%;
+    padding-left: 1em;  
+}
+
+.mouettes figcaption
+{
+    background: white;
+    color: black;
+    font-size: 0.7em;
+    line-height: 1.5em;
+    text-align: left;
+    width: 200px; 
+    height: 50px; 
+    border-radius: 0% 0% 10% 25%;
+    padding-left: 1em;  
+}
+
+.mer figcaption
+{
+    background: white;
+    color: black;
+    font-size: 0.7em;
+    line-height: 1.5em;
+    text-align: left;
+    width: 200px; 
+    height: 50px; 
+    border-radius: 0% 0% 10% 25%;
+    padding-left: 1em;  
+}
+
+.panier figcaption
+{
+    background: white;
+    color: black;
+    font-size: 0.7em;
+    line-height: 1.5em;
+    text-align: left;
+    width: 200px; 
+    height: 50px; 
+    border-radius: 0% 0% 10% 25%;
+    padding-left: 1em;  
+}
+
+.amina figcaption
+{
+    background: white;
+    color: black;
+    font-size: 0.7em;
+    line-height: 1.5em;
+    text-align: left;
+    width: 200px; 
+    height: 50px; 
+    border-radius: 0% 0% 10% 25%;
+    padding-left: 1em;   
+}
 
 /* footer */
 

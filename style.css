@@ -4,18 +4,27 @@
     src:local('fonts/Raleway-Regular.ttf')
 }                       /* police a installer,revoir */
 
-.interlignage
+.interlignage           // to do   /* a revoir */
 {
-    line-height: 100%;  /* a revoir */
+    line-height: 100%;  
 }
 
 body
 {
     font-family: 'Raleway', Verdana, sans-serif;
     color: black;
-    font-size: 0.8em;
+    font-size: 1em;
     line-height: 200%;
 }
+
+#bloc_page
+{
+    width: 900px;
+    margin: auto;
+
+}
+
+/*  header */
 
 header                  /* a corriger */
 {
@@ -36,10 +45,10 @@ header                  /* a corriger */
     width: 70px;       
 }
 
-nav ul                                      /* navigation */ 
-{
+nav ul                   /* navigation */ 
+{                         
    list-style-type: none;                   /* sans point ok */  
-   display: flex;                           /* en ligne a mod */
+   display: flex;                           
 }
 
 nav li
@@ -47,12 +56,12 @@ nav li
     margin-right: 15px;
 }
 
-nav a                       /* gris a mettre en place */
+nav a                    /* gris a mettre en place */
 {
     color: #0065fc;             
-    text-decoration: none;        /* sans soulignement */
-    padding: 3px;
-    padding-right: 10px;
+    text-decoration: none;                  /* sans soulignement */
+    padding: 10px;
+    padding-right: 5px;
 }
 
 strong
@@ -62,29 +71,30 @@ strong
 
 nav a:hover                               
 {
-   border-top: 2px solid #0065fc;       /* surlignement ok */  
+   border-top: 2px solid #0065fc;          /* surlignement ok */  
 }
+
+/* navigation */
 
 h1
 {
     font-size: 1em;
 }
 
-#recherche
+#recherche                /* a coorriger */
 {
-    margin-right: 5px;             /* bordure a droite */
-    background: white;           /* fond */
-    color: black;                /* police */
-    position: relative;             /* pour les elements before et after */
-    font-size: 12px;                /* taille police */          
-    border: solid 1px red;        /* bordure a changer */
+    color: black;                     /* police */
+    position: relative;                 /* pour les elements before et after */
+    font-size: 1em;                    /* taille police */          
+    border: solid 1px red;            /* bordure a changer */
+    background: #0065fc;       /* a revoir */
     border-radius:15px;  
     width: 290px;
     height: 30px;
     display: inline-flex;
 }
 
-#recherche img
+#recherche img             /* a ameliorer */
 {
     position: relative;
     height: 30px;       
@@ -93,19 +103,20 @@ h1
 
 #filtre
 {
+    margin-right: 10px;
     display: inline-flex;
-    text-align: left;               /* a corriger */
+    text-align: left;                 /* a corriger */
 }
 
 #filtre a
 {
-    margin-right: 0px;
+    margin-right: auto;
     background: white;           /* fond */
     color: black;                /* police */
     text-decoration: none;          /* pas de soulignement */
     position: relative;             /* pour les elements before et after */
     font-size: 12px;                /* taille police */
-    padding: 0px 10px 0px 0px;              /* bordure a droite */
+    padding: 0px 15px 0px 0px;              /* bordure a droite */
     border: solid 1px #deebff;        /* bordure a changer */
     border-radius: 25px;                    /* arrondi ok */   
     display: inline-flex;
@@ -117,8 +128,8 @@ h1
 #filtre img
 {
     position: relative;
-    height: 30px;       
-    width: 30px; 
+    height: 35px;       
+    width: 35px; 
 }
 
 #infoville 
@@ -132,57 +143,51 @@ h1
     border:solid 1px #deebff;
     border-radius: 50px;
     position: relative;
-    height: 30px;
-    width: 30px;  
+    height: 28px;
+    width: 28px;  
 }
 
+/* conteneur hebergement */
 
 
 
-figcaption
+
+/* footer */
+
+#apropos ul
 {
-    font-size: 0.7em;
+    list-style-type: none;                  
 }
-
-
-#hébergements
-{                     
-   display: flex;                   
-   justify-content: space-around;   /*espace autour*/
-   align-content: space-around;
-   flex-wrap: wrap;                 /*va a la ligne*/
-}
-
-                                    /*dimension du bloc heb en gris clair */
-
-#populaires
+#apropos a
 {
-    display: flex;
-    flex-direction: column;         /*alignement verticale*/
-    align-content: space-around;
-    justify-content: space-around;
+    color: black;             
+    text-decoration: none;                  
+    margin-left: 0;
 }
-                                    /*dimencion du bloc pop en gris clair */
 
-#activités
+#offres ul
 {
-    display: flex;
+    list-style-type: none;                 
 }
-                                    /*dimension du bloc act en gris clair */
 
-
-
-footer ul                                      
-{   
-list-style-type: none; 
+#offres a
+{
+    color: black;             
+    text-decoration: none;                 
+    margin-left: 0;
 }  
+
+#assistance ul
+{
+    list-style-type: none;                  
+}
 
 #assistance a
 {
-text-decoration: none; 
+    color: black;             
+    text-decoration: none;                
+    margin-left: 0;
 }
-                                    
-
                                     
 
 /*champ de saisie pour la ville */

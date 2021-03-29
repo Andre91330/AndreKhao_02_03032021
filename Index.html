@@ -9,10 +9,9 @@
 
 <body>
 <div id="bloc_page">
-        <header>                                                         <!--logo et choix de navigation-->                                                         
-                <div id="logo">                                          <!--a positionner a gauche-->
-                        <img src="images/logo/Reservia@3x.png" alt="logo réservia" />
-                </div>
+        <header>                                                         <!--logo et choix de navigation-->                                                                                                 <!--a positionner a gauche-->
+                <img src="images/logo/Reservia@3x.png" alt="logo réservia" id="logo" />
+                
 
                 <nav id="focus">
                         <ul>                                              <!--liens sur la droit avec tiret au dessus-->
@@ -52,39 +51,38 @@
                 <div id="locations">
                         <section id="pop">                           <!--Conteneur 2-->
                                 <div id="populaires">  
-                                        <h2>Les plus populaires</h2>      <!--3 elements-->
-                                        <img src="images/icones/arrow.png" alt="fleche" />
-                                        <figure class="soleil" style="border: 1px solid black;border-radius: 8%; width: 220px; height: 180px;">                            
-                                                <a href="images/hebergements/1_xlarge/h_soleil_xl.jpg"><img src="images/hebergements/4_small/h_soleil_s.jpg" alt="Hôtel le soleil du matin" style="width: 220px; height: 120px; border-radius: 8% 8% 0% 0%;" /></a>
-                                                <div style="/* display: flex; */text-align: left;">
-                                                <figcaption><mark>Hôtel Le soleil du matin</mark><br />
+                                        <h1>Les plus populaires</h1>      <!--3 elements-->
+                                        <img src="images/icones/arrow.png" alt="fleche" id="suite" style="width: 30px; height: 30px;" />
+                                        <div class="soleil" style="border: 1px solid red;border-radius: 6%; width: 330px; height: 120px;">                            
+                                                <a href="images/hebergements/1_xlarge/h_soleil_xl.jpg"><img src="images/hebergements/4_small/h_soleil_s.jpg" alt="Hôtel le soleil du matin" style="width: 130px; height: 120px; border-radius: 10% 0% 0% 10%;" /></a>
+                                                <p><mark>Hôtel Le soleil du matin</mark><br />
                                                 Nuit à partir de 128<mark>€</mark><br />
                                                 <img src="images/stars/5stars.png" alt="5 étoiles" style="width: 80px; height: 18px;" />
-                                                </figcaption>
-                                        </figure>
+                                                </p>
+                                        </div>
 
-                                        <figure class="eau">
-                                                <a href="images/hebergements/1_xlarge/ch_eau_xl.jpg"><img src="images/hebergements/4_small/ch_eau_s.jpg" alt="Au coeur de l'eau chambre d'hotes" /></a>
-                                                <figcaption><mark>Au coeur de l'eau Chambre d'hôtes</mark><br />
+                                        <div class="eau" style="border: 1px solid red;border-radius: 10%; width: 330px; height: 120px;">
+                                                <a href="images/hebergements/1_xlarge/ch_eau_xl.jpg"><img src="images/hebergements/4_small/ch_eau_s.jpg" alt="Au coeur de l'eau chambre d'hotes" style="width: 130px; height: 120px; border-radius: 10% 0% 0% 10%;" /></a>
+                                                <p><mark>Au coeur de l'eau Chambre d'hôtes</mark><br />
                                                 Nuit à partir de 71<strong>€</strong><br />
-                                                <img src="images/stars/4stars.png" alt="4 étoiles" />
-                                                </figcaption>
-                                        </figure>
+                                                <img src="images/stars/4stars.png" alt="4 étoiles" style="width: 80px; height: 18px;" />
+                                                </p>
+                                        </div>
 
-                                        <figure class="bleu">
-                                                <a href="images/hebergements/1_xlarge/h_bleu_xl.jpg"><img src="images/hebergements/4_small/h_bleu_s.jpg" alt="Hôtel tout bleu et blanc" /></a>
-                                                <figcaption><mark>Hôtel tout bleu et Blanc</mark><br />
+                                        <div class="bleu" style="border: 1px solid red;border-radius: 10%; width: 330px; height: 120px;">
+                                                <a href="images/hebergements/1_xlarge/h_bleu_xl.jpg"><img src="images/hebergements/4_small/h_bleu_s.jpg" alt="Hôtel tout bleu et blanc" style="width: 130px; height: 120px; border-radius: 10% 0% 0% 10%;" /></a>
+                                                <p><mark>Hôtel tout bleu et Blanc</mark><br />
                                                 Nuit à partir de 68<strong>€</strong><br />
-                                                <img src="images/stars/4stars.png" alt="4 étoiles" />
-                                                </figcaption>
-                                        </figure>
+                                                <img src="images/stars/4stars.png" alt="4 étoiles" style="width: 80px; height: 18px;" />
+                                                </p>
+                                        </div>
                                 </div>
                         </section>
 
                         <section id="heb">                           <!--conteneur 1-->
                                 <div id="hebergement">
-                                        <h2>Hébergements à Marseille</h2>       <!--elements 6-->
-                                        <figure class="cannebiere" style="border: 1px solid black;border-radius: 8%; width: 220px; height: 180px;">
+                                        <h1>Hébergements à Marseille</h1>       <!--elements 6-->
+                                        <figure class="cannebiere" style="border: 1px solid red;border-radius: 8%; width: 220px; height: 180px;">
                                                 <a href="images/hebergements/1_xlarge/a_cannebiere_xl.jpg"><img src="images/hebergements/4_small/a_cannebiere_s.jpg" alt="Auberge la Cannebière" style="width: 220px; height: 120px; border-radius: 9% 9% 0% 0%;" /></a> 
                                                 <figcaption><mark>Auberge la cannebiere</mark><br />
                                                 Nuit à partir de <strong>25€</strong><br />
@@ -92,7 +90,7 @@
                                                 </figcaption> 
                                         </figure>
 
-                                        <figure class="port" style="border: 1px solid black;border-radius: 8%; width: 220px; height: 180px;">                                                
+                                        <figure class="port" style="border: 1px solid red;border-radius: 8%; width: 220px; height: 180px;">                                                
                                                 <a href="images/hebergements/1_xlarge/h_port_xl.jpg"><img src="images/hebergements/4_small/h_port_s.jpg" alt="Hôtel du port" style="width: 220px; height: 120px; border-radius: 9% 9% 0% 0%;" /></a>
                                                 <figcaption><mark>Hôtel du port</mark><br />
                                                 Nuit à partir de 52<strong>€</strong><br />
@@ -100,7 +98,7 @@
                                                 </figcaption>
                                         </figure>
                                
-                                        <figure class="mouettes" style="border: 1px solid black;border-radius: 8%; width: 220px; height: 180px;">                                               
+                                        <figure class="mouettes" style="border: 1px solid red;border-radius: 8%; width: 220px; height: 180px;">                                               
                                                 <a href="images/hebergements/1_xlarge/h_mouettes_xl.jpg"><img src="images/hebergements/4_small/h_mouettes_s.jpg" alt="Hôtel les mouettes" style="width: 220px; height: 120px; border-radius: 9% 9% 0% 0%;" /></a>
                                                 <figcaption><mark>Hôtel les mouettes</mark><br />
                                                 Nuit à partir de 76<strong>€</strong><br />
@@ -108,7 +106,7 @@
                                                 </figcaption>
                                         </figure>    
 
-                                        <figure class="mer" style="border: 1px solid black;border-radius: 8%; width: 220px; height: 180px;">                                                
+                                        <figure class="mer" style="border: 1px solid red;border-radius: 8%; width: 220px; height: 180px;">                                                
                                                 <a href="images/hebergements/1_xlarge/h_mer_xl.jpg"><img src="images/hebergements/4_small/h_mer_s.jpg" alt="Hôtel de la mer" style="width: 220px; height: 120px; border-radius: 9% 9% 0% 0%;" /></a>
                                                 <figcaption><mark>Hôtel de la mer</mark><br />
                                                 Nuit à partir de 46<strong>€</strong><br />
@@ -116,15 +114,15 @@
                                                 </figcaption>
                                         </figure>      
 
-                                        <figure class="panier" style="border: 1px solid black;border-radius: 8%; width: 220px; height: 180px;">
-                                                <a href="images/hebergements/1_xlarge/a_panier_xl.jpg"><img src="images/hebergements/4_small/a_panier_s.jpg" alt="Auberge le Panier"style="width: 220px; height: 120px; border-radius: 9% 9% 0% 0%;" /></a>
+                                        <figure class="panier" style="border: 1px solid red;border-radius: 8%; width: 220px; height: 180px;">
+                                                <a href="images/hebergements/1_xlarge/a_panier_xl.jpg"><img src="images/hebergements/4_small/a_panier_s.jpg" alt="Auberge le Panier" style="width: 220px; height: 120px; border-radius: 9% 9% 0% 0%;" /></a>
                                                 <figcaption><mark>Auberge Le Panier</mark><br />
                                                 Nuit à partir de <strong>25€</strong><br />
                                                 <img src="images/stars/4stars.png" alt="4 étoiles" style="width: 80px; height: 18px;" />                                                
                                                 </figcaption>
                                         </figure>
                                 
-                                        <figure class="amina" style="border: 1px solid black;border-radius: 8%; width: 220px; height: 180px;">
+                                        <figure class="amina" style="border: 1px solid red;border-radius: 8%; width: 220px; height: 180px;">
                                                 <a href="images/hebergements/1_xlarge/h_amina_xl.jpg"><img src="images/hebergements/4_small/h_amina_s.jpg" alt="Hôtel chez Amina" style="width: 220px; height: 120px; border-radius: 9% 9% 0% 0%;" /></a>
                                                 <figcaption><mark>Hôtel chez Amina</mark><br />
                                                 Nuit à partir de 96<strong>€</strong><br />
@@ -132,42 +130,42 @@
                                                 </figcaption>
                                         </figure>
                    
-                                        <a href=""><strong>Afficher plus</strong></a>
+                                        <a href="" id="ap"><strong>Afficher plus</strong></a>
                                 </div>
                         </section>
                 </div>
 
                 <section id="act">
                         <div id="activites">                  <!--conteneur 3-->         <!--6 elements-->
-                        <h2>Activités à Marseille</h2>
+                        <h1>Activités à Marseille</h1>
                                                          
-                                <figure class="vieux port">
-                                        <a href="images/activites/1_xlarge/act_port_xl.jpg"><img src="images/activites/2_large/act_port_l.jpg" alt="Vieux port" /></a>       <!--grand-->
+                                <figure class="aport" style="border: 1px solid red;border-radius: 8%; width: 270px; height: 300px;">
+                                        <a href="images/activites/1_xlarge/act_port_xl.jpg"><img src="images/activites/2_large/act_port_l.jpg" alt="Vieux port" style="width: 270px; height: 260px; border-radius: 9% 9% 0% 0%;" /></a>       <!--grand-->
                                         <figcaption><mark>Vieux Port</mark></figcaption>
                                 </figure>
 
-                                <figure class="pomegue">
-                                        <a href="images/activites/1_xlarge/act_pomegues_xl.jpg"><img src="images/activites/3_medium/act_pomegues_m.jpg" alt="Fort de Pomègues" /></a>  <!--medium-->
+                                <figure class="pomegue" style="border: 1px solid red;border-radius: 8%; width: 270px; height: 180px;">
+                                        <a href="images/activites/1_xlarge/act_pomegues_xl.jpg"><img src="images/activites/3_medium/act_pomegues_m.jpg" alt="Fort de Pomègues" style="width: 270px; height: 140px; border-radius: 9% 9% 0% 0%;" /></a>  <!--medium-->
                                         <figcaption><mark>Fort de Pomègues</mark></figcaption>
                                 </figure>
 
-                                <figure class="frioul">
-                                        <a href="images/activites/1_xlarge/act_frioul_xl.jpg"><img src="images/activites/3_medium/act_frioul_m.jpg" alt="Iles du Frioul" /></a>       <!--medium-->
+                                <figure class="frioul" style="border: 1px solid red;border-radius: 8%; width: 270px; height: 120px;">
+                                        <a href="images/activites/1_xlarge/act_frioul_xl.jpg"><img src="images/activites/3_medium/act_frioul_m.jpg" alt="Iles du Frioul" style="width: 270px; height: 80px; border-radius: 9% 9% 0% 0%;" /></a>       <!--medium-->
                                         <figcaption><mark>Iles du Frioul</mark></figcaption>
                                 </figure>
 
-                                <figure class="calanques">
-                                        <a href="images/activites/1_xlarge/act_calanques_xl.jpg"><img src="images/activites/2_large/act_calanques_l.jpg" alt="Parc national des calanques" /></a>
-                                        <figcaption><strong>Parc National des calanques</strong></figcaption>
+                                <figure class="calanques" style="border: 1px solid red;border-radius: 8%; width: 270px; height: 300px;">
+                                        <a href="images/activites/1_xlarge/act_calanques_xl.jpg"><img src="images/activites/2_large/act_calanques_l.jpg" alt="Parc national des calanques" style="width: 270px; height: 260px; border-radius: 9% 9% 0% 0%;" /></a>
+                                        <figcaption><mark>Parc National des calanques</mark></figcaption>
                                 </figure>  
                                                                                   <!--grand-->
-                                <figure class="NDG">
-                                        <a href="images/activites/1_xlarge/act_ndg_xl.jpg"><img src="images/activites/3_medium/act_ndg_m.jpg" alt="Notre-Dame de la garde" /></a>
+                                <figure class="NDG" style="border: 1px solid red;border-radius: 8%; width: 270px; height: 120px;">
+                                        <a href="images/activites/1_xlarge/act_ndg_xl.jpg"><img src="images/activites/3_medium/act_ndg_m.jpg" alt="Notre-Dame de la garde" style="width: 270px; height: 80px; border-radius: 9% 9% 0% 0%;" /></a>
                                         <figcaption><mark>Notre-Dame-de-la-Garde</mark></figcaption>
                                 </figure>        
                                                                            <!--medium-->
-                                <figure class="longchamp">
-                                        <a href="images/activites/1_xlarge/act_longchamp_xl.jpg"><img src="images/activites/3_medium/act_longchamp_m.jpg" alt="Parc Longchamp" /></a>
+                                <figure class="longchamp" style="border: 1px solid red;border-radius: 8%; width: 270px; height: 180px;">
+                                        <a href="images/activites/1_xlarge/act_longchamp_xl.jpg"><img src="images/activites/3_medium/act_longchamp_m.jpg" alt="Parc Longchamp" style="width: 270px; height: 140px; border-radius: 9% 9% 0% 0%;" /></a>
                                         <figcaption><mark>Parc Longchamp</mark></figcaption>
                                 </figure>                                                   <!--medium-->
                         </div>

@@ -6,7 +6,7 @@
 
 .interlignage
 {
-    line-height: 100%;
+    line-height: 100%;  /* a revoir */
 }
 
 body
@@ -72,12 +72,11 @@ h1
 
 #recherche
 {
-    margin-right: 0px;             /* bordure a droite */
+    margin-right: 5px;             /* bordure a droite */
     background: white;           /* fond */
     color: black;                /* police */
     position: relative;             /* pour les elements before et after */
-    font-size: 12px;                /* taille police */
-    padding: 0px 0px 0px 5px;          
+    font-size: 12px;                /* taille police */          
     border: solid 1px red;        /* bordure a changer */
     border-radius:15px;  
     width: 290px;
@@ -111,7 +110,7 @@ h1
     border-radius: 25px;                    /* arrondi ok */   
     display: inline-flex;
     width: auto;
-    height: 28px;
+    height: auto;
     font-weight: bold;
 }
 
@@ -134,7 +133,7 @@ h1
     border-radius: 50px;
     position: relative;
     height: 30px;
-    width: 30px;
+    width: 30px;  
 }
 
 

@@ -8,7 +8,7 @@
         </head>
 
 <body>
-
+<div id="bloc_page">
         <header>                                                         <!--logo et choix de navigation-->                                                         
                 <div id="logo">                                          <!--a positionner a gauche-->
                         <img src="images/logo/Reservia@3x.png" alt="logo réservia" />
@@ -49,11 +49,11 @@
         </nav>
   
         <main id="superconteneur">
-                <div id="hebergements">
-                        <section class="pop">                           <!--Conteneur 2-->
-                                <div class="populaires">  
+                <div id="locations">
+                        <section id="pop">                           <!--Conteneur 2-->
+                                <div id="populaires">  
                                         <h2>Les plus populaires</h2>                 <!--3 elements-->
-                                        <figure class="htl soleil">                              
+                                        <figure class="soleil"                              
                                                 <a href="images/hebergements/1_xlarge/h_soleil_xl.jpg"><img src="images/hebergements/4_small/h_soleil_s.jpg" alt="Hôtel le soleil du matin" /></a>
                                                 <figcaption><mark>Hôtel Le soleil du matin</mark><br />
                                                 Nuit à partir de 128<strong>€</strong><br />
@@ -61,7 +61,7 @@
                                                 </figcaption>
                                         </figure>
 
-                                        <figure class="au coeur de l'eau">
+                                        <figure class="eau">
                                                 <a href="images/hebergements/1_xlarge/ch_eau_xl.jpg"><img src="images/hebergements/4_small/ch_eau_s.jpg" alt="Au coeur de l'eau chambre d'hotes" /></a>
                                                 <figcaption><mark>Au coeur de l'eau Chambre d'hôtes</mark><br />
                                                 Nuit à partir de 71<strong>€</strong><br />
@@ -69,7 +69,7 @@
                                                 </figcaption>
                                         </figure>
 
-                                        <figure class="htl bleu">
+                                        <figure class="bleu">
                                                 <a href="images/hebergements/1_xlarge/h_bleu_xl.jpg"><img src="images/hebergements/4_small/h_bleu_s.jpg" alt="Hôtel tout bleu et blanc" /></a>
                                                 <figcaption><mark>Hôtel tout bleu et Blanc</mark><br />
                                                 Nuit à partir de 68<strong>€</strong><br />
@@ -79,10 +79,10 @@
                                 </div>
                         </section>
 
-                        <section class="heb">                           <!--conteneur 1-->
-                                <div class="hebergement">
+                        <section id="heb">                           <!--conteneur 1-->
+                                <div id="hebergement">
                                         <h2>Hébergements à Marseille</h2>       <!--elements 6-->
-                                        <figure class="a cannebiere"> 
+                                        <figure class="cannebiere"> 
                                                 <a href="images/hebergements/1_xlarge/a_cannebiere_xl.jpg"><img src="images/hebergements/4_small/a_cannebiere_s.jpg" alt="Auberge la Cannebière" /></a> 
                                                 <figcaption><mark>Auberge la cannebiere</mark><br />
                                                 Nuit à partir de <strong>25€</strong><br />
@@ -90,7 +90,7 @@
                                                 </figcaption> 
                                         </figure>
 
-                                        <figure class="htl port">                                                
+                                        <figure class="port">                                                
                                                 <a href="images/hebergements/1_xlarge/h_port_xl.jpg"><img src="images/hebergements/4_small/h_port_s.jpg" alt="Hôtel du port" /></a>
                                                 <figcaption><mark>Hôtel du port</mark><br />
                                                 Nuit à partir de 52<strong>€</strong><br />
@@ -98,7 +98,7 @@
                                                 </figcaption>
                                         </figure>
                                
-                                        <figure class="htl mouettes">                                                
+                                        <figure class="mouettes">                                                
                                                 <a href="images/hebergements/1_xlarge/h_mouettes_xl.jpg"><img src="images/hebergements/4_small/h_mouettes_s.jpg" alt="Hôtel les mouettes" /></a>
                                                 <figcaption><mark>Hôtel les mouettes</mark><br />
                                                 Nuit à partir de 76<strong>€</strong><br />
@@ -106,7 +106,7 @@
                                                 </figcaption>
                                         </figure>    
 
-                                        <figure class="htl mer">                                                
+                                        <figure class="mer">                                                
                                                 <a href="images/hebergements/1_xlarge/h_mer_xl.jpg"><img src="images/hebergements/4_small/h_mer_s.jpg" alt="Hôtel de la mer" /></a>
                                                 <figcaption><mark>Hôtel de la mer</mark><br />
                                                 Nuit à partir de 46<strong>€</strong><br />
@@ -114,7 +114,7 @@
                                                 </figcaption>
                                         </figure>      
 
-                                        <figure class="aub panier">
+                                        <figure class="panier">
                                                 <a href="images/hebergements/1_xlarge/a_panier_xl.jpg"><img src="images/hebergements/4_small/a_panier_s.jpg" alt="Auberge le Panier" /></a>
                                                 <figcaption><mark>Auberge Le Panier</mark><br />
                                                 Nuit à partir de <strong>25€</strong><br />
@@ -122,7 +122,7 @@
                                                 </figcaption>
                                         </figure>
                                 
-                                        <figure class="htl amina">
+                                        <figure class="amina">
                                                 <a href="images/hebergements/1_xlarge/h_amina_xl.jpg"><img src="images/hebergements/4_small/h_amina_s.jpg" alt="Hôtel chez Amina" /></a>
                                                 <figcaption><mark>Hôtel chez Amina</mark><br />
                                                 Nuit à partir de 96<strong>€</strong><br />
@@ -135,7 +135,7 @@
                         </section>
                 </div>
 
-                <section class="act">
+                <section id="act">
                         <div id="activites">                  <!--conteneur 3-->         <!--6 elements-->
                         <h2>Activités à Marseille</h2>
                                                          
@@ -174,7 +174,7 @@
        
 
         <footer>    
-                <div class="apropos">                          <!--block-->
+                <div id="apropos">                          <!--block-->
                         <h2>A propos</h2>
                         <ul>
                                 <li><a href="">Fonctionnement du site</a></li>
@@ -183,7 +183,7 @@
                         </ul>
                 </div>
 
-                <div class="hebergement">
+                <div id="offres">
                         <h2>Nos hébergements</h2>
                         <ul>
                                 <li><a href="">Charte qualité</a></li>
@@ -191,7 +191,7 @@
                         </ul>
                 </div>
 
-                <div class="assistance">
+                <div id="assistance">
                         <h2>Assitance</h2>
                         <ul>
                                 <li><a href="">Centre d'aide</a></li>
@@ -199,5 +199,6 @@
                         </ul>
                 </div>
         </footer>
+</div>
 </body>       
 </html>

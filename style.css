@@ -143,18 +143,16 @@ h1
     width: 28px;  
 }
 
-/* conteneur hebergement */
+/* super conteneur locations */
+/* conteneur 1 pop */
+
+
 
 #suite
 {
     margin-right: 5px;
     display: inline-flex;
     text-align: right;
-}
-
-mark
-{
-    font-weight: bold;   
 }
 
 .soleil
@@ -192,6 +190,8 @@ mark
     width: 170px; 
     height: 115px; 
 }
+
+/* conteneur 2  heb*/
 
 .cannebiere figcaption
 {
@@ -278,36 +278,46 @@ mark
     font-size: 0.8em;
 }
 
-#activites figcaption
-{
-    font-size: 0.7em;
-    padding-left: 1em;
-    padding-bottom: 2em;
+/* conteneur 3 act */
+
+#activites
+{ 
+    display: flex;
+    align-content: center;   
 }
 
-/* footer */
+
+/* footer conteneur 4 */
+
+h2
+{
+    font-size: 1em;
+}
 
 #apropos ul
 {
-    list-style-type: none;                  
+    list-style-type: none; 
+    display: flex; 
+    flex-direction: column;                
 }
 #apropos a
 {
+    font-size: 1em;
     color: black;             
-    text-decoration: none;                  
-    margin-left: 0;
+    text-decoration: none; 
+    text-decoration: none;                 
 }
 
 #offres ul
 {
-    list-style-type: none;                 
+    list-style-type: none; 
 }
 
 #offres a
 {
     color: black;             
     text-decoration: none;                 
-    margin-left: 0;
+    display: flex;
 }  
 
 #assistance ul
@@ -319,10 +329,11 @@ mark
 {
     color: black;             
     text-decoration: none;                
-    margin-left: 0;
+    display: flex;
 }
                                     
-
-
-/* ajouter le fond gris #F2F2F2 au trois conteneurs */
-/* bleu #0065FC  plus clair #DEEBFF */
+#autres
+{
+    display: flex;
+    justify-content: space-between;
+}

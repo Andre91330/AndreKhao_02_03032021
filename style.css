@@ -37,8 +37,8 @@ header                  /* a corriger */
 {
     text-align: left;
     display: flex;
-    height: 40px;       
-    width: 70px;       
+    height: 45px;       
+    width: 90px;       
 }
 
 nav ul                   /* navigation */ 
@@ -289,51 +289,42 @@ h1
 
 /* footer conteneur 4 */
 
-h2
+
+footer
 {
-    font-size: 1em;
+    background-color: #f2f2f2;
+    width: 100%;
+    max-width: 900px
+    padding-top: 10px;
+    padding-left: 10px;
+    
 }
 
-#apropos ul
+#footerContent
 {
-    list-style-type: none; 
-    display: flex; 
-    flex-direction: column;                
-}
-#apropos a
-{
-    font-size: 1em;
-    color: black;             
-    text-decoration: none; 
-    text-decoration: none;                 
-}
-
-#offres ul
-{
-    list-style-type: none; 
-}
-
-#offres a
-{
-    color: black;             
-    text-decoration: none;                 
-    display: flex;
-}  
-
-#assistance ul
-{
-    list-style-type: none;                  
-}
-
-#assistance a
-{
-    color: black;             
-    text-decoration: none;                
-    display: flex;
-}
-                                    
-#autres
-{
+    margin-left: 10px;
     display: flex;
     justify-content: space-between;
+}
+
+.footerColumn h2
+{
+    color: black;
+    font-size: 1em;
+}
+
+.footerColumn ul,
+{
+    list-style-type: none;        /* ?? */              
+    color: black;
+}
+
+.footerColumn li
+{
+    text-decoration: none;          /* ?? */
+}
+
+.footerColumn li, .footerColumn a
+{
+    color:black;
 }

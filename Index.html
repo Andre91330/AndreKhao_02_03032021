@@ -25,11 +25,11 @@
         <nav>        
                 <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
                 <p>En plein centre ville ou en pleine nature</p>        
-                <div id="recherche">
-                <img src="images/icones/markerxs.png" alt="marker" />
+                <div class="boutonrecherche">
+                        <img src="images/icones/markerxs.png" alt="marker" />
                         <input type="text" name="ville" id="ville" placeholder="Marseille, France" />
-                        <input type="submit" value="Rechercher" />
-                </div><br />
+                        <button type="submit" value="Rechercher">Recherche</button><br />
+                </div>
 
                 <nav id="filtre"> 
                         <p><strong>Filtres</strong></p>
@@ -90,8 +90,8 @@
                         </section>
 
                         <section id="heb">                           <!--conteneur 2-->
-                                <div id="hebergement">                     <!--elements 6-->     
-                                        <h1>Hébergements à Marseille</h1>       
+                                <h1>Hébergements à Marseille</h1>
+                                <div id="hebergement">                     <!--elements 6-->           
                                         <figure class="cannebiere" 
                                                         style="border: 4px solid red; border-radius: 25px; width: 220px; height: 180px;">
                                                 <a href="images/hebergements/1_xlarge/a_cannebiere_xl.jpg"><img src="images/hebergements/1_xlarge/a_cannebiere_xl.jpg" alt="Auberge la Cannebière" 
@@ -167,42 +167,42 @@
                         <h1>Activités à Marseille</h1>
                         <div id="activites">                          <!--6 elements-->                                
                                 <figure class="aport" 
-                                                style="border: 1px solid white;border-radius: 8%; width: 270px; height: 300px; box-shadow: 5px 5px #f2f2f2;">
+                                                style="border: 1px solid white;border-radius: 8%; width: 270px; height: 300px; box-shadow: 5px 5px 6px #f2f2f2;">
                                         <a href="images/activites/1_xlarge/act_port_xl.jpg"><img src="images/activites/1_xlarge/act_port_xl.jpg" alt="Vieux port" 
                                                 style="width: 270px; height: 260px; border-radius: 9% 9% 0% 0%;" /></a>       <!--grand-->
                                         <figcaption style="font-size: 0.7em; padding-left: 1em; padding-bottom: 2em;"><strong>Vieux Port</strong></figcaption>
                                 </figure>
 
                                 <figure class="pomegue" 
-                                                style="border: 1px solid white;border-radius: 8%; width: 270px; height: 180px; box-shadow: 5px 5px #f2f2f2;">
+                                                style="border: 1px solid white;border-radius: 8%; width: 270px; height: 180px; box-shadow: 5px 5px 6px #f2f2f2;">
                                         <a href="images/activites/1_xlarge/act_pomegues_xl.jpg"><img src="images/activites/1_xlarge/act_pomegues_xl.jpg" alt="Fort de Pomègues" 
                                                 style="width: 270px; height: 140px; border-radius: 9% 9% 0% 0%;" /></a>  <!--medium-->
                                         <figcaption style="font-size: 0.7em; padding-left: 1em; padding-bottom: 2em;"><strong>Fort de Pomègues</strong></figcaption>
                                 </figure>
 
                                 <figure class="frioul" 
-                                                style="border: 1px solid white;border-radius: 8%; width: 270px; height: 120px;box-shadow: 5px 5px #f2f2f2; ">
+                                                style="border: 1px solid white;border-radius: 8%; width: 270px; height: 120px;box-shadow: 5px 5px 6px #f2f2f2; ">
                                         <a href="images/activites/1_xlarge/act_frioul_xl.jpg"><img src="images/activites/1_xlarge/act_frioul_xl.jpg" alt="Iles du Frioul" 
                                                 style="width: 270px; height: 80px; border-radius: 9% 9% 0% 0%;" /></a>       <!--medium-->
                                         <figcaption style="font-size: 0.7em; padding-left: 1em; padding-bottom: 2em;"><strong>Iles du Frioul</strong></figcaption>
                                 </figure>
 
                                 <figure class="calanques" 
-                                                style="border: 1px solid white;border-radius: 8%; width: 270px; height: 300px; box-shadow: 5px 5px #f2f2f2;">
+                                                style="border: 1px solid white;border-radius: 8%; width: 270px; height: 300px; box-shadow: 5px 5px 6px #f2f2f2;">
                                         <a href="images/activites/1_xlarge/act_calanques_xl.jpg"><img src="images/activites/1_xlarge/act_calanques_xl.jpg" alt="Parc national des calanques" 
                                                 style="width: 270px; height: 260px; border-radius: 9% 9% 0% 0%;" /></a>
                                         <figcaption style="font-size: 0.7em; padding-left: 1em; padding-bottom: 2em;"><strong>Parc National des calanques</strong></figcaption>
                                 </figure>  
                                                                                   <!--grand-->
                                 <figure class="NDG" 
-                                                style="border: 1px solid white;border-radius: 8%; width: 270px; height: 120px; box-shadow: 5px 5px #f2f2f2;">
+                                                style="border: 1px solid white;border-radius: 8%; width: 270px; height: 120px; box-shadow: 5px 5px 6px #f2f2f2;">
                                         <a href="images/activites/1_xlarge/act_ndg_xl.jpg"><img src="images/activites/1_xlarge/act_ndg_xl.jpg" alt="Notre-Dame de la garde" 
                                                 style="width: 270px; height: 80px; border-radius: 9% 9% 0% 0%;" /></a>
                                         <figcaption style="font-size: 0.7em; padding-left: 1em; padding-bottom: 2em;"><strong>Notre-Dame-de-la-Garde</strong></figcaption>
                                 </figure>        
                                                                            <!--medium-->
                                 <figure class="longchamp" 
-                                                style="border: 1px solid white;border-radius: 8%; width: 270px; height: 180px; box-shadow: 5px 5px #f2f2f2;">
+                                                style="border: 1px solid white;border-radius: 8%; width: 270px; height: 180px; box-shadow: 5px 5px 6px #f2f2f2;">
                                         <a href="images/activites/1_xlarge/act_longchamp_xl.jpg"><img src="images/activites/1_xlarge/act_longchamp_xl.jpg" alt="Parc Longchamp" 
                                                 style="width: 270px; height: 140px; border-radius: 9% 9% 0% 0%;" /></a>
                                         <figcaption style="font-size: 0.7em; padding-left: 1em; padding-bottom: 2em;"><strong>Parc Longchamp</strong></figcaption>

@@ -4,9 +4,16 @@
     src:local('fonts/Raleway-Regular.ttf')
 }                       /* police a installer,revoir */
 
+#bloc_page
+{
+    width: 1000px;
+    margin: auto;
+
+}
+
 .interlignage            /* a revoir */
 {
-    line-height: 100%;  
+    line-height: 1em;  
 }
 
 body
@@ -17,12 +24,29 @@ body
     line-height: 200%;
 }
 
-#bloc_page
+body ul
 {
-    width: 1000px;
-    margin: auto;
-
+    list-style-type: none;
+    display: flex;  
 }
+
+body li
+{
+    text-decoration: none;
+}
+
+body a
+{
+    text-decoration: none;
+    color: black;
+    font-size: 1em;
+}
+
+h1
+{
+    font-size: 1em;
+}
+
 
 /*  header */
 
@@ -37,27 +61,19 @@ header                  /* a corriger */
 {
     text-align: left;
     display: flex;
-    height: 45px;       
-    width: 90px;       
+    height: 4em;       
+    width: 9em;     
 }
 
-nav ul                   /* navigation */ 
-{                         
-   list-style-type: none;                   /* sans point ok */  
-   display: flex;                           
-}
 
-nav li
-{
-    margin-right: 15px;
-}
 
-nav a                    /* gris a mettre en place */
+
+nav a                  /* gris a mettre en place */
 {
     color: #0065fc;             
     text-decoration: none;                  /* sans soulignement */
-    padding: 10px;
-    padding-right: 5px;
+    padding: 1em;
+    padding-right: 2em;
 }
 
 strong
@@ -67,15 +83,12 @@ strong
 
 nav a:hover                               
 {
-   border-top: 2px solid #0065fc;          /* surlignement ok */  
+   border-top: 0.1em solid #0065fc;          /* surlignement ok */  
 }
 
 /* navigation */
 
-h1
-{
-    font-size: 1em;
-}
+
 
 .boutonrecherche                /* a coorriger */
 {
@@ -99,19 +112,19 @@ h1
 
 #filtre
 {
-    margin-right: 10px;
+    margin-right: 3px;
     display: inline-flex;
     text-align: right;                 /* a corriger */
 }
 
 #filtre a
 {
-    margin-right: auto;
+    margin-right: 5px;
     background: white;           /* fond */
     color: black;                /* police */
     text-decoration: none;          /* pas de soulignement */
     position: relative;             /* pour les elements before et after */
-    font-size: 12px;                /* taille police */
+    font-size: 0.8em;                /* taille police */
     padding: 0px 15px 0px 0px;              /* bordure a droite */
     border: solid 1px #deebff;        /* bordure a changer */
     border-radius: 25px;                    /* arrondi ok */   
@@ -119,6 +132,7 @@ h1
     width: auto;
     height: auto;
     font-weight: bold;
+    margin-right: 15px;
 }
 
 #filtre img
@@ -311,37 +325,24 @@ h1
 /* footer conteneur 4 */
 
 
-footer
+footer h2
 {
-    background-color: #f2f2f2;
-    width: 100%;
-    padding-top: 10px;
-    padding-left: 10px;
-    
+    font-size: 1em;
 }
 
 footer ul
 {
-    list-style-type: none;
-    color: black;
+    flex-direction: column;
 }
 
-footer a
+.various
 {
-    text-decoration: none;
-    color: black;
-    font-size: 1em;
+    padding-left: 3em;
 }
-
-#footerContent
+footer
 {
-    margin-left: 10px;
-    margin-right: 10px;
+    background-color: #f2f2f2;
+    width: 100%;
     display: flex;
-}
-
-.footerColumn h2
-{
-    color: black;
-    font-size: 1em;
+    font-size: 0.8em;
 }

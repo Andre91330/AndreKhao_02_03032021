@@ -19,7 +19,7 @@ body
 
 #bloc_page
 {
-    width: 900px;
+    width: 1000px;
     margin: auto;
 
 }
@@ -77,20 +77,20 @@ h1
     font-size: 1em;
 }
 
-#recherche                /* a coorriger */
+.boutonrecherche                /* a coorriger */
 {
     color: black;                     /* police */
     position: relative;                 /* pour les elements before et after */
     font-size: 1em;                    /* taille police */          
     border: solid 1px red;            /* bordure a changer */
     background: #0065fc;       /* a revoir */
-    border-radius:15px;  
+    border-radius:10px;  
     width: 290px;
     height: 30px;
     display: inline-flex;
 }
 
-#recherche img             /* a ameliorer */
+.boutonrecherche img             /* a ameliorer */
 {
     position: relative;
     height: 30px;       
@@ -278,14 +278,35 @@ h1
     font-size: 0.8em;
 }
 
-/* conteneur 3 act */
-
-#activites
-{ 
-    display: flex;
-    align-content: center;   
+#heb
+{
+    background-color: #f2f2f2;
+    padding-top: 15px;
+    padding-left: 5px;
+    padding-bottom: 20px;
 }
 
+#hebergement
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* conteneur 3 act */
+
+#act
+{
+    background-color: grey;      /* a changer blanc */
+    padding-top: 15px;
+    padding-left: 5px;
+    padding-bottom: 20px;
+}
+
+#activites
+{
+    display: flex;
+    flex-wrap: wrap;
+}
 
 /* footer conteneur 4 */
 
@@ -294,37 +315,33 @@ footer
 {
     background-color: #f2f2f2;
     width: 100%;
-    max-width: 900px
     padding-top: 10px;
     padding-left: 10px;
     
 }
 
+footer ul
+{
+    list-style-type: none;
+    color: black;
+}
+
+footer a
+{
+    text-decoration: none;
+    color: black;
+    font-size: 1em;
+}
+
 #footerContent
 {
     margin-left: 10px;
+    margin-right: 10px;
     display: flex;
-    justify-content: space-between;
 }
 
 .footerColumn h2
 {
     color: black;
     font-size: 1em;
-}
-
-.footerColumn ul,
-{
-    list-style-type: none;        /* ?? */              
-    color: black;
-}
-
-.footerColumn li
-{
-    text-decoration: none;          /* ?? */
-}
-
-.footerColumn li, .footerColumn a
-{
-    color:black;
 }

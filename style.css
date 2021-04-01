@@ -37,7 +37,7 @@ body a
 
 h1, h2
 {
-    font-size: 1rem;
+    font-size: 1.2rem;
 }
 
 
@@ -50,7 +50,7 @@ header                  /* a corriger */
     align-items: flex-end;
 }
 
-#logo                    /* a corriger*/
+#logo                    /* a ajuster */
 {
     text-align: left;
     display: flex;
@@ -58,11 +58,11 @@ header                  /* a corriger */
     width: 9rem;     
 }
 
-nav a                  /* gris a mettre en place */
+nav a                  
 {
     color: #0065fc;             
-    text-decoration: none;                  /* sans soulignement */
-    padding: 1.25rem;         /* 20px */
+    text-decoration: none;                      /* sans soulignement */
+    padding: 1.25rem;         
 }
 
 strong
@@ -80,10 +80,10 @@ nav a:hover
 .boutonrecherche       /* a corriger */
 {
     font-size: 1.8rem; 
-    border: 0.2rem solid red;                   /* taille police */                      /* bordure a changer */
+    border: 0.1rem solid #f2f2f2;                   /* taille police */                      /* bordure a changer */
     border-radius: 0.5rem;                 /* 10px */  
-    width: 10rem;                          /* 290px */
-    height: 1.1rem;                          /* 30px */  
+    width: 17.35rem;                          /* 290px */
+    height: 2rem;                          /* 30px */  
     display: flex;
     margin: 1rem;
 }
@@ -145,8 +145,8 @@ button
 
 #infoville img
 {
-    border:solid 0.01rem #deebff;       /* 1px */
-    border-radius: 1rem;                 /* 50px */
+    border:solid 0.01rem #deebff;       
+    border-radius: 1rem;                 
     height: 2rem;
     width: 2rem;
     vertical-align: middle;
@@ -155,50 +155,53 @@ button
 
 /* super conteneur locations */
 
-/* conteneur 1 pop */
+#populaires       /* conteneur 1 pop */ 
+{
+    display: flex;
+    flex-direction: column;
+    width: 20.5rem;
+    background-color: #f2f2f2; 
+}
 
 #suite
 {
     float: right; 
-    width: 1.2rem;                       /* 30px */
-    height: 1.2rem;
+    padding-right: 1rem;
+    width: 2rem;                      
+    height: 2rem;
     vertical-align: text-bottom;      /* a corriger */
-}
-
-#pop         
-{
-    display: flex;
 }
 
 .hpop
 {
-    border: 0.16rem solid black;        /* 4px */
-    border-radius: 2rem;                 /* 25px */
-    width: 25rem; 
-    height: 9rem;
+    border: 0.3rem solid white; 
+    border-radius: 1.5rem;                 
+    width: 18rem; 
+    height: 7rem;
     background: white;
     color: black;
-    font-size: 0.7rem;
+    font-size: 0.5rem;
     line-height: 1.5rem;
     display: flex;
     text-align: left;
     margin: 1rem;
-    font-size: 0.9rem;
+    font-size: 0.7rem;
 }
 
-#i_soleil
+.hpopi
 {
-    width: 10rem;
-    height: 9rem; 
-    border-radius: 1.9rem 0rem 0rem 1.9rem;
+    width: 8rem;
+    height: 7rem; 
+    border-radius: 1.3rem 0rem 0rem 1.3rem;
 }
 
-#t_soleil
+.hpopt                      /* interligne a revoir */
 {
-    padding-left: 1rem;
+    padding-left: 0.5rem;
+    padding-right: 1rem;
 }
 
-#e_soleil
+.hpope                              /* a revoir */
 {
     align-items: flex-end;
 }

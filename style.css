@@ -4,17 +4,22 @@
     src:local('fonts/Raleway-Regular.ttf')
 }                       /* police a installer,revoir */
 
+html
+{
+    font-size: 100%;
+}
+
 #bloc_page
 {
-    width: 990px;
+    width: 61.875rem;         /* 990px */
 }
 
 body
 {
     font-family: 'Raleway', Verdana, sans-serif;
     color: black;
-    font-size: 1em;
-    line-height: 200%;
+    font-size: 1rem;            /* 16px */
+    line-height: 1rem;
 }
 
 body ul
@@ -27,12 +32,12 @@ body a
 {
     text-decoration: none;
     color: black;
-    font-size: 1em;
+    font-size: 1rem;
 }
 
-h1
+h1, h2
 {
-    font-size: 1em;
+    font-size: 1rem;
 }
 
 
@@ -49,15 +54,15 @@ header                  /* a corriger */
 {
     text-align: left;
     display: flex;
-    height: 4em;       
-    width: 9em;     
+    height: 4rem;       
+    width: 9rem;     
 }
 
 nav a                  /* gris a mettre en place */
 {
     color: #0065fc;             
     text-decoration: none;                  /* sans soulignement */
-    padding: 20px;
+    padding: 1.25rem;         /* 20px */
 }
 
 strong
@@ -67,35 +72,52 @@ strong
 
 nav a:hover                               
 {
-   border-top: 0.1em solid #0065fc;          /* surlignement ok */  
+   border-top: 0.1rem solid #0065fc;          /* surlignement ok */  
 }
 
 /* navigation */
 
-.boutonrecherche                /* a coorriger */
+.boutonrecherche       /* a corriger */
 {
-    color: black;                     /* police */
-    position: relative;                 /* pour les elements before et after */
-    font-size: 1em;                    /* taille police */          
-    border: 1px solid red;            /* bordure a changer */
-    background: #0065fc;       /* a revoir */
-    border-radius:10px;  
-    width: 290px;
-    height: 30px;
-    display: inline-flex;
+    font-size: 1.8rem; 
+    border: 0.2rem solid red;                   /* taille police */                      /* bordure a changer */
+    border-radius: 0.5rem;                 /* 10px */  
+    width: 10rem;                          /* 290px */
+    height: 1.1rem;                          /* 30px */  
+    display: flex;
+    margin: 1rem;
+}
+
+.control
+{
+    display: flex; 
+    vertical-align: middle;
+    height: 2rem;
+}
+
+button
+{
+    background-color: #0065fc;
+    color:white;
+    height: 2rem;
+    border-radius: 0rem 0.5rem 0.5rem 0rem;
 }
 
 .boutonrecherche img             /* a ameliorer */
 {
     position: relative;
-    height: 30px;       
-    width: 30px; 
+    height: 2rem;                    
+    width: 2rem; 
+    background-color: #f2f2f2;
+    border-radius: 0.4rem 0rem 0rem 0.4rem;
 }
 
 #filtre
 {
+    clear: left;
     display: inline-flex;
-    text-align: right;                 /* a corriger */
+    text-align: left; 
+    line-height: 2rem;                /* a corriger */
 }
 
 #filtre a
@@ -104,30 +126,31 @@ nav a:hover
     color: black;                /* police */
     text-decoration: none;          /* pas de soulignement */
     position: relative;             /* pour les elements before et after */
-    font-size: 0.8em;                /* taille police */
-    padding: 0px 15px 0px 0px;              /* bordure a droite */
-    border: 1px solid #deebff;        /* bordure a changer */
-    border-radius: 25px;                    /* arrondi ok */   
+    font-size: 0.8rem;                /* taille police */
+    padding: 0rem 1rem 0rem 0rem;              /* 15px bordure a droite */
+    border: 0.1rem solid #deebff;        /* 1px bordure a changer */
+    border-radius: 25rem;                    /* 25px arrondi ok */   
     display: inline-flex;
     width: auto;
     font-weight: bold;
-    margin-right: 1em;
+    margin-right: 1rem;
 }
 
 #filtre img
 {
-    height: 35px;       
-    width: 35px; 
+    height: 2rem;                 
+    width: 2rem; 
+    vertical-align: middle;
 }
 
 #infoville img
 {
-    border:solid 1px #deebff;
-    border-radius: 50px;
-    height: 30px;
-    width: 30px;
+    border:solid 0.01rem #deebff;       /* 1px */
+    border-radius: 1rem;                 /* 50px */
+    height: 2rem;
+    width: 2rem;
     vertical-align: middle;
-    margin-right: 1em;
+    margin-right: 1rem;
 }
 
 /* super conteneur locations */
@@ -137,26 +160,48 @@ nav a:hover
 #suite
 {
     float: right; 
-    width: 30px; 
-    height: 30px;
+    width: 1.2rem;                       /* 30px */
+    height: 1.2rem;
     vertical-align: text-bottom;      /* a corriger */
+}
+
+#pop         
+{
+    display: flex;
 }
 
 .hpop
 {
-    border: 4px solid black; 
-    border-radius: 25px; 
-    width: 30em; 
-    height: 12em;
+    border: 0.16rem solid black;        /* 4px */
+    border-radius: 2rem;                 /* 25px */
+    width: 25rem; 
+    height: 9rem;
     background: white;
     color: black;
-    font-size: 0.7em;
-    line-height: 1.5em;
+    font-size: 0.7rem;
+    line-height: 1.5rem;
     display: flex;
     text-align: left;
-    margin-bottom: 2em;
+    margin: 1rem;
+    font-size: 0.9rem;
 }
 
+#i_soleil
+{
+    width: 10rem;
+    height: 9rem; 
+    border-radius: 1.9rem 0rem 0rem 1.9rem;
+}
+
+#t_soleil
+{
+    padding-left: 1rem;
+}
+
+#e_soleil
+{
+    align-items: flex-end;
+}
 
 /* conteneur 2  heb*/
 
@@ -180,8 +225,8 @@ nav a:hover
     font-size: 0.7em;
     line-height: 1.5em;
     text-align: left;
-    width: 200px; 
-    height: 50px; 
+    width: 8em;                         /* 200px */ 
+    height: 2em;                       /* 50px */
     border-radius: 0% 0% 10% 25%;
     padding-left: 1em;  
 }
@@ -193,8 +238,8 @@ nav a:hover
     font-size: 0.7em;
     line-height: 1.5em;
     text-align: left;
-    width: 200px; 
-    height: 50px; 
+    width: 8em; 
+    height: 2em; 
     border-radius: 0% 0% 10% 25%;
     padding-left: 1em;  
 }
@@ -206,8 +251,8 @@ nav a:hover
     font-size: 0.7em;
     line-height: 1.5em;
     text-align: left;
-    width: 200px; 
-    height: 50px; 
+    width: 8em; 
+    height: 2em; 
     border-radius: 0% 0% 10% 25%;
     padding-left: 1em;  
 }
@@ -219,8 +264,8 @@ nav a:hover
     font-size: 0.7em;
     line-height: 1.5em;
     text-align: left;
-    width: 200px; 
-    height: 50px; 
+    width: 8em; 
+    height: 2em; 
     border-radius: 0% 0% 10% 25%;
     padding-left: 1em;  
 }
@@ -232,8 +277,8 @@ nav a:hover
     font-size: 0.7em;
     line-height: 1.5em;
     text-align: left;
-    width: 200px; 
-    height: 50px; 
+    width: 8em; 
+    height: 2em; 
     border-radius: 0% 0% 10% 25%;
     padding-left: 1em;   
 }
@@ -248,9 +293,9 @@ nav a:hover
 #heb
 {
     background-color: #f2f2f2;
-    padding-top: 15px;
-    padding-left: 5px;
-    padding-bottom: 20px;
+    padding-top: 0.6em;                  /* 15px */
+    padding-left: 0.2em;                  /* 5px */
+    padding-bottom: 0.2em;
 }
 
 #hebergement
@@ -264,9 +309,9 @@ nav a:hover
 #act
 {
     background-color: grey;      /* a changer blanc */
-    padding-top: 15px;
-    padding-left: 5px;
-    padding-bottom: 20px;
+    padding-top: 0.6em;
+    padding-left: 0.2em;
+    padding-bottom: 0.8em;              /* 20px */
 }
 
 #activites

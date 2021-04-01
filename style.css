@@ -6,14 +6,7 @@
 
 #bloc_page
 {
-    width: 1000px;
-    margin: auto;
-
-}
-
-.interlignage            /* a revoir */
-{
-    line-height: 1em;  
+    width: 990px;
 }
 
 body
@@ -28,11 +21,6 @@ body ul
 {
     list-style-type: none;
     display: flex;  
-}
-
-body li
-{
-    text-decoration: none;
 }
 
 body a
@@ -54,7 +42,7 @@ header                  /* a corriger */
 {
     display: flex;
     justify-content: space-between;
-    align-items: flex-end
+    align-items: flex-end;
 }
 
 #logo                    /* a corriger*/
@@ -65,15 +53,11 @@ header                  /* a corriger */
     width: 9em;     
 }
 
-
-
-
 nav a                  /* gris a mettre en place */
 {
     color: #0065fc;             
     text-decoration: none;                  /* sans soulignement */
-    padding: 1em;
-    padding-right: 2em;
+    padding: 20px;
 }
 
 strong
@@ -88,14 +72,12 @@ nav a:hover
 
 /* navigation */
 
-
-
 .boutonrecherche                /* a coorriger */
 {
     color: black;                     /* police */
     position: relative;                 /* pour les elements before et after */
     font-size: 1em;                    /* taille police */          
-    border: solid 1px red;            /* bordure a changer */
+    border: 1px solid red;            /* bordure a changer */
     background: #0065fc;       /* a revoir */
     border-radius:10px;  
     width: 290px;
@@ -112,98 +94,69 @@ nav a:hover
 
 #filtre
 {
-    margin-right: 3px;
     display: inline-flex;
     text-align: right;                 /* a corriger */
 }
 
 #filtre a
 {
-    margin-right: 5px;
     background: white;           /* fond */
     color: black;                /* police */
     text-decoration: none;          /* pas de soulignement */
     position: relative;             /* pour les elements before et after */
     font-size: 0.8em;                /* taille police */
     padding: 0px 15px 0px 0px;              /* bordure a droite */
-    border: solid 1px #deebff;        /* bordure a changer */
+    border: 1px solid #deebff;        /* bordure a changer */
     border-radius: 25px;                    /* arrondi ok */   
     display: inline-flex;
     width: auto;
-    height: auto;
     font-weight: bold;
-    margin-right: 15px;
+    margin-right: 1em;
 }
 
 #filtre img
 {
-    position: relative;
     height: 35px;       
     width: 35px; 
-}
-
-#infoville 
-{
-    display: inline-flex;
-    position: relative;
 }
 
 #infoville img
 {
     border:solid 1px #deebff;
     border-radius: 50px;
-    position: relative;
-    height: 28px;
-    width: 28px;  
+    height: 30px;
+    width: 30px;
+    vertical-align: middle;
+    margin-right: 1em;
 }
 
 /* super conteneur locations */
+
 /* conteneur 1 pop */
-
-
 
 #suite
 {
-    margin-right: 5px;
-    display: inline-flex;
-    text-align: right;
+    float: right; 
+    width: 30px; 
+    height: 30px;
+    vertical-align: text-bottom;      /* a corriger */
 }
 
-.soleil
+.hpop
 {
+    border: 4px solid black; 
+    border-radius: 25px; 
+    width: 30em; 
+    height: 12em;
     background: white;
     color: black;
     font-size: 0.7em;
     line-height: 1.5em;
     display: flex;
     text-align: left;
-    width: 170px; 
-    height: 115px; 
+    margin-bottom: 2em;
 }
 
-.eau
-{
-    background: white;
-    color: black;
-    font-size: 0.7em;
-    line-height: 1.5em;
-    display: flex;
-    text-align: left;
-    width: 170px; 
-    height: 115px; 
-}
-
-.bleu
-{
-    background: white;
-    color: black;
-    font-size: 0.7em;
-    line-height: 1.5em;
-    display: flex;
-    text-align: left;
-    width: 170px; 
-    height: 115px; 
-}
 
 /* conteneur 2  heb*/
 
@@ -339,6 +292,7 @@ footer ul
 {
     padding-left: 3em;
 }
+
 footer
 {
     background-color: #f2f2f2;

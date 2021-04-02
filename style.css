@@ -157,7 +157,10 @@ button
 
 #populaires       /* conteneur 1 pop */ 
 {
-    
+    display: flex;
+    flex-direction: column;
+    width: 20.5rem;
+    background-color: #f2f2f2; 
 }
 
 #suite
@@ -218,8 +221,16 @@ button
     border: 0.3rem solid red; 
     background-color: white;
     border-radius: 1.5rem;
-    width: 14rem; 
-    height: 14rem;
+    width: 13.5rem; 
+    height: 12rem;
+    background: white;
+    color: black;
+    font-size: 0.5rem;
+    line-height: 1.5rem;
+    display: flex;
+    text-align: left;
+    margin: 1rem;
+    font-size: 0.7rem
 }
 
 .hebi
@@ -231,81 +242,7 @@ button
 
 .hebt
 {
-    background: white;
-    color: black;
-    font-size: 0.7em;
-    line-height: 1.5em;
-    text-align: left;
-    width: 14em;                     
-    height: 4em;                       
-    border-radius: 0rem 0rem 1.3rem 1.3rem;
-    padding-left: 1em;  
-    background-color: white;
-}
-
-.port figcaption
-{
-    background: white;
-    color: black;
-    font-size: 0.7em;
-    line-height: 1.5em;
-    text-align: left;
-    width: 8em;                         /* 200px */ 
-    height: 2em;                       /* 50px */
-    border-radius: 0% 0% 10% 25%;
-    padding-left: 1em;  
-}
-
-.mouettes figcaption
-{
-    background: white;
-    color: black;
-    font-size: 0.7em;
-    line-height: 1.5em;
-    text-align: left;
-    width: 8em; 
-    height: 2em; 
-    border-radius: 0% 0% 10% 25%;
-    padding-left: 1em;  
-}
-
-.mer figcaption
-{
-    background: white;
-    color: black;
-    font-size: 0.7em;
-    line-height: 1.5em;
-    text-align: left;
-    width: 8em; 
-    height: 2em; 
-    border-radius: 0% 0% 10% 25%;
-    padding-left: 1em;  
-}
-
-.panier figcaption
-{
-    background: white;
-    color: black;
-    font-size: 0.7em;
-    line-height: 1.5em;
-    text-align: left;
-    width: 8em; 
-    height: 2em; 
-    border-radius: 0% 0% 10% 25%;
-    padding-left: 1em;  
-}
-
-.amina figcaption
-{
-    background: white;
-    color: black;
-    font-size: 0.7em;
-    line-height: 1.5em;
-    text-align: left;
-    width: 8em; 
-    height: 2em; 
-    border-radius: 0% 0% 10% 25%;
-    padding-left: 1em;   
+    padding-left:  0.5em;  
 }
 
 #ap
@@ -314,7 +251,6 @@ button
     color: black;
     font-size: 0.8em;
 }
-
 
 /* conteneur 3 act */
 

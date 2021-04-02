@@ -130,7 +130,7 @@ button
     padding: 0rem 1rem 0rem 0rem;              /* 15px bordure a droite */
     border: 0.1rem solid #deebff;        /* 1px bordure a changer */
     border-radius: 25rem;                    /* 25px arrondi ok */   
-    display: inline-flex;
+    display: flex;
     width: auto;
     font-weight: bold;
     margin-right: 1rem;
@@ -159,17 +159,20 @@ button
 {
     display: flex;
     flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
     width: 20.5rem;
+    height: 32rem;
     background-color: #f2f2f2; 
+    border: 0.1rem solid black; /* a elever */
+    padding-top: 1rem;
+    margin-bottom: 1rem;
 }
 
 #suite
 {
-    float: right; 
-    padding-right: 1rem;
-    width: 2rem;                      
-    height: 2rem;
-    vertical-align: text-bottom;      /* a corriger */
+    width: 1.5rem;                      
+    height: 1.5rem;
 }
 
 .hpop
@@ -184,8 +187,8 @@ button
     line-height: 1.5rem;
     display: flex;
     text-align: left;
-    margin: 1rem;
     font-size: 0.7rem;
+    margin: 0.5rem;
 }
 
 .hpopi
@@ -199,6 +202,7 @@ button
 {
     padding-left: 0.5rem;
     padding-right: 1rem;
+    line-height: 0.9rem ;
 }
 
 .hpope                              /* a revoir */
@@ -212,22 +216,23 @@ button
 #hebergements
 {   
     display: flex;
+    justify-content: flex-start;
     width: 41rem;
     background-color: blue;
+    padding: 2rem;
 }
 
 .heba
 {
-    border: 0.3rem solid red; 
-    background-color: white;
+    border: 0.3rem solid white; 
+    background-color: #0065fc;
     border-radius: 1.5rem;
     width: 13.5rem; 
-    height: 12rem;
+    height: 10rem;
     background: white;
     color: black;
     font-size: 0.5rem;
     line-height: 1.5rem;
-    display: flex;
     text-align: left;
     margin: 1rem;
     font-size: 0.7rem
@@ -235,14 +240,20 @@ button
 
 .hebi
 {
-    width: 13.4rem; 
-    height: 8rem; 
+    width: 13.5rem; 
+    height: 6.5rem; 
     border-radius: 1.5rem 1.5rem 0rem 0rem;
 }
 
 .hebt
 {
-    padding-left:  0.5em;  
+    flex-direction: column
+}
+
+figcaption
+{
+    padding-left: 0.5rem;
+    line-height: 0.9rem ;
 }
 
 #ap

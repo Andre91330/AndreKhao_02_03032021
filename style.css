@@ -35,11 +35,16 @@ body a
     font-size: 1rem;
 }
 
-h1, h2
+h1
 {
     font-size: 1.2rem;
 }
 
+h2
+{
+    font-size: 1.1rem;
+
+}
 
 /*  header */
 
@@ -48,6 +53,7 @@ header                  /* a corriger */
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
+    margin: 1.5rem;
 }
 
 #logo                    /* a ajuster */
@@ -55,7 +61,7 @@ header                  /* a corriger */
     text-align: left;
     display: flex;
     height: 4rem;       
-    width: 9rem;     
+    width: 9rem;    
 }
 
 nav a                  
@@ -77,6 +83,11 @@ nav a:hover
 
 /* navigation */
 
+#choix
+{
+    margin: 1.5rem;
+}
+
 .boutonrecherche       /* a corriger */
 {
     font-size: 1.8rem; 
@@ -85,7 +96,6 @@ nav a:hover
     width: 17.35rem;                          /* 290px */
     height: 2rem;                          /* 30px */  
     display: flex;
-    margin: 1rem;
 }
 
 .control
@@ -165,14 +175,23 @@ button
     height: 32rem;
     background-color: #f2f2f2; 
     border: 0.1rem solid black; /* a elever */
-    padding-top: 1rem;
+    margin-left: 1rem;
     margin-bottom: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+#annoncepop
+{
+    display: flex;
+    margin-left: -3.5rem;     
 }
 
 #suite
 {
     width: 1.5rem;                      
     height: 1.5rem;
+    text-align: right;
 }
 
 .hpop
@@ -189,6 +208,7 @@ button
     text-align: left;
     font-size: 0.7rem;
     margin: 0.5rem;
+    position: relative;
 }
 
 .hpopi
@@ -202,12 +222,15 @@ button
 {
     padding-left: 0.5rem;
     padding-right: 1rem;
-    line-height: 0.9rem ;
+    line-height: 1rem ;
 }
 
 .hpope                              /* a revoir */
 {
-    align-items: flex-end;
+    position: absolute;
+    bottom: 0.5rem;
+    width: 5rem;   /* 80px */
+    height: 1.125rem;   /* 18px */
 }
 
 /* conteneur 2  heb*/
@@ -253,8 +276,15 @@ button
 figcaption
 {
     padding-left: 0.5rem;
-    line-height: 0.9rem ;
+    line-height: 1rem;
+    position: relative;         /* pour positionner les etoiles*/
 }
+
+.hebe
+ {
+     position: absolute;
+     bottom: -1.2rem;
+ }
 
 #ap
 {

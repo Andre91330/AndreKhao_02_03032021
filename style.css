@@ -11,7 +11,8 @@ html
 
 #bloc_page
 {
-    width: 61.875rem;         /* 990px */
+    width: 61.875rem;  
+    margin: auto;       /* 990px */
 }
 
 body
@@ -28,6 +29,10 @@ body ul
     display: flex;  
 }
 
+body li
+{
+    margin-right: 1rem;
+}
 body a
 {
     text-decoration: none;
@@ -64,7 +69,7 @@ header                  /* a corriger */
     width: 9rem;    
 }
 
-nav a                  
+.has                  
 {
     color: #0065fc;             
     text-decoration: none;                      /* sans soulignement */
@@ -76,7 +81,7 @@ strong
     font-weight: bold;
 }
 
-nav a:hover                               
+.has:hover                               
 {
    border-top: 0.1rem solid #0065fc;          /* surlignement ok */  
 }
@@ -130,7 +135,7 @@ button
     line-height: 2rem;                /* a corriger */
 }
 
-#filtre a
+.fa
 {
     background: white;           /* fond */
     color: black;                /* police */
@@ -146,7 +151,12 @@ button
     margin-right: 1rem;
 }
 
-#filtre img
+.fa:hover
+{
+    color: mediumorchid;
+}
+
+.fa img
 {
     height: 2rem;                 
     width: 2rem; 
@@ -187,11 +197,10 @@ button
     margin-left: -3.5rem;     
 }
 
-#suite
+#suite              /* a corriger */
 {
     width: 1.5rem;                      
     height: 1.5rem;
-    text-align: right;
 }
 
 .hpop

@@ -11,8 +11,9 @@ html
 
 #bloc_page
 {
-    width: 61.875rem;  
-    margin: auto;       /* 990px */
+    width: 62rem;  
+    margin: auto;   
+    border: 0.1rem solid black;    /* 990px */
 }
 
 body
@@ -186,7 +187,7 @@ button
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    width: 33%;
+    width: 29.5%;
     height: 32rem;
     background-color: #f2f2f2; 
     border-radius: 4%;
@@ -216,7 +217,7 @@ button
 {
     border: 0.3rem solid white; 
     border-radius: 1.5rem;                 
-    width: 17rem; 
+    width: 15rem; 
     height: 7rem;
     background: white;
     color: black;
@@ -231,7 +232,7 @@ button
 
 .hpopi
 {
-    width: 8rem;
+    width: 7rem;
     height: 7rem; 
     border-radius: 1.3rem 0rem 0rem 1.3rem;
 }
@@ -256,12 +257,15 @@ button
 
 #hebergements
 {   
-    width: 66%;
-    height: 32rem;
+    width: 63%;
+    height: 31.5rem;
     background-color: #f2f2f2;
-    border-radius: 1.5%;
+    border-radius: 2%;
     border: 0.1rem solid black; /* a elever */
     position: relative;
+    margin-left: 1rem;
+    padding-left: 2rem;
+    padding-top: 2rem;
 }
 
 #heb
@@ -269,52 +273,52 @@ button
     display: flex;
     flex-wrap: wrap;
     align-content: space-between;
-    margin:-1.5rem;
-    padding: 2rem;  
-    margin-left: 0.5rem;     /* ! */
-    margin-bottom: 1rem;
+    margin-left: -2rem;
+
 }
 
 .heba
 {
     border: 0.3rem solid white; 
     border-radius: 1.5rem;
-    width: 12rem; 
-    height: 10rem;
+    width: 11rem; 
+    height: 9rem;
     background: white;
     color: black;
     font-size: 0.5rem;
     line-height: 1.5rem;
     text-align: left;
-    margin: 1rem;
+    margin: 2rem 0 0 1.5rem;
     font-size: 0.7rem
 }
 
 .hebi
 {
-    width: 12rem; 
-    height: 6.5rem; 
+    width: 11rem; 
+    height: 5.8rem; 
     border-radius: 1.5rem 1.5rem 0rem 0rem;
 }
 
 figcaption
 {
     padding-left: 0.5rem;
-    line-height: 1rem;
+    line-height: 0.9rem;
     position: relative;         /* pour positionner les etoiles*/
 }
 
 .hebe
  {
-     position: absolute;
-     bottom: -1.2rem;
+    position: absolute;
+    bottom: 0rem;
+    width: 80px; 
+    height: 18px;
  }
 
 #ap
 {
     text-decoration: none;
     color: black;
-    font-size: 0.8em;
+    font-size: 1em;
     position: absolute;
     margin: 2rem;
     bottom: 1rem;
@@ -322,43 +326,105 @@ figcaption
 
 /* conteneur 3 act */
 
-#act
-{
-    background-color: grey;      /* a changer blanc */
-    padding-top: 0.6em;
-    padding-left: 0.2em;
-    padding-bottom: 0.8em;              /* 20px */
-}
-
 #activites
 {
-    display: flex;
-    justify-content: flex-start;
+    background-color: grey; 
+    position: relative;
+    width: 59rem;
+    height: 31.5rem;
+    position: relative;
+    margin-left: 1rem;
+    padding-top: 2rem;
+    padding-left: 2rem;
 }
 
-/* footer conteneur 4 */
-
-
-footer h2
+#act
 {
-    font-size: 1em;
+    display: flex;  
+    justify-content: flex-start;   /* a changer blanc */
+    padding-top: 0.6em;
+    padding-left: -2rem; 
+    flex-wrap: wrap;
 }
+
+.acta
+{
+    border: 1px solid white;
+    border-radius: 8%; 
+    width: 14rem; 
+    height: 20rem; 
+    box-shadow: 9% 9% 0% 0% #f2f2f2;
+}
+
+.actia
+{
+    width: 14rem; 
+    height: 17rem; 
+    border-radius: 9% 9% 0% 0%;   
+}
+
+.actb
+{
+    border: 1px solid white;
+    border-radius: 8%; 
+    width: 14rem; 
+    height: 10rem; 
+    box-shadow: 9% 9% 0% 0% #f2f2f2;
+}
+
+.actib
+{
+    width: 14rem;
+    height: 8rem; 
+    border-radius: 9% 9% 0% 0%;
+}
+
+.actc
+{
+    border: 1px solid white;
+    border-radius: 8%; 
+    width: 14rem; 
+    height: 8rem; 
+    box-shadow: 9% 9% 0% 0% #f2f2f2;
+}
+
+.actic
+{
+    width: 14rem;
+    height: 5rem; 
+    border-radius: 9% 9% 0% 0%;
+}
+
+figcaption
+{
+    font-size: 0.7em; 
+    padding-left: 1rem;
+    padding-top: 0.5rem;
+    text-align: left;
+}
+    
+/* footer conteneur 4 */
 
 footer ul
 {
     flex-direction: column;
+    margin-left: -2.5rem;
+    font-size: 0.5em;
+    justify-content: space-between;
 }
 
 .various
 {
-    padding-left: 3em;
+    padding-left: 2em;
+
 }
 
 footer
 {
     background-color: #f2f2f2;
-    width: 100%;
+    width: 60rem;
     display: flex;
-    font-size: 0.8em;
+    font-size: 1em;
     border: 0.1rem solid black; /* a elever */
+    padding: 1rem;
 }

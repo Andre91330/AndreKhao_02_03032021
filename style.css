@@ -103,6 +103,11 @@ strong
     display: flex;
 }
 
+#ville
+{
+    padding-left: 1rem;
+}
+
 .control
 {
     display: flex; 
@@ -181,9 +186,10 @@ button
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    width: 20.5rem;
+    width: 33%;
     height: 32rem;
     background-color: #f2f2f2; 
+    border-radius: 4%;
     border: 0.1rem solid black; /* a elever */
     margin-left: 1rem;
     margin-bottom: 1rem;
@@ -193,21 +199,24 @@ button
 
 #annoncepop
 {
-    display: flex;
-    margin-left: -3.5rem;     
+    display: flex;              
+    height: 2rem;
+    margin: 1rem 0 1rem 3rem;
 }
 
 #suite              /* a corriger */
 {
     width: 1.5rem;                      
     height: 1.5rem;
+    align-content: flex-end;
 }
+
 
 .hpop
 {
     border: 0.3rem solid white; 
     border-radius: 1.5rem;                 
-    width: 18rem; 
+    width: 17rem; 
     height: 7rem;
     background: white;
     color: black;
@@ -247,19 +256,30 @@ button
 
 #hebergements
 {   
+    width: 66%;
+    height: 32rem;
+    background-color: #f2f2f2;
+    border-radius: 1.5%;
+    border: 0.1rem solid black; /* a elever */
+    position: relative;
+}
+
+#heb
+{
     display: flex;
-    justify-content: flex-start;
-    width: 41rem;
-    background-color: blue;
-    padding: 2rem;
+    flex-wrap: wrap;
+    align-content: space-between;
+    margin:-1.5rem;
+    padding: 2rem;  
+    margin-left: 0.5rem;     /* ! */
+    margin-bottom: 1rem;
 }
 
 .heba
 {
     border: 0.3rem solid white; 
-    background-color: #0065fc;
     border-radius: 1.5rem;
-    width: 13.5rem; 
+    width: 12rem; 
     height: 10rem;
     background: white;
     color: black;
@@ -272,14 +292,9 @@ button
 
 .hebi
 {
-    width: 13.5rem; 
+    width: 12rem; 
     height: 6.5rem; 
     border-radius: 1.5rem 1.5rem 0rem 0rem;
-}
-
-.hebt
-{
-    flex-direction: column
 }
 
 figcaption
@@ -300,6 +315,9 @@ figcaption
     text-decoration: none;
     color: black;
     font-size: 0.8em;
+    position: absolute;
+    margin: 2rem;
+    bottom: 1rem;
 }
 
 /* conteneur 3 act */
@@ -315,7 +333,7 @@ figcaption
 #activites
 {
     display: flex;
-    flex-wrap: wrap;
+    justify-content: flex-start;
 }
 
 /* footer conteneur 4 */
@@ -342,4 +360,5 @@ footer
     width: 100%;
     display: flex;
     font-size: 0.8em;
+    border: 0.1rem solid black; /* a elever */
 }

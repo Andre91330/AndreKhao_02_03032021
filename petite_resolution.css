@@ -1,0 +1,23 @@
+#bloc_page
+{
+    width: auto;
+}
+
+.has:hover                               
+{
+    border-bottom: 0.1rem solid #0065fc;   /* soulignement ok */ 
+    color: #0065fc;              
+}
+
+#ha
+{
+    display: flex;
+    flex-wrap: wrap-reverse;
+}
+
+#filtre
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+

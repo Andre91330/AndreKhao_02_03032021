@@ -1,27 +1,110 @@
-@media screen and (max-width: 576px)
+@media screen and (max-width: 768px)            /* screen and (max-width: 768px) */
 {
-
     #bloc_page    
-    {
+    {        
         width: auto;
     }
 
-    #ha
+    html
     {
-        display: flex;
-        flex-wrap: wrap-reverse;
+        font-size: 150%;        
     }
-
-    .has:hover                               
-    {
-        border-bottom: 0.1rem solid #0065fc;   /* soulignement ok */ 
-        color: #0065fc;              
-    }
-
-    #filtre
+    
+    header                
     {
         display: flex;
         flex-wrap: wrap;
+        align-content: stretch;
+        margin: 1.5rem;
     }
 
+    header      
+    {
+        width: 100%;
+        height: 6%;
+        background-color: #f2f2f2; /* a enlever */
+        border-radius: 4%;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
 }
+
+    .has:hover                               
+    {
+        border-top: none; 
+        border-bottom: 0.2rem solid #0065fc;   /* soulignement ok */ 
+        color: #0065fc;              
+    }
+
+    .has
+    {
+        font-size: 120%;
+      /* a changer ligne a creer */
+    }
+ 
+    .boutonrecherche       /* a améliorer */
+    {
+        font-size: 1.8rem; 
+        border: 0.1rem solid #f2f2f2;                            
+        border-radius: 0.5rem;                 
+        width: 100%;                         
+        height: 3rem;                          
+        display: flex;
+    }
+    
+    #ville
+    {
+        font-size: 70%;
+        padding-left: 2rem;
+        font-weight: bold;
+    }
+
+    .control
+    {
+        display: flex; 
+        vertical-align: middle;
+        height: 3rem;
+    }
+    
+    button
+    {
+        background-color: #0065fc;   /* image a changer */
+        height: 3rem;
+    }
+    
+    .boutonrecherche img             
+    {
+        height: 3rem;                    
+        width: 3rem; 
+    }
+    
+    #filtre
+    {
+        border: 1px solid black;
+        line-height: 3rem; 
+        clear: left;
+        flex-wrap: wrap;
+    } 
+
+    .fa
+    {
+        font-size: 1rem;   
+    }
+
+    .fa img
+    {
+        height: 3rem;                 
+        width: 3rem; 
+    }
+
+        
+
+
+    footer              /* a ameliorer */
+    {
+        width: auto;
+        display: flex;
+        flex-direction: column;
+        width:100%;
+    }
+    
+}    

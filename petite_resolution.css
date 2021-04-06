@@ -1,38 +1,38 @@
-@media screen and (max-width: 768px)            /* screen and (max-width: 768px) */
+@media screen and (max-width: 576px)            /* screen and (max-width: 768px) */
 {
     #bloc_page    
     {        
-        width: auto;
+        width: 570px;
     }
 
     html
     {
-        font-size: 150%;        
+        font-size: 110%;        
     }
     
     header                
     {
         display: flex;
         flex-wrap: wrap;
-        align-content: stretch;
-        margin: 1.5rem;
     }
-
+ 
     header      
     {
         width: 100%;
         height: 6%;
         background-color: #f2f2f2; /* a enlever */
-        border-radius: 4%;
         padding-top: 1rem;
         padding-bottom: 1rem;
-}
+    }
 
     .has:hover                               
     {
         border-top: none; 
         border-bottom: 0.2rem solid #0065fc;   /* soulignement ok */ 
-        color: #0065fc;              
+        color: #0065fc; 
+        display: flex;
+        flex-wrap: wrap-reverse;
+        align-content: stretch; 
     }
 
     .has
@@ -46,9 +46,10 @@
         font-size: 1.8rem; 
         border: 0.1rem solid #f2f2f2;                            
         border-radius: 0.5rem;                 
-        width: 100%;                         
+        width: auto;                         
         height: 3rem;                          
         display: flex;
+        justify-content: center;
     }
     
     #ville
@@ -82,7 +83,7 @@
         border: 1px solid black;
         line-height: 3rem; 
         clear: left;
-        flex-wrap: wrap;
+        display: block;
     } 
 
     .fa
@@ -96,15 +97,20 @@
         width: 3rem; 
     }
 
-        
-
-
-    footer              /* a ameliorer */
+    #locations
     {
-        width: auto;
-        display: flex;
-        flex-direction: column;
-        width:100%;
+        display: block;
+    }
+
+
+    #act
+    {
+        display: block;
+    }
+
+    footer
+    {
+        display: block;
     }
     
 }    

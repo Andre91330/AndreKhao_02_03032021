@@ -2,24 +2,24 @@
 {
     #bloc_page    
     {        
-        width: 570px;
+        width: auto;
     }
 
     html
     {
         font-size: 110%;        
     }
-    
+
     header                
     {
-        display: flex;
-        flex-wrap: wrap;
+       display: block;
     }
  
     header      
     {
-        width: 100%;
+        width: 93%;
         height: 6%;
+        line-height: 200%;
         background-color: #f2f2f2; /* a enlever */
         padding-top: 1rem;
         padding-bottom: 1rem;
@@ -27,29 +27,32 @@
 
     .has:hover                               
     {
+        
         border-top: none; 
         border-bottom: 0.2rem solid #0065fc;   /* soulignement ok */ 
         color: #0065fc; 
-        display: flex;
-        flex-wrap: wrap-reverse;
-        align-content: stretch; 
     }
 
     .has
     {
         font-size: 120%;
-      /* a changer ligne a creer */
+        width: 100%;
+        border-bottom: 0.2rem solid black; /* a changer ligne a creer */
     }
  
-    .boutonrecherche       /* a améliorer */
+    #ha
     {
-        font-size: 1.8rem; 
-        border: 0.1rem solid #f2f2f2;                            
+        clear: both;
+    }
+
+    /* navigation */
+
+    #boutonrecherche       /* a améliorer */
+    {                          
         border-radius: 0.5rem;                 
-        width: auto;                         
-        height: 3rem;                          
-        display: flex;
-        justify-content: center;
+        width: 95%;                         
+        height: 3rem; 
+        text-align: justify;                        
     }
     
     #ville
@@ -57,10 +60,12 @@
         font-size: 70%;
         padding-left: 2rem;
         font-weight: bold;
+        flex: 2;
     }
 
     .control
     {
+        width: 80%;
         display: flex; 
         vertical-align: middle;
         height: 3rem;
@@ -69,26 +74,41 @@
     button
     {
         background-color: #0065fc;   /* image a changer */
-        height: 3rem;
+        
     }
     
-    .boutonrecherche img             
+    .boutonrecherche img           
     {
-        height: 3rem;                    
+        height: 5rem;             /* a revoir */       
         width: 3rem; 
     }
-    
-    #filtre
+
+    #choix
     {
-        border: 1px solid black;
-        line-height: 3rem; 
-        clear: left;
+        width: 93%;
+    }
+
+    .choice
+    {
+        line-height: 150%;
+    }
+
+    #filtre                       /* espace a mettre */
+    {
+        border: 1px solid black;      /* a enlever */
+        line-height: 3rem;
         display: block;
+       
     } 
+
+    ul
+    {
+        flex-wrap: wrap; 
+    }
 
     .fa
     {
-        font-size: 1rem;   
+        font-size: 1rem;  
     }
 
     .fa img
@@ -97,11 +117,64 @@
         width: 3rem; 
     }
 
+    #infoville
+    {
+        text-align-last: center;
+    }
+
+    /* locations */
+
+    
     #locations
     {
         display: block;
     }
 
+    #populaires
+    {
+        width: 100%;
+        height: auto;
+        border-radius: 0%;
+    }
+
+
+    #annoncepop
+    {
+        text-align: left;   /* a voir */
+    }
+    
+    .suite                                      /* a corriger */
+    {
+        float: right;       /* a voir */
+        width: 2rem;                 
+        height: 2rem;
+    }
+    
+    .hpop               /*  */
+    {                
+        width: 90%; 
+        height: 9rem;
+        font-size: 1rem;
+        text-align: left;
+    }
+    
+    .hpopi  /* ok */
+    {
+        width: 11rem;
+        height: 9rem;   
+    }
+    
+    .hpopt        /* a terminer */
+    {
+        padding-left: 1rem;
+        line-height: 1.2rem ;
+    }
+    
+    .hpope          /* ok */                    
+    {
+        width: 6rem;
+        height: 1.5rem;
+    }
 
     #act
     {

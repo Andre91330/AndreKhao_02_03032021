@@ -188,7 +188,7 @@ em
     height: 2rem;
     width: 2rem;
     vertical-align: middle;
-    margin-right: 1rem;
+    margin: 1rem;
 }
 
 /* super conteneur locations */
@@ -218,11 +218,11 @@ em
 {
     display: flex;              
     height: 2rem;
-    margin: 1rem 0 1rem 4rem;
 }
 
-#suite                                      /* a corriger */
+.suite                                      /* a corriger */
 {
+    float: right;
     width: 1.5rem;                      
     height: 1.5rem;
 }

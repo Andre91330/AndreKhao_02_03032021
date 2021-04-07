@@ -31,7 +31,7 @@ body ul
 
 body li
 {
-    margin-right: 1rem;
+    margin-right: 2rem;
 }
 body a
 {
@@ -58,19 +58,20 @@ header
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
-    margin: 1.5rem;
 }
 
-#logo                    /* a ajuster */
+#logo                   
 {
-    text-align: left;
-    display: flex;
-    height: 4rem;       
-    width: 9rem;    
+    float: left;
+    margin-left: 1rem;
+    margin-top: 1rem;
+    height: 3.3rem;       
+    width: 8rem;   
 }
 
 .has                 
 {
+    
     color: black;            
     text-decoration: none;                     
     padding: 1.25rem;         
@@ -84,7 +85,7 @@ strong
 
 .has:hover                               
 {
-    border-top: 0.1rem solid #0065fc;   /* surlignement ok */ 
+    border-top: 0.1rem solid #0065fc;   
     color: #0065fc;              
 }
 
@@ -95,14 +96,12 @@ em
     font-weight: bold;
 }
 
-/* navigation */
-
-#choix
+#choix              /* navigation */
 {
     margin: 1.5rem;
 }
 
-.boutonrecherche       /* a améliorer */
+#boutonrecherche                        /* a améliorer */
 {
     font-size: 1.8rem; 
     border: 0.1rem solid #f2f2f2;                            
@@ -111,6 +110,11 @@ em
     height: 2rem;                          
     display: flex;
 }
+
+.choice
+    {
+        clear: left;
+    }
 
 #ville
 {
@@ -124,7 +128,7 @@ em
     height: 2rem;
 }
 
-button
+.control button
 {
     background-color: #0065fc;
     color:white;
@@ -132,7 +136,7 @@ button
     border-radius: 0rem 0.5rem 0.5rem 0rem;
 }
 
-.boutonrecherche img             /* a ameliorer */
+.control img                            /* a ameliorer */
 {
     position: relative;
     height: 2rem;                    
@@ -196,7 +200,7 @@ button
     justify-content: space-between;
 }
 
-#populaires       /* conteneur 1 pop */ 
+#populaires       /* conteneur 1 */ 
 {
     display: flex;
     flex-direction: column;
@@ -217,14 +221,11 @@ button
     margin: 1rem 0 1rem 4rem;
 }
 
-#suite              /* a corriger */
+#suite                                      /* a corriger */
 {
     width: 1.5rem;                      
     height: 1.5rem;
-    align-content: flex-end;
-    vertical-align: middle;
 }
-
 
 .hpop
 {
@@ -250,7 +251,7 @@ button
     border-radius: 1.3rem 0rem 0rem 1.3rem;
 }
 
-.hpopt                    /* interligne a revoir */
+.hpopt 
 {
     padding-left: 0.5rem;
     padding-right: 1rem;
@@ -265,10 +266,7 @@ button
     height: 1.125rem;
 }
 
-/* conteneur 2  heb*/
-
-
-#hebergements
+#hebergements           /* conteneur 2 */
 {   
     width: 63%;
     height: 30rem;
@@ -285,7 +283,6 @@ button
     flex-wrap: wrap;
     margin-left: -2rem;
     align-content: space-between;
-
 }
 
 .heba
@@ -314,16 +311,16 @@ figcaption
 {
     padding-left: 0.5rem;
     line-height: 0.9rem;
-    position: relative;        /* pour positionner les etoiles*/
+    position: relative; 
 }
 
 .hebe
- {
+{
     position: absolute;
     bottom: -0.8rem;
     width: 80px; 
     height: 18px;
- }
+}
 
 #ap
 {
@@ -335,9 +332,7 @@ figcaption
     bottom: 1rem;
 }
 
-/* conteneur 3 act */
-
-#activites
+#activites          /* conteneur 3 act */
 {
     background-color: white; 
     position: relative;
@@ -355,7 +350,7 @@ h4
 #act
 {
     display: flex;  
-    justify-content: space-around;   /* a changer blanc */
+    justify-content: space-around;
     padding-top: 0.6em; 
 }
 
@@ -426,27 +421,24 @@ figcaption
     text-align: left;
 }
     
-/* footer conteneur 4 */
-
-footer ul
+footer ul               /* footer conteneur 4 */
 {
     flex-direction: column;
-    margin-left: -2.5rem;
-    font-size: 0.5em;
-    justify-content: space-between;
+    margin: 0%;
+    padding: 0%;
+    line-height: 150%;
 }
 
 .various
 {
-    padding-left: 2em;
-
+    padding: 1rem 3rem 1rem 1rem;
 }
-
 footer
 {
     background-color: #f2f2f2;
-    width: 59.8rem;
+    width: 61rem;
     display: flex;
-    font-size: 1em;
+    align-items: flex-start;
+    font-size: 100%;   
     padding: 1rem;
 }

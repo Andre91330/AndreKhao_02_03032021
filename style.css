@@ -68,24 +68,38 @@ header
     width: 8rem;   
 }
 
-.has                 
+#ha                 
 {
-    
+    display: flex;
+    justify-content: space-between;
     color: black;            
-    text-decoration: none;                     
-    padding: 1.25rem;         
+    text-decoration: none;
+    height: 3rem;                      
 }
 
-strong
+.has
 {
-    font-weight: bold;
-    color: black;
+    padding-top: 2rem;
+}
+
+#hass
+{
+    height: 3rem;
+    width: 6rem;
+    display:flex;
+    align-items: center;
 }
 
 .has:hover                               
 {
     border-top: 0.1rem solid #0065fc;   
-    color: #0065fc;              
+    color: #0065fc; 
+}
+
+#shas
+{
+    display: flex;
+
 }
 
 em
@@ -93,6 +107,13 @@ em
     color: #0065fc;
     font-style: normal;
     font-weight: bold;
+}
+
+strong
+{
+    font-weight: bold;
+    color: black;
+  
 }
 
 #choix              /* navigation */

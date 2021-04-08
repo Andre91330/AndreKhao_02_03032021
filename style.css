@@ -63,8 +63,7 @@ header
 #logo                   
 {
     float: left;
-    margin-left: 1rem;
-    margin-top: 1rem;
+    margin: 1rem 0 0 1rem;
     height: 3.3rem;       
     width: 8rem;   
 }
@@ -210,8 +209,7 @@ em
     height: 30rem;
     background-color: #f2f2f2; 
     border-radius: 4%;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
+    padding: 1rem 0 1rem 0;
 }
 
 #annoncepop
@@ -273,8 +271,7 @@ em
     background-color: #f2f2f2;
     border-radius: 2%;
     position: relative;
-    padding-left: 2rem;
-    padding-top: 2rem;
+    padding: 2rem 0 0 2rem;
 }
 
 #heb
@@ -344,7 +341,6 @@ h4
 {
     position: absolute;
     margin: 3rem;
-    margin-left: 3rem;
 }
 
 #act
@@ -362,62 +358,51 @@ h4
     margin-top: 5rem;
 }
 
-.acta
+.acta, .actb, .actc
 {
     border: 1px solid #f2f2f2;
     border-radius: 8%; 
     width: 13rem; 
-    height: 20rem; 
     box-shadow: 5px 5px 5px #f2f2f2;
-    margin: 0rem   
+    margin: 0rem
 }
 
-.actia
+.acta
+{
+    height: 20rem;       
+}
+
+.actb
+{
+    height: 10rem; 
+}
+
+.actia, .actib, .actic
 {
     width: 13rem; 
     height: 17rem; 
     border-radius: 9% 9% 0% 0%;   
 }
 
-.actb
-{
-    border: 1px solid #f2f2f2;
-    border-radius: 8%; 
-    width: 13rem; 
-    height: 10rem; 
-    box-shadow: 5px 5px 5px #f2f2f2;
-    margin: 0rem;
-}
-
 .actib
 {
-    width: 13rem;
-    height: 8rem; 
-    border-radius: 9% 9% 0% 0%;
+    height: 7rem;
 }
 
 .actc
-{
-    border: 1px solid #f2f2f2;
-    border-radius: 8%; 
-    width: 13rem; 
+{ 
     height: 8rem; 
-    box-shadow: 5px 5px 5px #f2f2f2;
-    margin: 0rem;
 }
 
 .actic
 {
-    width: 13rem;
     height: 5rem; 
-    border-radius: 9% 9% 0% 0%;
 }
 
 figcaption
 {
     font-size: 0.7em; 
-    padding-left: 1rem;
-    padding-top: 0.5rem;
+    padding: 0.8rem 0 0 1rem;
     text-align: left;
 }
     

@@ -5,6 +5,9 @@
                 <title>Reservia</title>
                 <link rel="stylesheet" href="style.css" /> 
                 <link rel="stylesheet" media="screen and (max-width: 576px)" href="petite_resolution.css" />                                               <!--a verifier-->
+                <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" 
+                        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" 
+                        crossorigin="anonymous">
         </head>
 
 <body>
@@ -19,47 +22,55 @@
                                         <li><a href="#activites" class="has">Activités</a></li>
                                 </ul>
                         </div>
-                        <div id="hass"><a href="#"><em>S'inscrire</em></a>
+                        <div id="hass"><a href="#" class="s">S'inscrire</a>
                         </div>    
                 </nav>      
                 
         </header>
                                                                 <!--div id="bloc_page"...a voir plus tatd-->
         <nav id="choix">        
-                <h1 class="choice">Trouvez votre hébergement pour des vacances de rêve</h1>
+                <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
                 <p>En plein centre ville ou en pleine nature</p>        
                 <div id="boutonrecherche">
-                        <span class="control">
-                                <img src="images/icones/markerxs.png" alt="marker" />
-                        </span>
-                        <span class="control">
-                                <input type="text" name="ville" id="ville" placeholder="Marseille, France" />
-                        </span>
-                        <span class="control">
-                                <button type="submit" value="Rechercher">Rechercher</button>
-                        </span>
-                </div><br />
+                        <span class="search"><i class="fas fa-map-marker-alt"></i></span>
+                        <span class="search"><input type="text" name="ville" id="ville" placeholder="Marseille, France" /></span>
+                        <span class="search"><button type="submit" value="">Rechercher</button><br /></span>     <!--a voir pour responsive-->
+                </div>
 
-                <nav id="filtre"> 
-                        <p><strong>Filtres</strong></p>
-                        <ul>
-                                <li><a href="#" class="fa"><img src="images/icones/billetxs.png" alt="billet" />Economique</a></li>
-                                <li><a href="#" class="fa"><img src="images/icones/childxs.png" alt="child" />Familial</a></li>
-                                <li><a href="#" class="fa"><img src="images/icones/coeurxs.png" alt="coeur" />Romantique</a></li>
-                                <li><a href="#" class="fa"><img src="images/icones/dogxs.png" alt="dog" />Animaux autorisés</a></li>
-                        </ul>                                         
-                </nav>
+                <div id="filtres"> 
+                        <h2>Filtres</h2>
+                        <div id="fie">
+                                <button class="eco"><i class="fas fa-money-bill-wave"></i></button>
+                                <a href="#Eco" class="filtre">Économique</a>
+                        </div> 
+                        <div class="filtre">
+                                <button class="fam"><i class="fas fa-child"></i></button>
+                                <a href="#Fam">Familial</a>
+                        </div>
+                        <div class="filtre">
+                                <button class="rom"><i class="fas fa-heart"></i></button>
+                                <a href="#Rom">Romantique</a>
+                        </div>
+                        <div class="filtre">
+                                <button class="ani"><i class="fas fa-dog"></i></button>
+                                <a href="ani">Animaux autorisés</a>
+                        </div>                                           
+                </div>
 
                 <div id="infoville">
-                        <p><img src="images/icones/infoxs.png" alt="i" />Plus de 500 logements sont disponibles dans cette ville</p>
+                        <div class="infov"> 
+                                <p><span class="fas fa-info"></span>
+                                Plus de 500 logements sont disponibles dans cette ville</p>
+                        </div>
                 </div>
         </nav>
   
         <main>
                 <div id="locations">                                                                            <!--conteneur de 2 conteneurs-->
                         <section id="populaires">                                                               <!--Conteneur 1 de 3 elements-->                          
-                                <div id="annoncepop"><h2>Les plus populaires</h2>
-                                        <img src="images/icones/arrow.png" alt="fleche" class="suite" />
+                                <div id="annoncepop">
+                                        <h2>Les plus populaires</h2>
+                                        <span class="fas fa-chart-line"></span>
                                 </div>                               
                                 <div class="hpop">                                                              <!--element 1-->                 
                                         <a href="images/hebergements/1_xlarge/h_soleil_xl.jpg">
@@ -92,7 +103,7 @@
                         </section>
 
                         <section id="hebergements">                                                             <!--conteneur 2-->
-                                <h2>Hébergements à Marseille</h2>
+                                <h2 class="hm">Hébergements à Marseille</h2>
                                 <div id="heb">                                                                  <!--6 elements-->           
                                         <figure class="heba">
                                                 <a href="images/hebergements/1_xlarge/a_cannebiere_xl.jpg">
@@ -154,13 +165,13 @@
                                                 </figcaption>
                                         </figure>
                    
-                                        <a href="" id="ap"><strong>Afficher plus</strong></a>
+                                        <a href="" id="ap"><h2>Afficher plus</h2></a>
                                 </div>
                         </section>
                 </div>
 
                 <section id="activites">                                                                        <!--conteneur 3--> 
-                        <h4>Activités à Marseille</h4>
+                        <h2>Activités à Marseille</h2>
                         <div id="act">                                                                          <!--6 elements en 4 conteneurs-->                                
                                 <div class="acte">
                                         <figure class="acta">
@@ -217,7 +228,7 @@
        
         <footer>                                <!--a ameliorer espacement-->
                 <div class="various">                
-                        <h2>A propos</h2>
+                        <h3>A propos</h3>
                         <ul>
                                 <li><a href="">Fonctionnement du site</a></li>
                                 <li><a href="">Conditions générales de vente</a></li>
@@ -225,14 +236,14 @@
                         </ul>
                 </div>
                 <div class="various">
-                        <h2>Nos hébergements</h2>
+                        <h3>Nos hébergements</h3>
                         <ul>
                                 <li><a href="">Charte qualité</a></li>
                                 <li><a href="">Soumettre votre hôtel</a></li>
                         </ul>
                 </div>
                 <div class="various">
-                        <h2>Assitance</h2>
+                        <h3>Assitance</h3>
                         <ul>
                                 <li><a href="">Centre d'aide</a></li>
                                 <li><a href="">Nous contacter</a></li>

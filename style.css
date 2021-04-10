@@ -29,10 +29,6 @@ body ul
     display: flex;  
 }
 
-body li
-{
-    margin-right: 1rem;
-}
 body a
 {
     text-decoration: none;
@@ -58,15 +54,18 @@ h3
 
 header                
 {
+    width: 100%;
     display: flex;
+    margin-left: 1rem;
     justify-content: space-between;
     align-items: flex-end;
+    border: 0.1rem solid blue;
 }
 
 #logo                   
 {
     float: left;
-    margin: 1rem 0 0 1rem;
+    padding: 1rem 0 0 2rem;
     height: 3.3rem;       
     width: 8rem;   
 }
@@ -74,15 +73,15 @@ header
 #ha                 
 {
     display: flex;
-    justify-content: space-between;
     color: black;            
     text-decoration: none;
-    height: 3rem;                      
+    height: 3rem;                   
 }
 
 .has
 {
     padding-top: 2rem;
+    margin-right: 2rem;
 }
 
 .has:hover                               
@@ -91,7 +90,7 @@ header
     color: #0065fc; 
 }
 
-.s
+.ins
 {
     color: #0065fc;
 }
@@ -114,17 +113,37 @@ header
 
 #choix             
 {
-    margin: 1.5rem;   
+    width: 60rem;
+    height: auto;
+    margin-left: 1rem;
+    padding-left: 2rem;
+    display: flex; 
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#choix p
+{
+    color: red;
 }
 
 #boutonrecherche                        /* a améliorer */
 {
-    font-size: 1.8rem; 
-    border: 0.1rem solid #f2f2f2;                            
-    border-radius: 0.5rem;                 
-    width: 22rem;                         
+    font-size: 1.8rem;                         
+    border-radius: 0.6rem;                 
+    width: 22.63rem;                         
     height: 2.5rem;                          
     display: flex; 
+}
+
+.fa-map-marker-alt                    /* a ameliorer */
+{
+    height: 2.2rem;                    
+    width: 2.2rem; 
+    padding-left: 0.8rem;
+    padding-top: 0.3rem;
+    background-color: #f2f2f2;
+    border-radius: 0.5rem 0rem 0rem 0.5rem;
 }
 
 #ville
@@ -140,81 +159,79 @@ header
     font-size: 1rem;
     color:white;
     height: 2.5rem;
+    width: auto;
     border-radius: 0rem 0.5rem 0.5rem 0rem;
 }
 
-.search i                            /* a ameliorer */
-{
-    height: 2.2rem;                    
-    width: 2.2rem; 
-    padding-left: 0.8rem;
-    padding-top: 0.3rem;
-    background-color: #f2f2f2;
-    border-radius: 0.5rem 0rem 0rem 0.5rem;
-}
+/* filtres */
 
 #filtres
 {
     display: flex;
-    line-height: 2.5rem;
-    font-size: 2.5rem;
+    line-height: 1.5rem;
+    font-size: 1rem;
 }
 
-.filtre button
+.filtre
 {
-    background: white;           
-    color: black;                                    
-    font-size: 1rem;                          
-    border: 0.1rem solid #deebff;        
-    border-radius: 25rem;                   
-    display: flex;
-    width: auto;
-    height:2.5rem;
-    font-weight: bold;
-}
+    height: 2.5rem;                 
+    width: auto; 
+    margin-left: 1rem;
+    padding-right: 1rem; 
+    border-radius: 25rem; 
+    border: 0.1rem solid #deebff;          
+    font-weight: bold;                                                   
+}        
 
-.filtre i
+button
 {
     height: 2.5rem;                 
     width: 2.5rem; 
     color: #0065fc; 
     background-color: #deebff;
-    border-radius: 50%; 
-     
-}
-
-#fie
-{
-    display: flex;
+    border-radius: 50%;
+    border: 0.1rem solid #deebff; 
 }
 
 button:hover
 {
-    color: white;
     background-color: #0065fc;
-    box-shadow: 2px 2px 2px #f2f2f2;
-    vertical-align: middle;  /* a verifier */
+    color:white;
 }
 
-
-
-
-#infoville img
+#infoville
 {
-    border:solid 0.01rem #deebff;       
-    border-radius: 1rem;                 
-    height: 2rem;
-    width: 2rem;
-
+    display: flex;
+    line-height: 1.5rem;
 }
+ 
+.infoi   /* a corriger */
+{               
+    height: 2rem;
+    width: 2rem;                
+    color: #0065fc; 
+    border-radius: 50%;
+    border: 0.1rem solid #deebff;  
+    vertical-align: middle;
+    border: 0.1rem solid red;
+}
+
+.infot
+{
+    padding-left: 1rem;
+}
+     
 
 /* super conteneur locations */
 
 #locations
 {
+    width: 62rem;
+    margin-left: 1rem;
     display: flex;  
     flex-direction: row-reverse;
-    justify-content: space-between;
+    justify-content: space-around;
+    border: 0.1rem solid green;
 }
 
 #populaires       /* conteneur 1 */ 
@@ -232,15 +249,20 @@ button:hover
 
 #annoncepop
 {
+    width: 85%;
     display: flex;              
     height: 2rem;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1rem;
 }
 
-.suite                                      /* a corriger */
+.fa-chart-line                                
 {
-    float: right;
-    width: 1.5rem;                      
-    height: 1.5rem;
+    width: 2rem;                      
+    height: 2rem;
+    font-size: 1.2rem;
+    padding-top: 0.8rem;
 }
 
 .hpop
@@ -265,6 +287,7 @@ button:hover
     width: 7rem;
     height: 6.5rem;
     border-radius: 1.3rem 0rem 0rem 1.3rem;
+    object-fit: cover;
 }
 
 .hpopt 
@@ -285,14 +308,14 @@ button:hover
 #hebergements           /* conteneur 2 */
 {   
     width: 63%;
-    height: 28rem;
+    height: 30rem;
     background-color: #f2f2f2;
     border-radius: 2%;
     position: relative;
-    padding: 4rem 0 0 2rem;
+    padding: 2rem 0 0 2rem;
 }
 
-#hm
+#hebm
 {
     position: absolute;
     top: 1rem;    
@@ -303,6 +326,7 @@ button:hover
     display: flex;
     flex-wrap: wrap;
     margin-left: -2rem;
+    padding-top: 2.5rem;
     align-content: space-between;
 }
 
@@ -326,6 +350,7 @@ button:hover
     width: 11rem; 
     height: 6rem; 
     border-radius: 1.5rem 1.5rem 0rem 0rem;
+    object-fit: cover;
 }
 
 figcaption
@@ -356,6 +381,9 @@ figcaption
     position: relative;
     width: 62rem;
     height: 29rem;
+    margin-left: 1rem;
+    justify-content: center;
+    border: 0.1rem solid red;
 }
 
 #act
@@ -365,10 +393,9 @@ figcaption
     padding-top: 0.6em; 
 }
 
-#am
+#actm
 {
-    position: absolute;
-    top: 1rem; 
+    padding: 2rem 0 0 2rem;
 }
 
 .acte
@@ -376,7 +403,7 @@ figcaption
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    margin-top: 5rem;
+    margin-top: 1rem;
 }
 
 .acta, .actb, .actc
@@ -408,16 +435,19 @@ figcaption
 .actib
 {
     height: 7rem;
+    object-fit: cover;
 }
 
 .actc
 { 
     height: 8rem; 
+    object-fit: cover;
 }
 
 .actic
 {
     height: 5rem; 
+    object-fit: cover;
 }
 
 figcaption
@@ -442,9 +472,10 @@ footer ul               /* footer conteneur 4 */
 footer
 {
     background-color: #f2f2f2;
-    width: 61rem;
+    width: 100%;
     display: flex;
     align-items: flex-start;
     font-size: 100%;   
     padding: 1rem;
+    border: 0.1rem solid black;
 }

@@ -231,30 +231,37 @@ button:hover
     display: flex;  
     flex-direction: row-reverse;
     justify-content: space-around;
-    border: 0.1rem solid green;
 }
 
 #populaires       /* conteneur 1 */ 
 {
-    display: flex;
-    flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    width: 29.5%;
+    width: 30%;
     height: 30rem;
     background-color: #f2f2f2; 
     border-radius: 4%;
     padding: 1rem 0 1rem 0;
 }
 
-#annoncepop
+.annoncepop
 {
-    width: 85%;
+    width: auto;
     display: flex;              
     height: 2rem;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     margin-top: 1rem;
+}
+
+#populaire
+{ 
+    width: auto;
+    height: 28rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
 }
 
 .fa-chart-line                                
@@ -265,11 +272,11 @@ button:hover
     padding-top: 0.8rem;
 }
 
-.hpop
+.hpop  /* ok cadre */ 
 {
     border: 0.3rem solid white; 
-    border-radius: 1.5rem;                 
-    width: 15rem; 
+    border-radius: 1rem;                 
+    width: 16rem; 
     height: 6.5rem;
     background: white;
     color: black;
@@ -278,70 +285,92 @@ button:hover
     display: flex;
     text-align: left;
     font-size: 0.7rem;
-    margin: 0.5rem;
-    position: relative;
 }
 
 .hpopi
 {
     width: 7rem;
     height: 6.5rem;
-    border-radius: 1.3rem 0rem 0rem 1.3rem;
+    border-radius: 1rem 0rem 0rem 1rem;
     object-fit: cover;
 }
 
-.hpopt 
+.popd 
 {
+    width: 7rem;
+    height: 6rem;
     padding-left: 0.5rem;
     padding-right: 1rem;
-    line-height: 0.9rem ;
+    line-height: 0.9rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
-.hpope                              
+.hpopt
 {
-    position: absolute;
-    bottom: 0.3rem;
-    width: 5rem;
-    height: 1.125rem;
+    width: 7rem;
+    height: 4.5rem;
+}
+.etoiles
+{
+    display: flex;
+    align-content: flex-start;
+    width: 7rem;
+    height: 1rem;
+}
+
+.etbleu
+{
+    width: auto;
+    height: 1rem;
+    color: #0065fc;
+}
+
+.etgris
+{
+    width: auto;
+    height: 1rem;
+    color: #f2f2f2;
 }
 
 #hebergements           /* conteneur 2 */
 {   
-    width: 63%;
-    height: 30rem;
+    width: 39rem;
+    height: 32rem;
     background-color: #f2f2f2;
-    border-radius: 2%;
+    border-radius: 3%;
     position: relative;
-    padding: 2rem 0 0 2rem;
 }
 
 #hebm
 {
     position: absolute;
-    top: 1rem;    
+    top: 1rem; 
+    margin-left: 1rem;   
 }
 
 #heb
 {
+    width: 39rem;
+    height: 24rem;
+    margin-top: 4.5rem;
     display: flex;
-    flex-wrap: wrap;
-    margin-left: -2rem;
-    padding-top: 2.5rem;
-    align-content: space-between;
+    flex-wrap: wrap; 
+    justify-content: space-around;
 }
 
 .heba
 {
-    border: 0.3rem solid white; 
-    border-radius: 1.5rem;
+    border: 0.3rem solid white;
+    margin: 0rem; 
+    border-radius: 1rem;
     width: 11rem; 
-    height: 9rem;
+    height: 10rem;
     background: white;
-    color: black;
     font-size: 0.5rem;
     line-height: 1.5rem;
     text-align: left;
-    margin: 1rem 0 0 1.5rem;
     font-size: 0.9rem
 }
 
@@ -349,41 +378,38 @@ button:hover
 {
     width: 11rem; 
     height: 6rem; 
-    border-radius: 1.5rem 1.5rem 0rem 0rem;
+    border-radius: 1rem 1rem 0rem 0rem;
     object-fit: cover;
 }
 
 figcaption
 {
-    padding-left: 0.5rem;
     line-height: 0.9rem;
-    position: relative; 
+    width: 10rem;
+    height: 2.3rem;
 }
 
-.hebe
+.hebt
 {
-    position: absolute;
-    bottom: -0.8rem;
-    width: 80px; 
-    height: 18px;
+    width: 11rem;
+    height: 3rem;
 }
 
 #ap
 {
     position: absolute;
-    bottom: 1rem;
-    margin: 0 0 1rem 2rem;
+    bottom: 0.5rem;
+    margin-left: 1rem;
+    border: 0.1rem solid red; 
 }
 
 #activites          /* conteneur 3 act */
 {
     background-color: white; 
-    position: relative;
     width: 62rem;
     height: 29rem;
     margin-left: 1rem;
     justify-content: center;
-    border: 0.1rem solid red;
 }
 
 #act
@@ -477,5 +503,4 @@ footer
     align-items: flex-start;
     font-size: 100%;   
     padding: 1rem;
-    border: 0.1rem solid black;
 }

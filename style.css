@@ -11,9 +11,8 @@ html
 
 #bloc_page
 {
-    width: 62rem;                      /* 992px */
-    margin: auto; 
-    border:0.1rem solid blue;    
+    width: 62rem; 
+    margin:auto;                     /* 992px */    
 }
 
 body
@@ -22,6 +21,12 @@ body
     color: black;
     font-size: 1rem;          
     line-height: 1rem;
+    margin: 0;
+    padding: 0;
+}
+
+{
+    box-sizing: border-box;
 }
 
 body ul
@@ -38,17 +43,18 @@ body a
 
 h1
 {
-    font-size: 1.3rem;
+    font-size: 1.2rem;
+    margin: 0rem;
 }
 
 h2
 {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
 }
 
 h3
 {
-    font-size: 1.1rem;
+    font-size: 1rem;
 }
 
 /*  header */
@@ -59,12 +65,13 @@ header
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
+    padding: 1rem 2rem 0 0;
 }
 
 #logo                   
 {
     float: left;
-    padding: 1rem 0 0 3rem;
+    padding: 1rem 0 0 2rem;
     height: 3.3rem;       
     width: 8rem;   
 }
@@ -106,7 +113,6 @@ header
 #shas
 {
     display: flex;
-    margin-right: ;
 }
 
  /* navigations */
@@ -115,7 +121,7 @@ header
 {
     width: 100%;
     height: auto;
-    padding-left: 3rem;
+    padding-left: 2rem;
     display: flex; 
     flex-direction: column;
     justify-content: space-between;
@@ -124,31 +130,30 @@ header
 
 #choixt
 {
-    line-height: 1rem;      /* interligne a mod */
+    line-height: 0.9rem;      /* interligne a mod */
 }
 
 #boutonrecherche                        /* a améliorer */
 {
     font-size: 1.8rem;                         
     border-radius: 0.6rem;                 
-    width: 22.63rem;                         
-    height: 2.5rem;                          
+    width: 4rem;                         
+    height: 2rem;                          
     display: flex; 
 }
 
 .fa-map-marker-alt                    /* a ameliorer */
 {
-    height: 2.2rem;                    
-    width: 2.2rem; 
-    padding-left: 0.8rem;
-    padding-top: 0.3rem;
+    height: 2rem;                    
+    width: 1.8rem; 
+    padding: 0.2rem 0 0 0.6rem;
     background-color: #f2f2f2;
     border-radius: 0.5rem 0rem 0rem 0.5rem;
 }
 
 #ville
 {
-    height: 2.1rem;
+    height: 1.8rem;
     padding-left: 1rem;
     font-size: 1rem;
     font-weight: bold;
@@ -159,14 +164,14 @@ header
     background-color: #0065fc;
     font-size: 1rem;
     color:white;
-    height: 2.5rem;
+    height: 2.2rem;
     width: auto;
     border-radius: 0rem 0.5rem 0.5rem 0rem;
 }
 
 /* filtres */
 
-#filtres
+#filtres        /* a corr */
 {
     display: flex;
     line-height: 1.5rem;
@@ -182,7 +187,7 @@ header
     padding-right: 1rem; 
     border-radius: 25rem; 
     border: 0.1rem solid #deebff;          
-    font-weight: bold;                                                   
+    font-weight: bold;                                                  
 }        
 
 #filtres button
@@ -203,37 +208,35 @@ header
 
 #infoville
 {
-    line-height: 1.5rem;
+    line-height: 1.5rem;            
     height: 2rem;
     width: auto;
     display: flex;
 }
 
-.infoi   /* a corriger */
-{               
+.infot            /* a corr */                    
+{
+    width: auto;                      
     height: 2rem;
-    width: 2rem;  
+    padding-left: 0.5rem; 
+    /* position a corr */
+}
+
+.infoi
+{
+    width: 2rem;
+    height: 2rem;
     color: #0065fc;
     background-color: white;
     border-radius: 50%;
-    border: 0.1rem solid #deebff; 
+    border: 0.1rem solid #deebff;
 }
-
-.infot
-{
-    height: 2rem;
-    width: auto;
-    padding-left: 0.5rem;
-    vertical-align: middle;  /* a corr */
-}
-     
 
 /* super conteneur locations */
 
 #locations
 {
-    width: 62rem;
-    margin-left: 1rem;
+    width: 100%;
     display: flex;  
     flex-direction: row-reverse;
     justify-content: space-around;
@@ -244,10 +247,11 @@ header
     justify-content: space-around;
     align-items: center;
     width: 30%;
-    height: 30rem;
+    height: 31rem;
     background-color: #f2f2f2; 
-    border-radius: 4%;
+    border-radius: 5%;
     padding: 1rem 0 1rem 0;
+    position: relative;
 }
 
 .annoncepop
@@ -279,18 +283,14 @@ header
     vertical-align: baseline;
 }
 
-.hpop  /* ok cadre */ 
+.hpop 
 {
     border: 0.3rem solid white; 
     border-radius: 1rem;                 
     width: 16rem; 
     height: 6.5rem;
     background: white;
-    color: black;
-    font-size: 0.5rem;
-    line-height: 1.5rem;
     display: flex;
-    text-align: left;
     font-size: 0.7rem;
 }
 
@@ -319,6 +319,7 @@ header
     width: 7rem;
     height: 4.5rem;
 }
+
 .etoiles
 {
     display: flex;
@@ -343,8 +344,8 @@ header
 
 #hebergements           /* conteneur 2 */
 {   
-    width: 39rem;
-    height: 32rem;
+    width: 63%;
+    height: 33rem;
     background-color: #f2f2f2;
     border-radius: 3%;
     position: relative;
@@ -375,10 +376,6 @@ header
     width: 11rem; 
     height: 10rem;
     background: white;
-    font-size: 0.5rem;
-    line-height: 1.5rem;
-    text-align: left;
-    font-size: 0.9rem
 }
 
 .hebi
@@ -391,15 +388,11 @@ header
 
 figcaption
 {
-    line-height: 0.9rem;
     width: 10rem;
     height: 2.3rem;
-}
-
-.hebt
-{
-    width: 11rem;
-    height: 3rem;
+    line-height: 0.9rem;
+    margin-top: -0.5rem;
+    font-size: 0.5rem;
 }
 
 #ap
@@ -415,7 +408,6 @@ figcaption
     background-color: white; 
     width: 62rem;
     height: 29rem;
-    margin-left: 1rem;
     justify-content: center;
 }
 

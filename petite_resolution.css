@@ -1,267 +1,110 @@
-@media screen and (max-width: 576px)            /* screen and (max-width: 768px) */
+@media only screen and (max-width: 890px)         /* screen and (max-width: 768px) */
 {
     #bloc_page    
     {        
         width: auto;
+        margin: 0;
     }
 
-    html
+    header
     {
-        font-size: 120%;        
-    }
-
-    header                
-    {
-       display: block;
-    }
- 
-    header      
-    {
-        width: 93%;
-        height: 6%;
-        line-height: 200%;
-        background-color: #f2f2f2; /* a enlever */
-        padding-top: 1rem;
-        padding-bottom: 1rem;
-    }
-
-
-    /* navigation */
-
-    #boutonrecherche       /* a améliorer */
-    {                          
-        border-radius: 0.5rem;                 
-        width: 95%;                         
-        height: 3rem; 
-        text-align: justify;                        
-    }
-    
-    #ville
-    {
-        font-size: 70%;
-        padding-left: 2rem;
-        font-weight: bold;
-        flex: 2;
-    }
-
-    .control
-    {
-        width: 80%;
-        display: flex; 
-        vertical-align: middle;
-        height: 3rem;
-    }
-    
-    button
-    {
-        background-color: #0065fc;   /* image a changer */
-        
-    }
-    
-    .boutonrecherche img           
-    {
-        height: 5rem;             /* a revoir */       
-        width: 3rem; 
-    }
-
-    #choix
-    {
-        width: 93%;
-    }
-
-    .choice
-    {
-        line-height: 150%;
-    }
-
-    #filtre                       /* espace a mettre */
-    {
-        border: 1px solid black;      /* a enlever */
-        line-height: 3rem;
-        display: block;
-       
-    } 
-
-    ul
-    {
-        flex-wrap: wrap; 
-    }
-
-    .fa
-    {
-        font-size: 1rem;  
-    }
-
-    .fa img
-    {
-        height: 3rem;                 
-        width: 3rem; 
-    }
-
-    #infoville
-    {
-        text-align-last: center;
-    }
-
-    /* locations */
-
-    
-    #locations
-    {
-        display: block;
-    }
-
-    #populaires, #hebergements
-    {
-        width: 100%;
-        height: auto;
-        border-radius: 0%;
-    }
-
-
-    #annoncepop
-    {
-        text-align: left;   /* a voir */
-    }
-    
-    .suite                                      /* a corriger */
-    {
-        float: right;       /* a voir */
-        width: 2rem;                 
-        height: 2rem;
-    }
-    
-    .hpop              /*  */
-    {                
-        width: 90%; 
-        height: 11rem;
-        font-size: 1rem;
-        text-align: left;
-    }
-    
-    .hpopi  /* ok */
-    {
-        width: 12rem;
-        height: 11rem;   
-    }
-    
-    .hpopt        /* a terminer */
-    {
-        padding-left: 1rem;
-        line-height: 1.2rem ;
-    }
-    
-    .hpope, .hebe       /* ok */                    
-    {
-        width: 7rem;
-        height: 2rem;
+        width: auto;
+        align-items: flex-end;
     }
 
     #hebergements           /* conteneur 2 */
     {   
-        background-color: white;
-        position: relative;   
-        padding-left: 2rem; 
-        padding-top: 2rem; 
-        margin-top: 2rem;     
+        width: auto;
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 872px)
+{
+
+    #filtres        /* a corr */
+    {
+        flex-wrap: wrap;
+    }
+    
+    #locations
+    {
+    width: 100%;
+    display: flex;  
+        flex-direction: none;
+        flex-wrap:wrap;
+    justify-content: space-around;
+    }   
+
+    #populaires       /* conteneur 1 */ 
+    {
+        display: flex;
+        justify-content: space-around;       
+        width: 100%;
+        height: auto;
+        position: relative;
+    }
+    
+    #populaire
+    {    
+        flex-direction: row-reverse;
+        flex-wrap: wrap;
+    } 
+
+    .annoncepop
+    {
+        margin-left: 4rem;
+        position: absolute;
+        top: 1rem;
+        left: 1rem;
+    } 
+    
+    .fa-chart-line                                
+    {
+    width: 2rem;                      
+    height: 2rem;
+    font-size: 1.2rem;
+    padding-top: 0.8rem;
+    vertical-align: baseline;
+        display: flex;
+        position: absolute;
+        top: 1rem;
+        right: 4rem;
+}
+
+    .annoncepop i
+
+    #hebergements           /* conteneur 2 */
+    {   
+        width: 100%;
+        margin-top: 1rem;
     }
 
     #heb
     {
-        display: block;
-        flex-wrap: nowrap;
-        width: 90%; 
-        height: 104rem;
-        font-size: 1rem;
-        text-align: left;
+        width: auto;
+        height: 26rem;
     }
 
-    .heba, .acta, .actb, .actc
+    #hebm
     {
-        width: 100%; 
-        height: 15rem;
-        font-size: 1.4rem; /* a voir */
-        box-shadow: 10px 10px 10px #f2f2f2;
+        float: right;     
     }
 
-    .hebi, .actia, .actib, .actic
-    {
-        width: 100%; 
-    }
-    
-    .hebi
-    {
-        height: 10rem; 
-    }
-
-    figcaption
-    {
-        padding-left: 1rem;
-        line-height: 1.2rem;
-    }
-
-    .hebe
-    {
-        position: absolute;
-        bottom: 0.5rem;
-    }
-
-    #ap
-    {
-        bottom: 0rem;
-    }
-
-    #act
-    {
-        display: block;
-        width: 90%;
-        align-items: center;
-        position: relative;
-    }
-
-    h4
-    {
-       float: left;
-        margin: 3rem;
-    }
-
-    .acta, .actb, .actc
-    {
-        margin: 0;
-    }
-    
     #activites          /* conteneur 3 act */
     {
-        background-color: grey; /* a changer */ 
-        position: relative;
-        width: 100%;
+        width: auto;
         height: auto;
-        padding: 0rem 0 4rem 0;
+   
     }
 
-    .acte
-    {
+    #actq
+    {         
+        width: auto;
+        height: 28rem;
         display: flex;
-        flex-direction: column;
-        margin: 0;
+        justify-content: space-around;
+        margin-top: 4.5rem; 
     }
 
-    .actia, .actib, .actic
-    {
-        height: 11rem;    
-    }   
-    
-    figcaption
-    {
-        padding: 1rem 0 2rem 2rem;
-        line-height: 1.2rem;
-    }
-    
-
-
-    footer
-    {
-        display: block;
-    }
-    
-}    
+}

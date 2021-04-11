@@ -12,7 +12,8 @@ html
 #bloc_page
 {
     width: 62rem;                      /* 992px */
-    margin: auto;     
+    margin: auto; 
+    border:0.1rem solid blue;    
 }
 
 body
@@ -54,18 +55,16 @@ h3
 
 header                
 {
-    width: 100%;
+    width: 98%;
     display: flex;
-    margin-left: 1rem;
     justify-content: space-between;
     align-items: flex-end;
-    border: 0.1rem solid blue;
 }
 
 #logo                   
 {
     float: left;
-    padding: 1rem 0 0 2rem;
+    padding: 1rem 0 0 3rem;
     height: 3.3rem;       
     width: 8rem;   
 }
@@ -81,7 +80,7 @@ header
 .has
 {
     padding-top: 2rem;
-    margin-right: 2rem;
+    margin-right: 3rem;
 }
 
 .has:hover                               
@@ -107,24 +106,25 @@ header
 #shas
 {
     display: flex;
+    margin-right: ;
 }
 
  /* navigations */
 
 #choix             
 {
-    width: 60rem;
+    width: 100%;
     height: auto;
-    margin-left: 1rem;
-    padding-left: 2rem;
+    padding-left: 3rem;
     display: flex; 
     flex-direction: column;
     justify-content: space-between;
+    margin: 1rem 0 2rem 0
 }
 
-#choix p
+#choixt
 {
-    color: red;
+    line-height: 1rem;      /* interligne a mod */
 }
 
 #boutonrecherche                        /* a améliorer */
@@ -151,9 +151,10 @@ header
     height: 2.1rem;
     padding-left: 1rem;
     font-size: 1rem;
+    font-weight: bold;
 }
 
-.search button   /* ok */
+.search button
 {
     background-color: #0065fc;
     font-size: 1rem;
@@ -170,6 +171,7 @@ header
     display: flex;
     line-height: 1.5rem;
     font-size: 1rem;
+    margin-top: 1rem;
 }
 
 .filtre
@@ -183,7 +185,7 @@ header
     font-weight: bold;                                                   
 }        
 
-button
+#filtres button
 {
     height: 2.5rem;                 
     width: 2.5rem; 
@@ -193,7 +195,7 @@ button
     border: 0.1rem solid #deebff; 
 }
 
-button:hover
+#filtres button:hover
 {
     background-color: #0065fc;
     color:white;
@@ -201,24 +203,28 @@ button:hover
 
 #infoville
 {
-    display: flex;
     line-height: 1.5rem;
+    height: 2rem;
+    width: auto;
+    display: flex;
 }
- 
+
 .infoi   /* a corriger */
 {               
     height: 2rem;
-    width: 2rem;                
-    color: #0065fc; 
+    width: 2rem;  
+    color: #0065fc;
+    background-color: white;
     border-radius: 50%;
-    border: 0.1rem solid #deebff;  
-    vertical-align: middle;
-    border: 0.1rem solid red;
+    border: 0.1rem solid #deebff; 
 }
 
 .infot
 {
-    padding-left: 1rem;
+    height: 2rem;
+    width: auto;
+    padding-left: 0.5rem;
+    vertical-align: middle;  /* a corr */
 }
      
 
@@ -251,7 +257,7 @@ button:hover
     height: 2rem;
     justify-content: space-around;
     align-items: center;
-    margin-top: 1rem;
+    margin-top: 1rem; 
 }
 
 #populaire
@@ -270,6 +276,7 @@ button:hover
     height: 2rem;
     font-size: 1.2rem;
     padding-top: 0.8rem;
+    vertical-align: baseline;
 }
 
 .hpop  /* ok cadre */ 
@@ -398,9 +405,9 @@ figcaption
 #ap
 {
     position: absolute;
+    float: left;
     bottom: 0.5rem;
-    margin-left: 1rem;
-    border: 0.1rem solid red; 
+    margin: 0 0 1rem 1rem;
 }
 
 #activites          /* conteneur 3 act */

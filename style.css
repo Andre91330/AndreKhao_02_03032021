@@ -169,12 +169,17 @@ header
     border-radius: 0rem 0.5rem 0.5rem 0rem;
 }
 
+.ico
+{
+    display: none;
+}
+
 /* filtres */
 
-#filtres        /* a corr */
+#filtres 
 {
     display: flex;
-    line-height: 1.5rem;
+    line-height: 1rem;
     font-size: 1rem;
     margin-top: 1rem;
 }
@@ -186,8 +191,7 @@ header
     margin-left: 1rem;
     padding-right: 1rem; 
     border-radius: 25rem; 
-    border: 0.1rem solid #deebff;          
-    font-weight: bold;                                                  
+    border: 0.1rem solid #deebff;                                                
 }        
 
 #filtres button
@@ -197,7 +201,7 @@ header
     color: #0065fc; 
     background-color: #deebff;
     border-radius: 50%;
-    border: 0.1rem solid #deebff; 
+    border: 0.1rem solid #deebff;
 }
 
 #filtres button:hover
@@ -208,21 +212,19 @@ header
 
 #infoville
 {
-    line-height: 1.5rem;            
+    width: 35rem;
     height: 2rem;
-    width: auto;
-    display: flex;
-}
+    line-height: 1rem;
+}          
 
 .infot            /* a corr */                    
 {
     width: auto;                      
-    height: 2rem;
-    padding-left: 0.5rem; 
-    /* position a corr */
+    height: 2rem; 
+    margin-right: 2rem;               
 }
 
-.infoi
+#infoville button
 {
     width: 2rem;
     height: 2rem;

@@ -1,4 +1,4 @@
-@media only screen and (max-width: 890px)         /* screen and (max-width: 768px) */
+@media only screen and (max-width: 970px) 
 {
     #bloc_page    
     {        
@@ -6,105 +6,188 @@
         margin: 0;
     }
 
-    header
-    {
-        width: auto;
-        align-items: flex-end;
-    }
-
-    #hebergements           /* conteneur 2 */
+    #activites
     {   
-        width: auto;
-        height: auto;
+        width:auto;
     }
 }
 
-@media screen and (max-width: 872px)
+@media only screen and (max-width: 890px)         /* screen and (max-width: 768px) */
 {
-
-    #filtres        /* a corr */
-    {
-        flex-wrap: wrap;
-    }
+    #hebergements       /* conteneur 2 */
+    {   
+        width: auto;
+        height: auto;
+    } 
     
+    #hebergement
+    {
+        width: 100%;
+    }
+
+}
+
+@media screen and (max-width: 870px)
+{
     #locations
     {
-    width: 100%;
-    display: flex;  
-        flex-direction: none;
-        flex-wrap:wrap;
-    justify-content: space-around;
-    }   
-
-    #populaires       /* conteneur 1 */ 
-    {
-        display: flex;
-        justify-content: space-around;       
-        width: 100%;
+        width: auto;
         height: auto;
-        position: relative;
+        flex-direction: column;
+        flex-wrap: wrap;
     }
     
+    #populaires
+    {
+        width: 100%;
+        height: 11rem;
+        display: flex;
+        justify-content: space-around;
+        position: relative; 
+        margin-bottom: 2rem; 
+    }
+   
     #populaire
-    {    
-        flex-direction: row-reverse;
+    {
+        margin-top: 2rem;
+        padding: 0;
+        flex-direction:row;
         flex-wrap: wrap;
-    } 
+    }
 
     .annoncepop
     {
-        margin-left: 4rem;
         position: absolute;
-        top: 1rem;
-        left: 1rem;
-    } 
-    
-    .fa-chart-line                                
+        top: 0rem;
+        left: 2rem;
+    }
+ 
+    .fa-chart-line      /* a corr */                         
     {
-    width: 2rem;                      
-    height: 2rem;
-    font-size: 1.2rem;
-    padding-top: 0.8rem;
-    vertical-align: baseline;
-        display: flex;
         position: absolute;
         top: 1rem;
-        right: 4rem;
-}
+        right: 3rem;
+    }
 
-    .annoncepop i
-
-    #hebergements           /* conteneur 2 */
-    {   
+    #hebergements
+    {
         width: 100%;
-        margin-top: 1rem;
+        height: 31rem;
     }
 
     #heb
     {
         width: auto;
-        height: 26rem;
+        height: 25rem;
     }
 
-    #hebm
+    #actm
     {
-        float: right;     
+        padding: 0;
+        padding: 1rem;
     }
+}
 
-    #activites          /* conteneur 3 act */
+@media screen and (max-width: 836px)
+{
+    
+    #choix
     {
-        width: auto;
-        height: auto;
-   
+        width: 30rem;
+    }
+        
+    #filtres
+    {
+        width: 35rem;
+        flex-wrap: wrap; 
+        margin-left: 5rem;
+        position: relative;   
     }
 
-    #actq
-    {         
-        width: auto;
-        height: 28rem;
+    .filre
+    {
+        float: left;
+        margin: 0.5rem 1rem 1rem -5rem;
+    }
+
+    .filtre
+    {
+        margin-bottom: 1rem;
+    }
+    
+    #populaires
+    {
+        width: 100%;
+        height: 19rem;
+        margin-bottom: 2rem; 
+    }
+
+    #populaire
+    {
+        padding: 0;
+        height: 18rem;
+    }
+
+    #actm
+    {
+        margin-bottom: 0;
+    }
+    #activites
+    {
+        height:auto;
         display: flex;
-        justify-content: space-around;
-        margin-top: 4.5rem; 
+        flex-wrap: wrap;
+        align-content: space-around;
+        margin-top: 0;
     }
 
+    .actia, .actib, .actic
+    {
+        border-radius: 9% 9% 0% 0%;
+        width: 16.037rem; 
+        height: 9rem;        
+    }
+
+    .acta, .actb, .actc
+    {
+        width: 16.037rem;     
+        height: 12rem;
+        box-shadow: 5px 5px 5px #f2f2f2;
+        margin: 0.5rem;
+    }
+
+    .acte
+    {
+        display: block;
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0.5rem;
+    }
+}
+@media screen and (max-width: 636px)
+{
+    #filtres
+    {
+        width: 20rem;
+        flex-wrap: wrap; 
+        margin-left: 5rem;
+        position: relative;
+        border: 0.1rem solid black;  
+    }
+
+    .filre
+    {
+        float: left;
+        margin: 0.5rem 1rem 1rem -5rem;
+        border: 0.1rem solid black;
+    }
+
+}
+@media screen and (max-width: 576px)
+{
+    /* navbar */
+} 
+@media screen and (max-width: 460px)
+{
+    /* final */
 }

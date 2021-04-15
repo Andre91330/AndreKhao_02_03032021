@@ -170,20 +170,12 @@ header
     border-radius: 0rem 0.5rem 0.5rem 0rem;
 }
 
-.ico
+.brico
 {
     display: none;
 }
 
 /* filtres */
-
-#filtres 
-{
-    display: flex;
-    line-height: 1rem;
-    font-size: 1rem;
-    margin-top: 1rem;
-}
 
 .filtre
 {
@@ -209,6 +201,24 @@ header
 {
     background-color: #0065fc;
     color:white;
+}
+
+#filter 
+{
+    display: flex;
+    line-height: 1rem;
+    font-size: 1rem;
+    margin-top: 1rem;
+}
+
+#filtres
+{
+    display: flex;
+}
+
+#filtres h2
+{
+    padding-top: 1rem;
 }
 
 #infoville
@@ -265,7 +275,8 @@ header
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-top: 1rem; 
+    margin-top: 1rem;
+    padding-left: 1rem; 
 }
 
 #populaire
@@ -329,7 +340,7 @@ header
     width: 7rem;
     height: 1rem;
     display: flex;
-    padding-top: 0.5rem;
+    padding-top: 0.3rem;
 }
 
 .etbleu
@@ -406,7 +417,7 @@ figcaption
     position: absolute;
     float: left;
     bottom: 0.5rem;
-    margin: 0 0 1rem 1rem;
+    margin: 1rem;
 }
 
 #activites          /* conteneur 3 act */

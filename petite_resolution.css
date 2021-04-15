@@ -33,14 +33,13 @@
    
     .annoncepop
     {
-        border: 0.1rem solid black;
-        display: block;        
+        border: 0.1rem solid black;     
         position: absolute;
         top: 0rem;
-        left: 2rem;
+        left: 1rem;
     }
 
-    .fa-chart-line      /* a corr */                         
+    .fa-chart-line   /* a corr */                       
     {
         position: absolute;
         top: 1rem;
@@ -73,7 +72,7 @@
     {
         width: auto;
         height: auto;
-        margin: 4.5rem 3rem 3rem 3rem;  /* a verifier */
+        padding-bottom: 2rem;
     }    
    
     #activites
@@ -108,27 +107,19 @@
 }
 
 @media screen and (max-width: 850px)
-{  
-     
+{     
     #filtres
     {
-        width: 35rem;
-        flex-wrap: wrap; 
-        margin-left: 5rem;
-        position: relative;   
-    }
-
-    .filre      /* a corriger */
-    {
-        float: left;
-        margin: 0.5rem 1rem 1rem -5rem;
-    }
-
-    .filtre
-    {
-        margin-bottom: 1rem;
+        flex-wrap: wrap ;
     }
     
+    #filter
+    {
+        flex-wrap: nowrap;
+        border: 0.1rem solid red;
+    }
+
+    }
     #populaires
     {
         width: 100%;
@@ -141,37 +132,31 @@
     }
 }
 
-@media screen and (max-width: 670px)
+@media screen and (max-width: 735px)
 {
-    #filtres  /* a refaire !!! */
-    {
-        width: 21rem;
-        flex-wrap: wrap; 
-        margin-left: 5rem;
-        border: 0.1rem solid green;  
-    }
-
-    .filre
-    {
-        width: 4rem;
-        height: 3rem;
-        float: left;
-        margin: 0.5rem 1rem 1rem -5rem;
-        border: 0.1rem solid black;
-    }
-
-    #populaires
-    {
-        height: auto;
-        margin: 0;
-    }
-
     #hebergements
     {
-        display: block;
-        flex-wrap: wrap;
+        background-color: white;
+        padding: 0;
+        margin: 0;              /* !!!! */
+        width: auto;
+        height: auto
     }
-
+    
+    .heba
+    {
+        width: 16.037rem; 
+        height: 9.01rem;
+        margin: 0.5rem 0;
+        box-shadow: 5px 5px 5px #f2f2f2;
+    }
+    
+    .hebi
+    {
+        width: 16rem; 
+        height: 6rem; 
+        border-radius: 1rem 1rem 0rem 0rem;    
+    }
 }
 @media screen and (max-width: 640px)
 {
@@ -195,7 +180,6 @@
         border-top: none;
         border-bottom: 0.2rem solid #0065fc; 
         margin-bottom: 2rem;  
-
     }
 
     .ins a
@@ -218,21 +202,8 @@
     }
 } 
 
-@media screen and (max-width: 490px)   /* ok */
+@media screen and (max-width: 490px)  
 {
-    #filtres
-    {
-       margin-left: 1rem;
-       clear: left;
-       position: relative;
-       border: 0.1rem solid red;
-    }
-    
-    .filre
-    {
-        float: left;
-    }
-
     .fa-search    
     {
         height: 2rem;                    
@@ -240,44 +211,16 @@
         padding: 0.4rem 0.5rem 0 0.5rem;
     }
 
-    .ico
+    .brico
     {
         display: flex;
     }
 
-    .mot
+    .brmot
     {
         display: none;
     }
     
-    #hebergements
-    {
-        background-color: white;
-        padding: 0;
-        margin: 0;              /* !!!! */
-        width: auto;
-        height: auto
-    }
-    
-    .heba
-    {
-        width: 16.037rem; 
-        height: 9.01rem;
-        margin: 0.5rem 0;
-        box-shadow: 5px 5px 5px #f2f2f2;
-    }
-    
-    .hebi
-    {
-        width: 16.037rem; 
-        height: 6rem; 
-        border-radius: 1rem 1rem 0rem 0rem;    
-    }
-    
-    .etoiles
-    {
-        padding-bottom: 0.9rem;
-    }
     .acte
     {   
         margin: 0.1rem;
@@ -286,17 +229,15 @@
     .actia, .actib, .actic
     {
         border-radius: 9% 9% 0% 0%;
-        width: 16.037rem; 
-        height: 9rem;        
+        width: 16rem; 
+        height: 7rem;      
     }
 
     .acta, .actb, .actc
     {
         width: 16.037rem;     
-        height: 12rem;
+        height: 9rem;
         box-shadow: 5px 5px 5px #f2f2f2;
         margin: 0.5rem;
     }
-
-    /*   @media screen and (max-width: 380px)   a finaliser */
 }

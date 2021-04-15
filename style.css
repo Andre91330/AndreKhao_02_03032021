@@ -65,8 +65,8 @@ header
 {
     width: 8rem; 
     height: 3.3rem;       
-    float: left;
-    padding: 1rem;
+    position:absolute;
+    padding: 1rem 2rem;
 }
 
 .ha
@@ -96,7 +96,7 @@ header
 .ins
 {
     width: 5rem; 
-    height: 3rem;
+    height: 2rem;
     color: #0065fc;
     font-weight: bold; 
     padding: 2rem 3rem 0 1rem;
@@ -121,17 +121,16 @@ header
 {
     width: 100%;
     height: auto;
-    padding-left: 2rem;
     display: flex; 
     flex-direction: column;
     justify-content: space-between;
-    margin: 1rem 0 2rem 0
+    margin-top: 1rem;
 }
 
 #choixt
 {
     line-height: 0.9rem; 
-    margin-right: 2rem;     /* interligne a mod */
+    margin-right: 2rem;     
 }
 
 #boutonrecherche                        /* a améliorer */
@@ -179,15 +178,13 @@ header
 
 .filtre
 {
-    height: 2.5rem;                 
-    width: auto; 
     margin-left: 1rem;
     padding-right: 1rem; 
     border-radius: 25rem; 
     border: 0.1rem solid #deebff;                                                
-}        
-
-#filtres button
+}   
+     
+.filtre button
 {
     height: 2.5rem;                 
     width: 2.5rem; 
@@ -197,7 +194,13 @@ header
     border: 0.1rem solid #deebff;
 }
 
-#filtres button:hover
+.filtre a
+{
+    height: 3rem;
+    width: auto;   
+}
+
+.filtre button:hover
 {
     background-color: #0065fc;
     color:white;
@@ -206,14 +209,15 @@ header
 #filter 
 {
     display: flex;
+    width: 47rem;
     line-height: 1rem;
     font-size: 1rem;
-    margin-top: 1rem;
+    margin: 1rem 0;
 }
 
 #filtres
 {
-    display: flex;
+   display: flex;
 }
 
 #filtres h2
@@ -223,22 +227,28 @@ header
 
 #infoville
 {
-    width: 35rem;
-    height: 2rem;
-    line-height: 1rem;
+    height: 3rem;
+    display: flex;  
 }          
 
-.infot            /* a corr */                    
+.infot                   
 {
     width: auto;                      
-    height: 2rem; 
-    margin-right: 2rem;             
+    height: 3rem; 
+    margin: 1rem;           
+}
+
+.infot p
+{
+    padding-left: 1rem;
+    margin right: rem;
+    vertical-align: middle;
 }
 
 #infoville button
 {
-    width: 2rem;
-    height: 2rem;
+    width: 2.5rem;
+    height: 2.5rem;
     color: #0065fc;
     background-color: white;
     border-radius: 50%;
@@ -253,6 +263,7 @@ header
     display: flex;  
     flex-direction: row-reverse;
     justify-content: space-around;
+    padding: 0.5rem;
 }
 
 #populaires       /* conteneur 1 */ 
@@ -426,6 +437,7 @@ figcaption
     width: 62rem;
     height: 29rem;
     justify-content: center;
+    padding:0.5rem;
 }
 
 #act

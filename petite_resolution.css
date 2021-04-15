@@ -13,6 +13,11 @@
 
 @media only screen and (max-width: 900px)         /* screen and (max-width: 768px) */
 {
+    #logo, #choix
+    {
+        padding: 1.5rem;
+    }
+    
     #locations
     {
         width: auto;
@@ -33,22 +38,21 @@
    
     .annoncepop
     {
-        border: 0.1rem solid black;     
         position: absolute;
-        top: 0rem;
-        left: 1rem;
+        left: 0rem;
+        top: 1rem; 
+        width: 100%;          
     }
 
     .fa-chart-line   /* a corr */                       
     {
         position: absolute;
-        top: 1rem;
         right: 3rem;
     }
 
     #populaire
     {
-        margin-top: 2rem;
+        margin-top: 3rem;
         padding: 0;
         flex-direction: row;
         flex-wrap: wrap;
@@ -83,8 +87,8 @@
 
     #actm
     {
-        padding: 1.5rem;
-        margin-bottom: 0;
+        margin: 1rem;
+        padding: 0;
     }
 
     #act
@@ -110,19 +114,24 @@
 {     
     #filtres
     {
-        flex-wrap: wrap ;
+        display: block;
     }
     
     #filter
     {
-        flex-wrap: nowrap;
-        border: 0.1rem solid red;
+        width: auto;
+        flex-wrap: wrap;
     }
-    
+
+    .filtre
+    {
+        flex-wrap: nowrap;
+        margin: 0.5rem;
+    }
     #populaires
     {
         width: 100%;
-        height: auto; 
+        height: auto;
     } 
 
     #hpop
@@ -137,7 +146,7 @@
     {
         background-color: white;
         padding: 0;
-        margin: 0;              /* !!!! */
+        margin: 0;       
         width: auto;
         height: auto
     }
@@ -157,8 +166,11 @@
         border-radius: 1rem 1rem 0rem 0rem;    
     }
 }
+
 @media screen and (max-width: 640px)
 {
+    
+    
     #logo
     {
         width: 6rem;
@@ -169,16 +181,26 @@
     {
         flex-wrap: wrap-reverse;
         border-bottom: 0.125rem solid #f2f2f2;
-        padding-top: 0;
         padding-bottom: 1rem;
-        align-items: stretch;   /* :( */
+    }
+
+    .ha
+    {
+        width: 100%;
+        padding: 0;
+        margin: 0;
+        text-align: center;
+    }
+    .ha a
+    {
+        Width: 50%;
     }
 
     .ha a:hover                               
     {
         border-top: none;
         border-bottom: 0.2rem solid #0065fc; 
-        margin-bottom: 2rem;  
+        margin-bottom: 2rem;    
     }
 
     .ins a
@@ -187,9 +209,13 @@
         height: 2.5rem;
     }
     
+  
     h1
     {
-        padding-right: 2rem;
+        padding-right: 1rem;
+        line-height: 1.5rem;
+        padding-right: 1.5rem;
+        font-size: 1rem;
     }
 
     /* #filtres a faire */
@@ -203,6 +229,15 @@
 
 @media screen and (max-width: 490px)  
 {
+    body
+    {
+        font-size: small;
+    }
+
+    body h2
+    {
+        font-size: small;
+    }
     .fa-search    
     {
         height: 2rem;                    
@@ -219,7 +254,17 @@
     {
         display: none;
     }
-    
+
+    #choix, #populaires, #hebergements, footer
+    {
+        margin: 0;
+        padding:0.5rem;
+    }
+
+    #ap
+    {
+        margin: 0.5rem;
+    }
     .acte
     {   
         margin: 0.1rem;
@@ -239,4 +284,18 @@
         box-shadow: 5px 5px 5px #f2f2f2;
         margin: 0.5rem;
     }
+
+    footer
+    {
+        display: block;
+    }
+    
+    h3
+    {
+        margin: 0.5rem 0;
+        font-size: 0.8rem;
+    }
+
+    
 }
+

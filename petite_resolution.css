@@ -1,17 +1,4 @@
-@media only screen and (max-width: 970px) 
-{
-    #bloc_page    
-    {        
-        width: auto;
-    }
-
-    #activites
-    {   
-        width: auto;
-    }   
-}
-
-@media only screen and (max-width: 900px)         /* screen and (max-width: 768px) */
+@media only screen and (max-width: 900px)
 {
     #logo, #choix
     {
@@ -44,7 +31,7 @@
         width: 100%;          
     }
 
-    .fa-chart-line   /* a corr */                       
+    .fa-chart-line                         
     {
         position: absolute;
         right: 3rem;
@@ -60,7 +47,7 @@
         height: auto;
     }
 
-    #hebergements       /* conteneur 2 */
+    #hebergements 
     {   
         width: auto;
         height: auto;
@@ -191,6 +178,7 @@
         margin: 0;
         text-align: center;
     }
+    
     .ha a
     {
         Width: 50%;
@@ -217,27 +205,16 @@
         padding-right: 1.5rem;
         font-size: 1rem;
     }
-
-    /* #filtres a faire */
     
     #infoville
     {
         width: auto;
-        clear: left;  /* a corriger */
+        clear: left; 
     }
 } 
 
 @media screen and (max-width: 490px)  
 {
-    body
-    {
-        font-size: small;
-    }
-
-    body h2
-    {
-        font-size: small;
-    }
     .fa-search    
     {
         height: 2rem;                    
@@ -265,6 +242,7 @@
     {
         margin: 0.5rem;
     }
+
     .acte
     {   
         margin: 0.1rem;
@@ -293,9 +271,36 @@
     h3
     {
         margin: 0.5rem 0;
+    }  
+}
+
+@media screen and (max-width: 360px) 
+{
+    #boutonrecherche                      
+    {
+        width: auto;
+        font-size: 1.4rem;
+        text-align: center;
+        margin-left: 1rem;
+    }
+
+    .fa-map-marker-alt 
+    {
+        height: 1.75rem;                    
+        width: 1.3rem; 
+    }
+
+    #ville
+    {
+        height: 1.5rem;
+        padding-left: 1rem;
         font-size: 0.8rem;
     }
 
-    
+    .search button
+    {
+        font-size: 0.9rem;   
+        height: 1.91rem;
+        width: 2.7rem;
+    }
 }
-

@@ -2,17 +2,17 @@
 {
     font-family:'Raleway', Verdana, Arial, sans-serif;
     src:local('fonts/Raleway-Regular.ttf')
-}                     
-
-html
-{
-    font-size: 100%;
-}
+}  
 
 #bloc_page
 {
     width: 62rem;                     /* 992px */    
     margin: auto;
+}
+
+html
+{
+    font-size: 100%;
 }
 
 body
@@ -102,7 +102,7 @@ header
     padding: 2rem 3rem 0 1rem;
 }
 
-.ins a /* ok */
+.ins a
 {
     color: blue;
 }
@@ -115,11 +115,11 @@ header
     justify-content: flex-end;
 }
 
- /* navigations */
+ /* navbar */
 
 #choix             
 {
-    width: 100%;
+    width: 30rem;
     height: auto;
     display: flex; 
     flex-direction: column;
@@ -135,16 +135,13 @@ header
 
 #boutonrecherche                        /* a améliorer */
 {
-    font-size: 1.8rem;                         
-    border-radius: 0.6rem;                 
-    width: 4rem;                         
-    height: 2rem;                          
-    display: flex; 
+    font-size: 1.6rem;                                                   
+    display: flex;
 }
 
 .fa-map-marker-alt 
 {
-    height: 2rem;                    
+    height: 2.1rem;                    
     width: 1.8rem; 
     padding: 0.2rem 0 0 0.6rem;
     background-color: #f2f2f2;
@@ -178,7 +175,7 @@ header
 
 .filtre
 {
-    margin-left: 1rem;
+    margin: auto;
     padding-right: 1rem; 
     border-radius: 25rem; 
     border: 0.1rem solid #deebff;                                                
@@ -217,7 +214,9 @@ header
 
 #filtres
 {
-   display: flex;
+    width: auto;
+    margin-left: 2rem;
+    display: flex;
 }
 
 #filtres h2
@@ -255,18 +254,18 @@ header
     border: 0.1rem solid #deebff;
 }
 
-/* super conteneur locations */
+/* conteneur locations */
 
 #locations
 {
-    width: 100%;
+    width: auto;
     display: flex;  
     flex-direction: row-reverse;
     justify-content: space-around;
     padding: 0.5rem;
 }
 
-#populaires       /* conteneur 1 */ 
+#populaires                 /* conteneur 1 */ 
 {
     justify-content: space-around;
     align-items: center;
@@ -368,7 +367,7 @@ header
     color: #f2f2f2;
 }
 
-#hebergements           /* conteneur 2 */
+#hebergements               /* conteneur 2 */
 {   
     width: 39rem;
     height: 33rem;
@@ -431,8 +430,10 @@ figcaption
     margin: 1rem;
 }
 
-#activites          /* conteneur 3 act */
-{
+ /* conteneur 3 */
+ {
+
+#activites                 
     background-color: white; 
     width: 62rem;
     height: 29rem;
@@ -504,7 +505,9 @@ figcaption
     object-fit: cover;
 }
 
-footer ul               /* footer conteneur 4 */
+/* footer conteneur 4 */
+
+footer ul                   
 {
     flex-direction: column;
     margin: 0%;
@@ -522,7 +525,7 @@ footer ul               /* footer conteneur 4 */
 footer
 {
     background-color: #f2f2f2;
-    width: 60rem;
+    width: auto;
     display: flex;
     font-size: 100%;   
     padding: 1rem;

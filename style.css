@@ -240,7 +240,7 @@ header
 .infot p
 {
     padding-left: 1rem;
-    margin right: rem;
+    margin-right: 1rem;
     vertical-align: middle;
 }
 
@@ -431,9 +431,9 @@ figcaption
 }
 
  /* conteneur 3 */
- {
 
-#activites                 
+#activites 
+{                
     background-color: white; 
     width: 62rem;
     height: 29rem;

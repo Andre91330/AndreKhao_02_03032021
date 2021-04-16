@@ -1,6 +1,18 @@
 
 @media only screen and (max-width: 900px)
 {   
+    #filtres
+    {
+        display: block;
+    }
+    
+    #filter
+    {
+        width: auto;
+        flex-wrap: wrap;
+        margin: 1rem 2rem 1rem 2rem;
+    }
+    
     #locations
     {
         width: auto;
@@ -102,18 +114,6 @@
 
 @media screen and (max-width: 850px)
 {     
-    #filtres
-    {
-        display: block;
-    }
-    
-    #filter
-    {
-        width: auto;
-        flex-wrap: wrap;
-        margin: 1rem 2rem 1rem 2rem;
-    }
-
     .filtre
     {
         flex-wrap: nowrap;
@@ -221,6 +221,11 @@
         font-size: 1rem;
     }
   
+    #infoville
+    {
+        vertical-align: middle;
+    }
+    
     #populaire
     {
         margin-top: 2rem;

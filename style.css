@@ -200,7 +200,7 @@ header
 #filter 
 {
     display: flex;
-    width: 47rem;
+    width: 48rem;
     line-height: 1rem;
     font-size: 1rem;
     margin: 1rem 0;
@@ -224,20 +224,15 @@ header
 {
     height: 3rem;
     display: flex;
-    margin-bottom: 0.5rem;  
+    margin-bottom: 0.5rem;
+    vertical-align: middle; 
 }          
 
 .infot                   
 {
     width: auto;                      
     height: 3rem; 
-    margin: 1rem;           
-}
-
-.infot p
-{
-    margin: 1rem;
-    vertical-align: middle;
+    margin: 1rem; 
 }
 
 #infoville button
@@ -248,7 +243,8 @@ header
     background-color: white;
     border-radius: 50%;
     border: 0.1rem solid #deebff;
-    margin-left: 2rem
+    margin: 0 1rem 0 2rem;
+
 }
 
 /* conteneur locations */

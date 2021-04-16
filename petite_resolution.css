@@ -1,10 +1,6 @@
+
 @media only screen and (max-width: 900px)
-{
-    #logo, #choix
-    {
-        padding: 1.5rem;
-    }
-    
+{   
     #locations
     {
         width: auto;
@@ -27,7 +23,8 @@
     {
         position: absolute;
         left: 0rem;
-        top: 1rem; 
+        top: 1rem;
+        margin-left:1rem; 
         width: 100%;          
     }
 
@@ -39,7 +36,7 @@
 
     #populaire
     {
-        margin-top: 3rem;
+        margin-top: 5rem;
         padding: 0;
         flex-direction: row;
         flex-wrap: wrap;
@@ -63,8 +60,14 @@
     {
         width: auto;
         height: auto;
-        padding-bottom: 2rem;
-    }    
+        margin-bottom: 2rem;
+    }  
+    
+    #ap
+    {
+        margin-bottom: 1rem;
+        padding-left: 1rem;
+    }  
    
     #activites
     {
@@ -75,7 +78,7 @@
     #actm
     {
         margin: 1rem;
-        padding: 0;
+        padding: 1rem;
     }
 
     #act
@@ -108,13 +111,15 @@
     {
         width: auto;
         flex-wrap: wrap;
+        margin: 1rem 2rem 1rem 2rem;
     }
 
     .filtre
     {
         flex-wrap: nowrap;
-        margin: 0.5rem;
+        margin: 0.5rem 2rem 0.5rem 0;
     }
+
     #populaires
     {
         width: 100%;
@@ -129,11 +134,15 @@
 
 @media screen and (max-width: 735px)
 {
+    #locations
+    {
+        padding: 0;
+    }
+
     #hebergements
     {
         background-color: white;
-        padding: 0;
-        margin: 0;       
+        padding: 0;      
         width: auto;
         height: auto
     }
@@ -142,8 +151,8 @@
     {
         width: 16.037rem; 
         height: 9.01rem;
-        margin: 0.5rem 0;
-        box-shadow: 5px 5px 5px #f2f2f2;
+        margin: 0.5rem 1rem 1rem 1rem;
+        box-shadow: 0.3125rem 0.3125rem 0.3125rem #f2f2f2;
     }
     
     .hebi
@@ -152,18 +161,22 @@
         height: 6rem; 
         border-radius: 1rem 1rem 0rem 0rem;    
     }
+    
+    #heb
+    {
+        margin-top: 4rem;
+    }
+     
+    #hebm
+    {
+    position: absolute;
+    top: 1rem; 
+    margin: 0 0 0 2rem;
+    }
 }
 
 @media screen and (max-width: 640px)
-{
-    
-    
-    #logo
-    {
-        width: 6rem;
-        height: 3rem; 
-    } 
-
+{  
      #has
     {
         flex-wrap: wrap-reverse;
@@ -171,6 +184,10 @@
         padding-bottom: 1rem;
     }
 
+    #actm
+    {
+        padding: 0;
+    }
     .ha
     {
         width: 100%;
@@ -197,29 +214,75 @@
         height: 2.5rem;
     }
     
-  
     h1
     {
-        padding-right: 1rem;
         line-height: 1.5rem;
         padding-right: 1.5rem;
         font-size: 1rem;
     }
-    
-    #infoville
+  
+    #populaire
     {
-        width: auto;
-        clear: left; 
+        margin-top: 2rem;
     }
+    
+    .annoncepop
+    {
+        margin-top: 0;
+        padding-left: 0;
+    }
+
+    #heb
+    {
+        margin-top: 2.5rem;
+        margin-bottom: 1.5rem;
+    }
+
+    #hebm
+     { 
+         margin-left: 1rem;
+     }
+    
+    #ap
+    {
+        margin-left: 1rem;
+    }
+    
 } 
 
 @media screen and (max-width: 490px)  
 {
+    #logo
+    {
+        padding: 0.5rem 1rem;
+    }
+
+    .ins
+    {
+        margin-right: 3rem;
+    }
+
     .fa-search    
     {
         height: 2rem;                    
         width: 1rem; 
         padding: 0.4rem 0.5rem 0 0.5rem;
+    }
+
+    #boutonrecherche                      
+    {
+        width: auto;
+        font-size: 1.4rem;
+        text-align: center;
+        margin-left: 0;
+    }
+
+    .fa-map-marker-alt 
+    {
+        height: 1.75rem;                    
+        width: 1.75rem; 
+        padding-left: 0.2rem;
+        margin-left: auto;
     }
 
     .brico
@@ -232,17 +295,66 @@
         display: none;
     }
 
-    #choix, #populaires, #hebergements, footer
+    .choixt
+    {
+        padding-left: 0;
+    }
+
+    .filtre button
+    {
+        height: 1.6rem;                 
+        width: 1.6rem; 
+    }
+
+    .filtre a
+    {
+        font-size: 0.6rem;
+    }
+
+    #filtres h2 /* a corr */
+    {
+        margin-left: 1rem;
+    }
+
+    #filter
+    {
+        margin: 1rem 0 1rem 0;
+    }
+
+    .filtre
+    {
+        margin-right: 1rem;
+    }
+    
+    #infoville button
+    {
+        width: 1.7rem;
+        height: 1.7rem;
+        margin-left: 1rem;
+    }
+
+    .infot p
+    {
+        font-size: 0.8rem;
+    }
+
+    #filtres h2
     {
         margin: 0;
-        padding:0.5rem;
+    }
+
+    .infot p
+    {
+        padding-left: 1rem;
+        margin: 0;
+        vertical-align: middle;
     }
 
     #ap
     {
-        margin: 0.5rem;
+        margin: 0.5rem 0 0.3rem 1rem;
     }
-
+    
     .acte
     {   
         margin: 0.1rem;
@@ -276,20 +388,6 @@
 
 @media screen and (max-width: 360px) 
 {
-    #boutonrecherche                      
-    {
-        width: auto;
-        font-size: 1.4rem;
-        text-align: center;
-        margin-left: 1rem;
-    }
-
-    .fa-map-marker-alt 
-    {
-        height: 1.75rem;                    
-        width: 1.3rem; 
-    }
-
     #ville
     {
         height: 1.5rem;
@@ -301,6 +399,18 @@
     {
         font-size: 0.9rem;   
         height: 1.91rem;
-        width: 2.7rem;
+        width: 2.6rem;
+    }
+
+    .filtre
+    {
+        white-space: nowrap;
+    }
+    
+    #infoville
+    {
+        width: auto;
+        height: auto;
+        margin-right: 1rem;
     }
 }

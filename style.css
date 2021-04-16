@@ -4,12 +4,6 @@
     src:local('fonts/Raleway-Regular.ttf')
 }  
 
-#bloc_page
-{
-    width: 62rem;                     /* 992px */    
-    margin: auto;
-}
-
 html
 {
     font-size: 100%;
@@ -40,7 +34,6 @@ body a
 h1
 {
     font-size: 1.2rem;
-    margin: 0rem;
 }
 
 h2
@@ -99,7 +92,7 @@ header
     height: 2rem;
     color: #0065fc;
     font-weight: bold; 
-    padding: 2rem 3rem 0 1rem;
+    margin: 2rem 3rem 0 1rem;
 }
 
 .ins a
@@ -119,21 +112,20 @@ header
 
 #choix             
 {
-    width: 30rem;
+    width: auto;
     height: auto;
     display: flex; 
     flex-direction: column;
     justify-content: space-between;
-    margin-top: 1rem;
+    margin: 1rem 0 1.5rem 2rem;
 }
 
-#choixt
+.choixt
 {
-    line-height: 0.9rem; 
-    margin-right: 2rem;     
+    padding-left: 2rem;
 }
 
-#boutonrecherche                        /* a améliorer */
+#boutonrecherche                       
 {
     font-size: 1.6rem;                                                   
     display: flex;
@@ -146,6 +138,7 @@ header
     padding: 0.2rem 0 0 0.6rem;
     background-color: #f2f2f2;
     border-radius: 0.5rem 0rem 0rem 0.5rem;
+    margin-left: 2rem;
 }
 
 #ville
@@ -194,7 +187,8 @@ header
 .filtre a
 {
     height: 3rem;
-    width: auto;   
+    width: auto;
+    font-weight: bold;   
 }
 
 .filtre button:hover
@@ -215,19 +209,22 @@ header
 #filtres
 {
     width: auto;
-    margin-left: 2rem;
+    margin-right: 2rem;
     display: flex;
+
 }
 
 #filtres h2
 {
     padding-top: 1rem;
+    margin-left: 2rem;
 }
 
 #infoville
 {
     height: 3rem;
-    display: flex;  
+    display: flex;
+    margin-bottom: 0.5rem;  
 }          
 
 .infot                   
@@ -239,8 +236,7 @@ header
 
 .infot p
 {
-    padding-left: 1rem;
-    margin-right: 1rem;
+    margin: 1rem;
     vertical-align: middle;
 }
 
@@ -252,6 +248,7 @@ header
     background-color: white;
     border-radius: 50%;
     border: 0.1rem solid #deebff;
+    margin-left: 2rem
 }
 
 /* conteneur locations */
@@ -381,7 +378,7 @@ header
 {
     position: absolute;
     top: 1rem; 
-    margin-left: 1rem;   
+    margin: 1.5rem 0 1.5rem 1rem;   
 }
 
 #heb
@@ -389,6 +386,7 @@ header
     width: 39rem;
     height: 24rem;
     margin-top: 4.5rem;
+    padding-bottom: 1rem;
     display: flex;
     flex-wrap: wrap; 
     justify-content: space-around;
@@ -427,7 +425,7 @@ figcaption
     position: absolute;
     float: left;
     bottom: 0.5rem;
-    margin: 1rem;
+    margin: 1.5rem 0 2rem 1rem;
 }
 
  /* conteneur 3 */
@@ -435,7 +433,7 @@ figcaption
 #activites 
 {                
     background-color: white; 
-    width: 62rem;
+    width: auto;
     height: 29rem;
     justify-content: center;
     padding:0.5rem;
@@ -450,7 +448,7 @@ figcaption
 
 #actm
 {
-    padding: 2rem 0 0 2rem;
+    margin: 2rem 0 1.5rem 1rem;
 }
 
 .acte

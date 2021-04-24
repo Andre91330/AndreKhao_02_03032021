@@ -191,7 +191,7 @@ header
     font-weight: bold;   
 }
 
-.filtre button:hover
+.filtre button:active
 {
     background-color: #0065fc;
     color: white;

@@ -191,7 +191,7 @@ header
     font-weight: bold;   
 }
 
-.filtre button:active
+.filtre button:focus
 {
     background-color: #0065fc;
     color: white;

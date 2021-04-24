@@ -181,7 +181,7 @@ header
     color: #0065fc; 
     background-color: rgb(222 235 255);
     border-radius: 50%;
-    border: 0.1rem solid rgba(222 235 255 0);
+    border: 0.1rem solid rgb(222 235 256);
 }
 
 .filtre a
@@ -310,11 +310,11 @@ main
 
 .hpop 
 {
-    border: 0.3rem solid rgba(255 255 255 0); 
+    border: 0.3rem solid rgb(255 255 254); 
     border-radius: 1rem;                 
     width: 16.037rem; 
     height: 6.5rem;
-    background: rgb(255));
+    background: rgb(255 255 255);
     display: flex;
     font-size: 0.7rem;
 }
@@ -397,12 +397,12 @@ main
 
 .heba
 {
-    border: 0.3rem solid rgba(255 255 255 0);
+    border: 0.3rem solid rgb(255 255 256);
     margin: 0.5rem; 
     border-radius: 1rem;
     width: 11rem; 
     height: 9.5rem;
-    background: rgb(255);
+    background: rgb(255 255 255);
 }
 
 .hebi

@@ -158,8 +158,14 @@
         height: 9.01rem;
         margin: 0.5rem 1rem 1rem 1rem;
         box-shadow: 0.3125rem 0.3125rem 0.3125rem #f2f2f2;
+        border: 0.1rem solid rgb(239,239,239);
     }
     
+    figcaption .etoiles
+    {
+        padding-top: 0;
+    }
+
     .hebi
     {
         width: 16rem;  

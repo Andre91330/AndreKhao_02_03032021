@@ -108,14 +108,13 @@
         padding: 1rem;
     }
 
-    #act
+    #act, footer
     {
         flex-wrap: wrap;   
     }
 
     footer
     {
-        flex-wrap: wrap;
         justify-content: space-around; 
         width: 100%;
         margin-top: 2rem;
@@ -143,15 +142,14 @@
 
 @media screen and (max-width: 735px)
 {
-    #locations
+    #locations, #hebergements
     {
         padding: 0;
     }
 
     #hebergements
     {
-        background-color: white;
-        padding: 0;      
+        background-color: white;    
     }
     
     .heba
@@ -182,14 +180,14 @@
         padding-bottom: 1rem;
     }
     
-    #actm
+    #actm, .ha
     {
         padding: 0;
     }
+
     .ha
     {
         width: 100%;
-        padding: 0;
         margin: 0;
         text-align: center;
     }
@@ -236,16 +234,10 @@
         margin-bottom: 1.5rem;
     }
 
-    #hebm
+    #hebm, #ap
      { 
          margin-left: 1rem;
      }
-    
-    #ap
-    {
-        margin-left: 1rem;
-    }
-    
 } 
 
 @media screen and (max-width: 490px)  
@@ -421,9 +413,14 @@
         display: block;
         float: right;
     }
-    #ville
+
+    #ville, #infoville
     {
         width: auto;
+    }
+
+    #ville
+    {
         height: 1.6rem;
         font-size: 0.8rem;
         padding: 0 0 0 1rem;
@@ -436,7 +433,6 @@
     
     #infoville
     {
-        width: auto;
         height: auto;
         margin-right: 1rem;
     }

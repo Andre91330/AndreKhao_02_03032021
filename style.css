@@ -81,7 +81,7 @@ header
 
 .ha a:hover                               
 {
-    border-top: 0.1rem solid rgba(0 101 252 0);   
+    border-top: 0.1rem solid rgb(0 101 252);   
     color: rgb(0 101 252); 
     padding-top: 2rem;
 }
@@ -435,7 +435,7 @@ figcaption
 
 #activites 
 {                
-    background-color: rgb(255); 
+    background-color: rgb(255 255 255); 
     width: auto;
     height: 29rem;
     justify-content: center;
@@ -471,7 +471,7 @@ figcaption
     border: 1px solid rgba(242 242 242 0);
     border-radius: 8%; 
     width: 13rem; 
-    box-shadow: 5px 5px 5px rgb(242);
+    box-shadow: 5px 5px 5px rgb(242 242 242);
     margin: 0;
 }
 

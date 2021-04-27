@@ -261,13 +261,14 @@
     #boutonrecherche
     {
         margin-left: 0;
+        width: 18rem;
     }
 
     .fa-search    
     {
         height: 1.9rem;                    
         width: 1rem; 
-        padding: 0.5rem 0.5rem 0 0.5rem;
+        padding: 0.3rem 0 0 0.3rem;
     }
 
     #ville
@@ -279,7 +280,7 @@
     {
         display: flex;
         width: 1.9rem;
-        height: 2rem;
+        height: 2.1rem;
         padding-left: 0.1rem;
     }
 
@@ -311,7 +312,12 @@
 
     .filtre a
     {
-        font-size: 0.6rem;
+        font-size: 0.7rem;
+    }
+
+    button i
+    {
+        font-size: 0.8rem;
     }
 
     #filtres h2 /* a corr */
@@ -329,23 +335,21 @@
         margin-right: 1rem;
     }
     
+    #filtres h2
+    {
+        margin: 0;
+    }
+
     #infoville button
     {
         width: 1.7rem;
         height: 1.7rem;
         margin: 1rem;
-    
     }
-   
-    .infot p
+    
+    .fa-info
     {
         font-size: 0.8rem;
-       
-    }
-
-    #filtres h2
-    {
-        margin: 0;
     }
 
     .infot p
@@ -353,6 +357,7 @@
         padding-left: 1rem;
         margin: 0;
         vertical-align: middle;
+        font-size: 0.8rem;
     }
 
     #ap
@@ -393,19 +398,15 @@
 {
     #boutonrecherche                      
     {
-        width: 75%;
+        width: 15rem;
         height: 1.6rem;
     }
     
-    .fa-map-marker-alt,.search button
-    {
-        height: 1.6rem;                    
-        width: 1.5rem; 
-    }
-
     .fa-map-marker-alt
     {
-        font-size: 1.3rem;
+        height: 1.4rem;                    
+        width: 1.5rem;
+        font-size: 1.3rem; 
     }
 
     .fa-search
@@ -418,9 +419,11 @@
     {
         display: block;
         float: right;
+        height: 1.7rem;
+        width: 2rem;
     }
 
-    #ville, #infoville
+    #ville
     {
         width: auto;
     }
@@ -439,7 +442,11 @@
     
     #infoville
     {
-        height: auto;
         margin-right: 1rem;
+    }
+
+    #infoville button
+    {
+        height: 1.4rem;
     }
 }

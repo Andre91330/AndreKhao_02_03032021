@@ -470,7 +470,7 @@ figcaption
     border: 1px solid rgba(239,239,239,.5);
     border-radius: 8%; 
     width: 13rem; 
-    box-shadow: 5px 5px 5px rgb(242,242,242);
+    box-shadow:  0.3125rem 0.3125rem 0.3125rem rgb(242,242,242);
     margin: 0;
 }
 

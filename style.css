@@ -478,6 +478,12 @@ figcaption
     height: 10rem; 
 }
 
+.actc
+{ 
+    height: 8rem; 
+    object-fit: cover;
+}
+
 .actia, .actib, .actic
 {
     width: 13rem; 
@@ -488,12 +494,6 @@ figcaption
 .actib
 {
     height: 7rem;
-    object-fit: cover;
-}
-
-.actc
-{ 
-    height: 8rem; 
     object-fit: cover;
 }
 

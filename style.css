@@ -1,13 +1,10 @@
 @font-face
 {
-    font-family:'Raleway', Verdana, Arial, sans-serif;
-    src:local('fonts/Raleway-Regular.ttf')
+    font-family:'Raleway';
+    src:local('fonts/Raleway-Regular.ttf');
 }  
 
-html
-{
-    font-size: 100%;
-}
+
 
 body
 {

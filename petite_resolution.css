@@ -40,7 +40,7 @@
 
     #populaires
     {
-        width: 100%;
+        width: auto;
         display: flex;
         margin-bottom: 1rem;
         border-radius: 0;
@@ -116,7 +116,7 @@
     footer
     {
         justify-content: space-around; 
-        width: 100%;
+        width: auto;
         margin-top: 2rem;
     }
 }
@@ -156,7 +156,7 @@
     {
         width: 16.037rem; 
         height: 9.01rem;
-        margin: 0.5rem 1rem 1rem 1rem;
+        margin: 0.5rem 0 1rem 1rem;
         box-shadow: 0.3125rem 0.3125rem 0.3125rem #f2f2f2;
         border: 0.1rem solid rgb(239,239,239);
     }
@@ -226,10 +226,12 @@
     #populaire
     {
         margin-top: 2rem;
+        width: 100%;
     }
     
     .annoncepop
     {
+        width: 100%;
         margin-top: 0;
         padding-left: 0;
     }
@@ -365,6 +367,11 @@
         margin: 0.5rem 0 0.3rem 1rem;
     }
     
+    #act
+    {
+        margin-left: 0.8rem;
+    }
+
     .acte
     {   
         margin: 0.1rem;
@@ -386,6 +393,7 @@
     footer
     {
         display: block;
+        width: 100%;
     }
     
     h3
@@ -426,10 +434,6 @@
     #ville
     {
         width: auto;
-    }
-
-    #ville
-    {
         height: 1.6rem;
         font-size: 0.8rem;
         padding: 0 0 0 1rem;
@@ -450,13 +454,35 @@
     {
         margin-bottom: 0.5rem;
     }
-   
-@media screen and (max-width 330px)
-{
-    main
+
+    .various
     {
-    width: 20.624rem;
-    display:flex;
-    justify-content: center;
+    width: auto;
     }
+}
+
+@media screen and (max-width: 282px) 
+{
+    html
+    {
+        width: 17.6rem;
+        margin-right: 0;
+    }
+
+    .fa-chart-line                         
+    {
+        position: absolute;
+        right: 0.5rem;
+    }
+
+    .annoncepop
+    {
+        width: 16rem;
+    }
+
+    #populaires
+    {
+        width: 17.5rem;
+    }
+
 }

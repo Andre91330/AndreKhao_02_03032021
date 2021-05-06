@@ -194,7 +194,7 @@
     .ha
     {
         width: 100%;
-        margin: 0;
+        margin: 1rem;
         text-align: center;
     }
     
@@ -443,10 +443,20 @@
     #infoville
     {
         margin-right: 1rem;
+        width: 100%;
     }
 
-    #infoville button
+    .infot
     {
-        height: 1.4rem;
+        margin-bottom: 0.5rem;
+    }
+   
+@media screen and (max-width 330px)
+{
+    main
+    {
+    width: 20.624rem;
+    display:flex;
+    justify-content: center;
     }
 }

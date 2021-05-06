@@ -6,6 +6,7 @@
         width: auto;
     }
 }
+
 @media only screen and (max-width: 900px)
 {   
     #boutonrecherche                       
@@ -367,6 +368,12 @@
         margin: 0.5rem 0 0.3rem 1rem;
     }
     
+    .fa-chart-line                         
+    {
+        position: absolute;
+        right: 1rem;
+    } 
+
     #act
     {
         margin-left: 0.8rem;
@@ -393,7 +400,7 @@
     footer
     {
         display: block;
-        width: 100%;
+        width: auto;
     }
     
     h3
@@ -457,32 +464,6 @@
 
     .various
     {
-    width: auto;
+        width: auto;
     }
-}
-
-@media screen and (max-width: 282px) 
-{
-    html
-    {
-        width: 17.6rem;
-        margin-right: 0;
-    }
-
-    .fa-chart-line                         
-    {
-        position: absolute;
-        right: 0.5rem;
-    }
-
-    .annoncepop
-    {
-        width: 16rem;
-    }
-
-    #populaires
-    {
-        width: 17.5rem;
-    }
-
 }

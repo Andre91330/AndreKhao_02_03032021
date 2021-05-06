@@ -4,6 +4,7 @@
     src:local('fonts/Raleway-Regular.ttf');
 }  
 
+
 body
 {
     font-family: 'Raleway', Verdana, sans-serif;
@@ -443,7 +444,7 @@ figcaption
 
 #actm
 {
-    margin: 2rem 0 1.5rem 1rem;
+    margin: 2rem 0 1.5rem 2rem;
 }
 
 .acte
